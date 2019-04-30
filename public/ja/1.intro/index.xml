@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocktail Cloudとは? on Cocktial Cloud Manual</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/</link>
+    <description>Recent content in Cocktail Cloudとは? on Cocktial Cloud Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cocktail Cloud 構成ガイド</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.1/</guid>
+      <description>カクテルクラウドは、その役割に応じて、5つのレイヤーで構成されている。
+ Cluster Management Layer: コンテナがデプロイ/実行するインフラ（クラスター）とオーケストレーション（Orchestration）を担うレイヤー。オーケストレーションは、Kubernetes(https://kubernetes.io) が担い、インフラ管理、監視など拡張管理機能を提供する。
+ Service Management Layer: サービス（Workload）に基づいて、コンテナの構成と管理を担うレイヤー。サービスを構成する多数のコンテナと関連オブジェクトをパッケージ化して、そのライフサイクルと監視を管理する。
+ Pipeline: コードからコンテナのビルド、デプロイまでのプロセスを自動化し、継続的インテグレーション/デプロイを行う。ユーザーは、必要なパイプライン構成を設定とスクリプトで行うことができる。
+ Catalog: 共通のランタイム（DB、ミドルウェアなど）テンプレートを提供するレイヤー。テンプレートは、追加の構成作業なく必要なときにすぐデプロイして使用することができる。また、ユーザーアプリケーションのスナップショットも保存、管理することができる。
+ Dashboard: クラスター、サービスのステータスと監視ビューを提供する。
+  続いて、各レイヤーに関して詳しく説明する。</description>
+    </item>
+    
+    <item>
+      <title>カタログレイヤー</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.5/</guid>
+      <description>コンテナは、その構成をイメージ化してデプロイを実行する。したがって、頻繁に使用するDBやミドルウェアなどのランタイムは、コンテナイメージとデプロイ情報をテンプレート化すると、繰り返し行う作業を減らし、いつでも簡単にデプロイして使用することができる。
+このようなテンプレートの作成、管理を担っているレイヤーがカタログである。カタログレイヤーの構成を図式化すると以下のようになる。
+カタログは、目的に応じて2つの形式に分けられる。
+ Service Catalog : サービスカタログは、ユーザーがサービスのために構成したアプリケーションのスナップショットを保存して管理する。インフラまたはクラウドプロバイダーの変更などで移転が必要な場合、サービスカタログのスナップショットを使用することができる。スナップショットは、サービスマップの構成をそのまま保存する。したがって、他の環境にデプロイする場合は、必要に応じてスナップショットの設定を修正してデプロイする必要がある。
+ Platform Catalog : カクテルクラウドで「カクテルクラウドハブ」を介して提供されるランタイムテンプレートのことである。ユーザーは、テンプレートをそのまま、または自身の環境に合わせて設定を変更し、デプロイすることができる。プラットフォームカタログは現在、DB、ミドルウェア、開発/運用ツール、ブログ、機械学習など幅広く使用されているオープンソースをテンプレートとして提供しており、継続的に更新されている。
+  </description>
+    </item>
+    
+    <item>
+      <title>クラスター管理のレイヤー</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.2/</guid>
+      <description>クラスター管理のレイヤーは、クラスターを構成するインフラとコンテナオーケストレーションエンジンに分けられる。構成の詳細は、下の図の通りである。
+カクテルクラウドは、クラスターインフラとオーケストレーションエンジンをユーザーの設定に基づいて自動的にプロビジョニング（Provisioning）するが、これを担うツールが CUBEである。CUBEは、高可用性（High Availability、HA）のKubernetesクラスターを構成している。CUBEがプロビジョニングするクラスター構成は、高い安定性とセキュリティ、拡張性を提供する。（これをCUBEクラスターという。）
+CUBEクラスターは、現在、以下のようなクラウドプラットフォームおよびプロバイダをサポートしている。しかし、CUBE はインフラに依存しない構成が可能であるため、どのようなインフラでも構成が可能である。下記は、インフラの自動プロビジョニングを基準としたものである。
+ 物理インフラ（Baremetal）
+ クラウドプラットフォーム : Openstack、Cloudstack、VMWare
+ クラウドサービス : AWS、GCP、Azure
+  またCUBEツールは、クラスターのKubernetesのバージョンアップ、ノード（物理/仮想マシン）の追加/削除、バックアップといったクラスター管理のための機能を提供する。
+カクテルクラウドは、マルチクラスターを統合管理する。つまり、複数のクラスターを必要なサービスに割り当て、クラスター全体の管理と監視を行う。クラスターは必要に応じて追加することができる。
+CUBEクラスターには、管理のための拡張コンポーネントが追加で提供される。
+ Monitoring : インフラ、コンテナ、サービス（Workload）の状態、構成、リソースを監視 Alerting : 特定の条件になったとき、電子メール、メッセンジャーでアラートを通知および管理 Metering : パブリッククラウドクラスターの場合の使用コストを照会 Inspecting : コンテナおよびKubernetesオブジェクトの変更履歴およびイベントの管理  拡張コンポーネントが提供する情報と管理機能は、カクテルクラウドの「クラスタ管理」ビュー（View）で確認できる。</description>
+    </item>
+    
+    <item>
+      <title>サービス管理レイヤー</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.3/</guid>
+      <description>一般的に、一つのアプリケーションやサービスは、多数のコンテナで構成されている。特にKubernetesのようなオーケストレーションエンジンの場合、コンテナ以外にもサービスポート、コントローラ、ボリュームなどの追加オブジェクトを必要とする。したがって、コンテナベースのアプリケーションおよびサービスを管理するためには、コンテナと関連オブジェクトをパッケージ化して管理する抽象化の単位が必要である。サービス管理レイヤーは、これを担うレイヤーである。
+カクテルクラウドのサービス管理は、以下のような階層構造を有する。
+ Service : 最上位階層としてサービスに必要なクラスターリソース、イメージレジストリ、イメージビルドを割り当て管理するグループ。開発、運用者の役割に応じて権限を付与し、独立させて管理を行うことができる。カクテルクラウドでは、必要に応じて多数のサービスを作成し、チームやサービスごとに割り当てて管理することができる。
+ Service Map : アプリケーションの構成と管理を行う単位で、一つのワークロード（Workload）に対応している。例えば、一つのサービスを開発系、検証系、運用系に該当するアプリケーションマップで構成することができるほか、データ管理、分析システムなどの役割に基づいて、サービスマップを構成することもできる。サービスマップは、論理的にワークロードのための多数のコンテナの構成を管理する単位といえる。前述したサービスは、複数のサービスマップで構成されている。
+ Workload : コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。サービスマップは、複数のワークロードで構成されている。例えば、Webサーバー、DBサーバーなどのコンポーネントに基づいてワークロードを構成することもでき、小規模のマイクロサービスもワークロードとして構成することができる。 ワークロードの詳細は、下記の通りである。
+  下の図は、サービス管理レイヤーの構成を図式化したものである。
+Workload
+サービス管理レイヤーにおいて、最も重要な役割を担っているのがワークロードだ。前述したとおり、ワークロードは、コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。ワークロードは、パッケージ化されたオブジェクトの作成、更新などライフサイクルを管理するとともに、状態とリソースをパッケージ単位で監視し、管理する。
+これを図式化したのが下の図である。
+ワークロードが提供する管理機能には、次のようなものがある。
+ ワークロードの作成、修正（更新）、停止、再起動、削除、オートスケール
+ ローリングアップデート
+ サービスポート管理
+ ボリューム管理
+ 監視
+ インスペクティング : オーケストレーションオブジェクトの状態およびデプロイ情報の照会
+ ウェブターミナル、ログの照会：コンテナへのシェル接続。コンテナのログ照会
+  </description>
+    </item>
+    
+    <item>
+      <title>ダッシュボードレイヤー</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.6/</guid>
+      <description>カクテルクラウドのダッシュボードレイヤーは、サービス、監視、クラスターのステータスなどをWebUI方式で提供する。
+ダッシュボードは、ユーザーの役割に合ったビューを権限に応じて提供する。カクテルクラウドのユーザー権限は、次の通りである。
+ Administrator（Admin）: クラスター管理を実行し、カクテルクラウドのあらゆるサービスに対する管理権限を有する。
+ DevOps : 割り当てられた複数のワークスペースのみ管理権限を有する。ワークスペース別にダッシュボードを提供し、クラスター管理を行うことができない。
+  カクテルクラウドが提供するダッシュボードビューは、以下の通りである。
+ 総合ダッシュボード : 全サービスとクラスターのステータスを表示するビュー
+ サービス管理ビュー : サービスを作成し、デプロイと監視、運用のためのDevOpsユーザービュー
+ カタログビュー : サービスカタログとプラットフォームカタログを照会およびデプロイすることができるビュー
+ クラスタービュー : 複数のクラスターを統合管理し、監視することができるビュー
+ 環境設定 : カクテルクラウドプラットフォームの設定ビュー
+  </description>
+    </item>
+    
+    <item>
+      <title>パイプラインレイヤー</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.4/</guid>
+      <description>パイプラインレイヤーは、コードからコンテナビルドとデプロイを自動化する。
+Buildは、コードダウンロード、コードビルドおよびテストなどのタスク（Task）、コンテナイメージビルドをユーザー設定に基づいて順次実行する。タスク（Task）は、内部でタスクを実行するコンテナを使用するが、基本的に提供されるコンテナのほか、公開またはユーザーが作成したコンテナを使用して拡張することができる。
+ビルドされたイメージは、カクテルサーバーのコンテナとしてローリングアップデートする。ビルドで作られたイメージには自動的にビルド番号が付与され、これによって最新バージョンまたはロールバックを実行する。
+ビルドからデプロイまでの全体的な作業プロセスは、すべてパイプラインで自動化されている。したがって、ビルドとパイプラインが一旦構成されると、開発者はコードの作成および修正だけに集中することができる。
+下の図は、パイプラインレイヤーの構成を図式化したものである。
+パイプラインレイヤーは、継続的インテグレーション・デリバリー（CI/ CD）によって、DevOpsのための基盤を提供する。DevOpsは、開発と運用間の連続性と有機的な協力を強調している。CI/CDは、DevOpsに必要な構成要素の一つで、コンテナベースの開発、運用でも非常に重要である。</description>
+    </item>
+    
+  </channel>
+</rss>

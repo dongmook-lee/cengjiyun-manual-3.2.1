@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>层积云 on Cocktial Cloud Manual</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/</link>
+    <description>Recent content in 层积云 on Cocktial Cloud Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    <lastBuildDate>Fri, 19 Apr 2019 10:41:01 +0900</lastBuildDate>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>层积云组件概要</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.1/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.1/</guid>
+      <description>层积云根据其功能划分了 5 个图层。
+ 集群管理层(Cluster Management Layer): 负责容器部署/运行的基础架构(集群)及编排 (Orchestration)的图层。编排由 Kubernetes(https://kubernetes.io)负责，提供基础架构管理、 监控等扩展管理职能。
+ 服务管理层(Service Management Layer): 负责基于服务(Workload)的容器配置和管理的 图层。压缩服务配置的多个容器及相关对象，并管理其生命周期及监控。
+ 渠道(Pipeline): 实现了从代码到容器 Build、部署过程的自动化，并执行持续的整合/部署。 用户可通过设置和脚本构筑所需要的渠道。
+ 目录(Catalog): 提供通用运行时间(DB、中间件等)模板的图层。需要模板时，不需要额 外配置，可直接部署和使用。并且，还可以保存和管理用户应用程序的快照。
+ 仪表盘(Dashboard): 提供集群、服务现状和监控视图。
+  下面继续了解各图层的详细内容。</description>
+    </item>
+    
+    <item>
+      <title>集群管理层(Cluster Management Layer)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.2/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.2/</guid>
+      <description>集群管理层又分为组成集群的基础架构脚本和容器编排引擎部分。其具体配置如下图。
+层积云根据用户设置，自动配置(Provisioning)集群基础架构和编排引擎，CUBE 就是负责该领 域的工具。CUBE 组建高可用性(High Availability，HA)的 Kubernetes 集群。由 CUBE 配置的集 群提供高稳定性和安全性以及扩展性。(叫做 CUBE 集群)
+目前 CUBE 集群支持以下云平台及供应商。CUBE 可基于基础架构独立配置，所以任何基础架 构上都可以配置。以下是基础架构自动配置为准。
+ 物理架构(Baremetal)
+ 云平台 : Openstack, Cloudstack, VMWare
+ 云服 : AWS, GCP, Azure
+  CUBE 工具还提供集群 Kubernetes 版本的升级，以及节点(物理/虚拟机)的添加/删除、备份 等集群管理职能。
+层积云对多云进行整合管理。即，分配到需要一个以上集群的服务，并对整个集群执行管理和 监控。集群可按照需求添加。
+CUBE 集群额外提供管理为目的的扩展组件。
+ 监控(Monitoring) : 基础架构、容器、服务(Workload)的状态、配置、资源监控 预警(Alerting) : 当满足特定条件时，通过邮件、MSN 方式发送警告以及管理 计量(Metering) : 如果是公共云集群，查询使用费用 检查(Inspecting) : 跟踪容器及 Kubernetes 对象变化及事件管理  由扩展组件提供的信息和管理职能，通过‚集群管理‛视图(View)实现。</description>
+    </item>
+    
+    <item>
+      <title>服务管理层(Service Management Layer)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.3/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.3/</guid>
+      <description>通常情况下一个应用程序及服务由多个容器组成。尤其是类似 Kubernetes 的编排引擎，容器以 外还需额外增加服务端口、控制器、卷等对象。因此基于容器的应用程序及服务管理，需要压 缩和管理容器以及相关对象的抽象单位。服务管理层就是负责该领域的图层。
+层积云的服务管理拥有如下阶层架构。
+ 服务(Service) : 是最上游阶层，分配和管理服务所必要的集群资源、映像注册表、映像 Build 的群组。根据开发人员和运营人员的角色赋予权限，能独立进行管理。层积云可根据需求， 创建多个服务，并按组或服务分配以及管理。 服务地图(Service Map) : 是组成和管理应用程序的单位，相当于一个工作负载 (Workload)。例如一个服务可以由开发阶层、验证阶层、运营阶层的应用程序表组成，也 可以按照数据管理、分析系统类似功能组成应用程序表。从逻辑角度上，可以说应用程表 是管理工作负载为目的的由多个容器组成的单位。如前所述，服务由一个以上的应用程序 表组成。 层积云服务器(Cocktail Server) : 是容器和相关编排对象的压缩单位。应用程序表由一个 以上的层积云服务器组成。例如，可以 Web 服务器、DB 服务器等类似组件为准组成服务 器，也可以由小规模微服务为准组成层积云服务器。关于层积云服务器，后面进一步详细 说明。  下图是服务管理图层的配置图。
+层积云服务器(Cocktail Server)
+层积云服务器在服务管理层发挥最核心的功能。如前所述，层积云服务器是容器和相关编排对 象的压缩单位。层积云管理压缩对象的创建、更新等生命周期，同时把状态和资源作为一个压 缩单位进行监控以及管理。 以下是图实例。
+层积云提供的管理职能有如下内容:
+ 工作负载的创建、修改(更新)、停止、重启、删除、自动缩放
+ 滚动更新
+ 卷管理
+ 服务端口管理
+ 监控
+ 检查 : 编排对象的状态以及部署信息查询
+ 网络终端、日志查询 : 容器壳连接、容器日志查询
+  </description>
+    </item>
+    
+    <item>
+      <title>管道层(Pipeline Layer)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.4/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.4/</guid>
+      <description>管道层实现了从代码到容器的 Build 及部署的自动化。
+Build 按照用户设置，依次执行代码下载、代码 Build 以及测试等作业(Task)、容器映像 Build。 作业(Task)使用的是执行内部作业的容器，除了默认提供的容器以外，用户可扩展使用公开或 用户制作的容器。
+层积云服务器容器对已 Build 的映像进行滚动更新。通过 Build 制作的映像，将自动生成 Build 编码，再通过这个编码执行最新版本或者回滚。
+从 Build 到部署的所有作业执行环节，均通过管道层实现了自动化。因此，只需创建一次 Build 和管道层，开发人员可以集中编写代码和修改作业。
+下图为管道层的配置图。
+管道层通过持续整合和部署(CI/CD)，为 DevOps 提供基础架构。
+DevOps 强调开发和运营之间的连续性和有机协作。CI/CD 是 DevOps 的必要组件之一，同样在基于容器的开发和运营领域也非常重要。</description>
+    </item>
+    
+    <item>
+      <title>目录层(Catalog Layer)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.5/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.5/</guid>
+      <description>容器对其组成进行图像化处理，然后部署以及运行。因此，只要把容器映像和部署信息模板化，可以节省常用 DB 或中间件等反复作业的运行时间，必要时可随时轻松部署使用。
+目录层是负责创建和管理上述模板的图层。目录层的配置图如下:
+目录按照其目的划分为两种类型。
+ 服务目录(Service Catalog) : 服务目录存储和管理用户以服务目的组成的应用程序快照。基 础架构或云供应商的交替等原因需要迁移时，可使用服务目录的快照功能。快照原样保存 应用程序表的配置。所以部署在其他环境时，应根据需求修改快照设置后再部署。 平台目录(Platform Catalog) : 指层积云通过‚层积云集线器‛提供的运行时间模板。用户 可以模板本身或根据自身环境修改设置后再部署。目前平台目录提供 DB、中间件、开发/ 运营工具、博客、机器学习等广泛使用的开源模板，并持续更新。  </description>
+    </item>
+    
+    <item>
+      <title>仪表板层(Dashboard Layer)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.6/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.6/</guid>
+      <description>层积云的仪表板层以 Web UI 形式，提供服务现状、监控、集群现状等。
+仪表板按照权限分类，提供和用户角色相对应的视图。层积云的用户权限如下:
+ 管理员(Administrator)(Admin) : 执行集群管理，对层积云的所有服务拥有管理权限。
+ DevOps : 只对一个以上的服务分配拥有管理权限。仪表板只提供没有权限的服务视图，不能管理集群管理、环境设置等。
+  层积云提供的仪表盘视图如下
+ 综合仪表盘 : 对所有服务和集群现状进行综合显示的视图
+ 服务管理视图 : 创建、部署、监控、运营服务为目的的 DevOps 用户视图
+ 目录视图 : 能查询和部署服务目录和平台目录的视图
+ 集群视图 : 能整合一个以上的集群，并管理和监控的视图
+ 环境设置 : 层积云平台的设置视图
+  </description>
+    </item>
+    
+  </channel>
+</rss>

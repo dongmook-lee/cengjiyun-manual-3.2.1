@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>术语说明 on Cocktial Cloud Manual</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/</link>
+    <description>Recent content in 术语说明 on Cocktial Cloud Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>10.1 Kubernetes(k8s)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.1-kubenetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.1-kubenetes/</guid>
+      <description>1.集群    术语 说明     Namespace k8s 的虚拟集群，可以为用户提供分组或分项目的额外操作环境   Nodes 驱动 k8s 已分组的应用程序物理服务器或 VM   Persistent Volumes(PV) 支持在外部存储、NFS、iSCSI、云上提供的存储系统   Roles 根据使用情况授权   Storage Classes 对 PV 进行动态配置时，用于识别 NFS 服务器的标识符    2.工作负载    术语 说明     Cron Jobs 如&amp;rdquo;在特定时点一次&amp;rdquo;或者&amp;rdquo;在特定时点反复&amp;rdquo;,基于时间的管理作业   Deployments 用于创建 Pod 的设定值注册信息   Jobs Job 是执行批处理的 Pod 的 Supervisor。即，如特定的计算或备份，只在特定 时间内运行的处理器   Pods 由 1 个以上容器组成的 k8s 里最小的部署单位。Pod 是在应用程序全栈中由 不同的 Docker 映像组合而成   Replica Sets 使指定 Pod 副本经常(保持)运行   Replication Controllers 检查指定数量的 Pod 副本是否正在运行   Stateful Sets 管理 Pod 的部署及扩展，并提供 Pod 的顺序和特点设置    3.</description>
+    </item>
+    
+    <item>
+      <title>10.2 Cocktail Cloud</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.2-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.2-system/</guid>
+      <description>1.环境设置 为了使用层积云，事先注册信息的服务。
+   术语 说明     用户 为层积云使用用户，提供管理支持   账号 支持 k8s 集群用户认证信息的管理   服务 业务或项目为单位，分散管理作业。相比一般用户，管理员可赋予访问服务单位 的权限    C.集群:为了使用 k8s，管理 k8s 信息的页面
+2.服务 应用程序为单位细分作业，可通过 Build 创建 Docker 映像。通过已 Build 映像，对应用程序实 施创建、查看、修改、删除等管理的服务。
+   术语 说明     应用程序表 k8s 的命名空间   Build 支持 Docker 映像作业的服务   监控 在应用程序内部，对服务器提供 Pod、容器为单位的资源监控   管道 从 Build 到部署，可一次性方便运行的服务   设置 应用程序单位，能保存并使用参数值或文件的服务    3.</description>
+    </item>
+    
+    <item>
+      <title>10.3 Cocktail Cloud System Error Code</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.3-error-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.3-error-code/</guid>
+      <description>1. 故障代码    代码 信息     CCCM001 无法显示具体错误代码。   CCCM002 未知错误。   CCCM004 无效函数导出的参数。   CCCM005 未经认证的请求。   CCCM006 传递信息不正确。   CCCM007 服务器、作业等不正确或者无法处理请求。   CCCM019 内部服务器错误。   CCCM020 外部导出API返回错误或导出失败。   CCCM023 无需要执行的作业。   CCCM026 发生了错误。   CCCM027 注册中发生了错误。   CCCM028 修改中发生了错误。   CCCM029 删除中发生了错误。   CCCM030 查询中发生了错误。   CDCM031 数据库作业中发生了错误。请稍后再尝试。仍未改善时，请咨询管理员。   CDCM032 数据库连接中发生了错误。请稍后再尝试。如果可以，请检查数据库连接状态，或者咨询管理员。   CKSY001 Cube集群API发生了错误。   CKSY002 层积云不支持Cube集群版本。   CKSY003 加密中发生了错误。   CCUS001 未注册的用户ID。   CCUS002 用户密码不一致。   CCUS003 用户指定权限未分配的用户。   CCUS004 已注册用户。   CCUS005 停止使用的账号。   CCUS006 Root Admin用户不能操作。   CCAC001 供应商证书格式不正确。   CCAC002 无供应商证书。   CCAC003 供应商访问秘钥或者secret秘钥不正确。   CCAC004 即将输入的新供应商秘钥值与以前不一致。   CCAC005 无法找到供应商。   CCAC006 已存在使用该供应商的集群。   CCCT001 集群访问账号不正确。   CCCT002 该主URL已存在注册集群。   CCCT003 集群证书不正确。   CCCT005 集群包含服务器，所以无法修改或删除集群。   CCCT006 集群现状查询中发生了错误。   CCCT007 应用程序现状查询中发生了错误。   CCCT008 卷现状查询中发生了错误。   CCGP001 集群包含服务器，所以无法删除集群。   CCGP002 重复的群组名称。   CCSV001 已注册服务的集群。   CCSV002 应用程序表正在使用集群。   CCBD001 Build Job创建错误   CCBD002 Build Job删除错误   CCBD003 注册表已有的映像名称。请输入其他映像名称。   CCBD004 已注册的映像。   CCBD005 Build服务器连接不顺畅。   CCBD006 Build查询中发生了错误。   CCBD007 Build创建中发生了错误。   CCBD008 Build修改中发生了错误。   CCBD009 Build删除中发生了错误。   CCBD010 Build历史记录查询中发生了错误。   CCCV001 未找到集群卷名称或者不正确。   CCCV002 未找到集群卷的存储类别名称或不正确。   CCCV003 未找到集群卷的插件名称。   CCCV004 未找到集群卷的回收策略的名称。   CCCV005 未找到集群卷的集群序列号。   CCCV006 无法找到集群卷。   CCCV007 已存在相同设置的卷。   CCCV008 无法找到集群卷类型。   CCCV009 集群卷正在使用中，所以无法删除。   CCCV010 参数是必项。   CCCV011 已存在相同设置的静态卷。   CCCV012 该集群卷不是固定的集群卷。   CKCF001 K8S配置图创建失败。   CKCF002 无法找到指定的K8S配置图。   CCCF003 未找到配置图名称或不正确。   CCCF004 配置图秘钥不正确。   CCCF005 需要添加的配置图名称已存在。   CCCF006 配置图数据不正确。   CKCF007 服务器在使用配置图。   CKST001 K8S Secret创建失败。   CCST002 无法找到指定的K8S Secret。   CCST003 未找到Secret名称或不正确。   CCST004 Secret数据不正确。   CCST005 需要添加的Secret名称已存在。   CCST006 服务器在使用Secret。   CCCL001 作业对象目录没有序列号。   CCCL002 需要适用目录的现有应用程序表无序列号。   CCCL003 已存在相同的目录名称。   CCCL004 已存在相同的目录版本。   CCCL005 目录注册中发生了错误。   CCCL006 目录删除中发生了错误。   CCCL007 目录修改中发生了错误。   CCCL008 目录部署中发生了错误。   CCCL010 无法找到目录所使用的注册表。   CCCL011 无法找到目录所使用的集群卷。   CCCL012 未找到需要注册的目录名称或不正确。   CCCL013 未找到需要适用目录的新应用程序表名称或不正确。   CCCL015 未找到新命名空间名称或不正确。   CCSR001 需要运行的Job类型不正确。   CCSR002 作业在运行中，所以不能运行新作业。   CCSR003 服务器处于不能运行指定操作的状态。   CCSR004 当前状态下无法运行的操作。   CCSR006 不存在需要运行的作业（task）。   CCSR007 超了内存可用量。   CCSR008 超了CPU可用量。   CCSR009 超了Pod可用数量。   CCSR010 准备创建服务器时发生了错误。   CCSR011 无法修改服务器的状态。   CCSR012 准备修改服务器时发生了错误。   CCSR013 准备关闭服务器时发生了错误。   CCSR014 准备重启服务器时发生了错误。   CCSR015 已经在使用的名称。   CCSR016 未找到需要查询的资源数量。   CCSR017 未知的资源类型。   CCSR018 不支持的服务器类型。   CCSR019 不支持的卷插件。   CKSR020 K8S部署创建等待时间超时了。   CKSR021 K8S Pod创建等待时间超时了。   CKSR022 K8S部署删除失败。   CKSR023 K8S Replicatset删除失败。   CKSR024 K8S服务或负载均衡创建等待时间超时了。   CCSR025 无法找到K8S Pod。   CKSR026 K8S对象查询结果无状态。   CKSR027 K8S持久化卷创建失败。   CKSR028 无法找到K8S持久化卷。   CKSR029 K8S持久化卷集群创建失败。   CKSR030 K8S持久化卷集群创建超时了。   CKSR031 无法找到指定的K8S命名空间。   CKSR032 K8S部署创建失败。   CKSR033 K8S服务创建失败。   CKSR034 K8S Ingress创建失败。   CKSR035 K8S HorizontalPodAutoscaler创建失败。   CCSR036 已存在相同名称的卷。   CCSR037 无法找到指定的服务器。   CCSR038 服务器不是Cube类型。   CKSR039 服务器设置修改失败。   CCSR040 服务器创建/修改前，k8s资源检测失败。   CKSR042 无法找到K8S部署信息。   CCSR043 服务器类型不能修改。   CCSR044 服务器无容器。   CCSR045 主机端口重复。   CCSR046 Ingress路径已经在使用。   CCSR047 不是K8S的日志类型。   CCSR048 准备状态下服务器删除失败。   CCSR050 节点端口超了指定范围。   CCSR051 节点端口重复。   CCSR053 卷处于无法使用的状态，所以不能重启。   CCSR054 重复的容器名称。   CCSR055 重复的命名空间。   CCSR056 服务器不是可停止的状态。   CCSR057 服务器不是可开启的状态。   CCSR058 服务器不是可重启的状态。   CCSR059 服务器不是可删除的状态。   CKSR062 Cube集群信息查询中发生了错误。   CKSR063 Cube集群信息创建中发生了错误。   CKSR064 Cube集群信息修改中发生了错误。   CKSR065 Cube 集群信息删除中发生了错误。   CCSR066 服务端口不正确。(范围:1 ~ 65535)   CCSR067 服务器端口范围不正确。   CCSR068 服务器端口范围格式不正确。(e.</description>
+    </item>
+    
+  </channel>
+</rss>

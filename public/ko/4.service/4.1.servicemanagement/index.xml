@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.1 서비스 관리 on 칵테일 클라우드 메뉴얼</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.1.servicemanagement/</link>
+    <description>Recent content in 4.1 서비스 관리 on 칵테일 클라우드 메뉴얼</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.1.servicemanagement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4.1.2 그룹 관리</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.1.servicemanagement/4.1.2-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.1.servicemanagement/4.1.2-group/</guid>
+      <description>워크로드에 대하여 그룹으로 관리한다. 해당 그룹에 워크로드를 생성할 수 있다. 그룹명을 변경하거나, 그룹 추가, 이동, 삭제, 컬럼수 변경이 가능하다.
+ 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드 그룹의 ▼(액션 버튼) 클릭하여 메뉴를 활성화한다.    목록 설명     그룹명 변경 그룹명을 변경   컬럼수 변경 컬럼수를 변경(최소:1~최대:8)   왼쪽으로 이동 그룹을 왼쪽으로 이동   오른쪽으로 이동 그룹을 오른쪽으로 이동   왼쪽에 그룹 추가 그룹 왼쪽에 새로운 그룹을 생성   오른쪽에 그룹 추가 그룹 오른쪽에 새로운 그룹을 생성   그룹 삭제 그룹을 삭제(그룹에 워크로드가 존재하면 삭제가 불가능)     </description>
+    </item>
+    
+  </channel>
+</rss>

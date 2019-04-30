@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Understand Cocktail Cloud on Cocktial Cloud Manual</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/</link>
+    <description>Recent content in Understand Cocktail Cloud on Cocktial Cloud Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Catalog Layer</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.5/</guid>
+      <description>Containers implement deployments by creating images from configurations. Therefore, repetitive tasks can be minimized and frequently-used DBs and middleware runtime can be easily deployed whenever needed by creating templates of container images and deployment information.
+The catalog layer is responsible for creating and managing these templates. The following diagram shows how the catalog layer is structured:
+The catalog layer is divided into two sections according to purpose.
+ Service Catalog : The service catalog stores and manages application snapshots that the user has configured for a service.</description>
+    </item>
+    
+    <item>
+      <title>Cluster Management Layer</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.2/</guid>
+      <description>The cluster management layer is divided into the infrastructure, which consists of clusters, and the container orchestration engine. The detailed configuration is as follows:
+Cocktail automatically provisions the cluster infrastructure and orchestration engine according to user configuration. The tool responsible for this is Cube. Cube constitutes high-availability (HA) Kubernetes clusters. Cube-provisioned cluster configurations provide high reliability, security, and scalability. (This is referred to as a Cube cluster.)
+Cube clusters currently support the cloud platforms and providers listed below.</description>
+    </item>
+    
+    <item>
+      <title>Cocktail Structure Overview</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.1/</guid>
+      <description>Cocktail is comprised of five layers that correspond to its various roles.
+ Cluster Management Layer: Responsible for infrastructure (cluster), where containers are deployed/executed, and orchestration. Kubernetes (https://kubernetes.io) handles orchestration and provides scaling management functions such as infrastructure management and monitoring.
+ Service Management Layer: Responsible for container configuration and management based on a service (workload) packages containers and associated objects that constitute a service and manages lifecycles and monitoring.</description>
+    </item>
+    
+    <item>
+      <title>Dashboard Layer</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.6/</guid>
+      <description>The dashboard layer provides service status, monitoring, and cluster status information via a web-based UI.
+The dashboard provides role-specific views according to user privileges. Cocktail user privileges are as follows:
+ Administrator : The admin manages clusters and has administrative privileges on all Cocktail services.
+ DevOps: Have administrative privileges only for one or more assigned workspaces. It provides a dashboard for each workspace, and can not manage clusters.
+ Manager : A manager can access all views and information but cannot perform management actions such as creation or modification.</description>
+    </item>
+    
+    <item>
+      <title>Pipeline Layer</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.4/</guid>
+      <description>The pipeline layer automates container building and deployment from code.
+The build step performed tasks (code download, build/test) and container image building sequentially based on user settings. Tasks use containers that perform tasks internally and can be scaled using public or user-created containers in addition to the default containers.
+Built images are updated (rolling) to containers on a Cocktail server. Images created in the build step are assigned an automatic build number, which is used for version updates or rollbacks.</description>
+    </item>
+    
+    <item>
+      <title>Service Management Layer</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.3/</guid>
+      <description>In general, a single application or service consists of multiple containers. In particular, an orchestration engine such as Kubernetes requires additional objects such as a service port, controller, and storage volume in addition to the container. Therefore, to manage container-based applications and services, an abstraction unit is required to package and manage containers and associated objects. The service management layer fulfills this role.
+Cocktail service management layer has the following hierarchical structure:</description>
+    </item>
+    
+  </channel>
+</rss>

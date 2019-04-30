@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.6.2 시크릿 on 칵테일 클라우드 메뉴얼</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/</link>
+    <description>Recent content in 4.6.2 시크릿 on 칵테일 클라우드 메뉴얼</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4.6.2.1 시크릿 추가</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/</guid>
+      <description>서비스에 시크릿을 추가한다.
+ 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 생성 버튼을 클릭하여 등록페이지로 이동한다.  이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 시크릿을 생성한다.    항목 설명     이름 이름을 입력하는 란입니다. 추후 편집이 불가   설명 시크릿의 설정의 설명 입력 란입니다.   데이터 추가 버튼 시크릿의 데이터를 추가할 수 있는 버튼   KEY 시크릿의 Key 값   VALUE 시크릿의 Value 값     </description>
+    </item>
+    
+    <item>
+      <title>4.6.2.2 시크릿 수정</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/</guid>
+      <description>서비스에 추가 된 시크릿의 데이터를 수정 할 수 있다.(이름 변경불가)
+ 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) → 시크릿 수정을 클릭  데이터 값 변경 후, 수정 버튼을 클릭하여 시크릿을 편집한다.(시크릿 값은 보안상 보여주지 않음)   </description>
+    </item>
+    
+    <item>
+      <title>4.6.2.3 시크릿 삭제</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/</guid>
+      <description>서비스에 시크릿을 삭제한다.
+ 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) → 시크릿 삭제를 클릭   </description>
+    </item>
+    
+  </channel>
+</rss>

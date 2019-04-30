@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.2 工作负载 on Cocktial Cloud Manual</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/</link>
+    <description>Recent content in 4.2 工作负载 on Cocktial Cloud Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4.2.1 工作负载创建</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.1-add/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.1-add/</guid>
+      <description>在群组管理创建和运行工作负载。
+a) 点击服务→应用程序表选择→工作负载群组+按钮(工作负载创建)。 选择工作负载类型。 b) 输入基本信息、容器、实例、更新策略、服务端口、卷的内容，点击创建按钮生成工作负 载。  工作负载基本信息定义      项目 说明     名称 需要创建的工作负载名称   群组 创建工作负载的工作负载群组   类型 工作负载的实例类型(Single/Multi)   说明 工作负载的说明     容器生成
+ 点击容器右‘+’键  输入容器名称，在容器的 Build 或映像中选择需要使用的映像，定义需要使用的 CPU/ 内存的资源值。  一旦容器创建，可输入需要使用的命令。  输入容器的环境参数值，或者可选择 Secret 设置。  可设置安全策略  可设置容器的健康检查   实例(只适用于服务器类型为 Multi 时)
+ 点击实例项目的‘✎’       项目 说明     自动缩放类型 定义自动缩放的基准   CPU 使用率(百分比) 自动缩放的基准(使用率)   内存使用率(百分比) 自动缩放的基准(使用率)   最大个数 缩放实例最大值   实例数 默认实例台数     更新策略(只适用于服务器类型为 Multi 时)</description>
+    </item>
+    
+    <item>
+      <title>4.2.1 워크로드 생성</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.1-add_ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.1-add_ko/</guid>
+      <description>그룹관리에서 워크로드를 생성하고 실행한다.
+a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드 그룹 + 버튼(워크로드 생성)을 클릭한다. 워크로드 유형을 선택 한다. b) 기본정보, 컨테이너, 인스턴스, 업데이트 정책, 서비스 포트, 볼륨 내용을 작성하고 생성버튼을 눌러 워크로드를 생성한다.  워크로드 기본 정보 정의      항목 설명     이름 생성하는 워크로드의 이름   그룹 워크로드가 생성되는 워크로드 그룹   유형 워크로드의 인스턴스 유형(Single/Multi)   설명 워크로드의 설명   서비스 계정 명 서비스 계정 명   노드 셀렉터 키 노드 셀렉터 키   노드 셀렉터 값 노드 셀렉터 값     컨테이너 생성</description>
+    </item>
+    
+    <item>
+      <title>4.2.2 工作负载编辑</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.2-edit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.2-edit/</guid>
+      <description> 编辑和重新部署运行或者停止状态的工作负载。
+a) 服务→选择应用程序表→点击工作负载。 b) 编辑基本信息、容器、实例、更新策略、服务端口、卷内容后，按修改重新部署工作负载。 如果工作负载正在运行中，不能修改工作负载类型和容器映像。但，可以修改容器映像标签。 工作负载中断后，可以编辑以及修改。 </description>
+    </item>
+    
+    <item>
+      <title>4.2.2 워크로드 편집</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.2-edit_ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.2-edit_ko/</guid>
+      <description> Running 또는 Stopped 상태의 워크로드를 편집하고 재배포 한다.
+a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드를 클릭한다. b) 기본정보, 컨테이너, 인스턴스, 업데이트 정책, 서비스 포트, 볼륨 내용을 편집하고 수정버튼을 눌러 워크로드를 재배포 한다. 워크로드 Running 중이라면 워크로드유형과 컨테이너의 이미지 변경이 불가능. 단, 컨테이너 이미지태그 변경은 가능. 이를 변경하기 위해서는 워크로드 중지 후 편집하면 편집이 가능 하다. </description>
+    </item>
+    
+    <item>
+      <title>4.2.3 工作负载实例信息查询</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.3-instance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.3-instance/</guid>
+      <description> 可查询工作负载实例信息。
+   实例 说明     Pods 详细信息、状态信息、事件信息、部署信息、网络终端(容器)、日 志(容器)   Services 详细信息、事件信息、部署信息   Persistent Volume Claims 详细信息、卷详细信息、部署信息   Deployments 详细信息、事件信息、部署信息、自动缩放信息(选项)   Replica Sets 详细信息、事件信息、部署信息   Ingresses 详细信息、部署信息    a) 服务→选择应用程序表→点击工作负载。  在实例页面点击刷新时，只重新查询实例信息。   b) 实例 Pod→容器和网络终端连接 c) 实例 Pod→容器日志 d) 服务→选择应用程序表→选择工作负载→点击实例的‘操作’按钮(激活)→点击详细信 e) 服务→选择应用程序表→选择工作负载→点击实例的‘操作’按钮(激活)→点击事件信 息 f) 服务→选择应用程序表→选择工作负载→点击实例的‘操作’按钮(激活)→点击部署信息 </description>
+    </item>
+    
+    <item>
+      <title>4.2.3 워크로드 인스턴스 정보 조회</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.3-instance_ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.3-instance_ko/</guid>
+      <description>워크로드 인스턴스의 정보를 조회 할 수 있다.
+   인스턴스 정보     Instance 상세 정보, 상태 정보, 이벤트 정보, 배포 정보, 웹터미널(컨테이너), 로그(컨테이너)   Services 상세 정보, 이벤트 정보, 배포 정보   Persistent Volume Claims 상세 정보, 볼륨 상세 정보, 배포 정보   Controller 상세 정보, 이벤트 정보, 배포 정보, 오토스케일러(Deployments만 해당) 정보(옵션)   Ingresses 상세 정보, 배포 정보    a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드 선택  상태에서 새로고침 클릭시 상태정보(서버상태, 사용량, 인스턴스 등등)가 재조회 된다.</description>
+    </item>
+    
+    <item>
+      <title>4.2.4 工作负载中断</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.4-stop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.4-stop/</guid>
+      <description> 中断已部署的工作负载。如果中断工作负载，POD 被删除。
+a) 服务→选择应用程序表→点击运行状态的工作路径操作菜单(激活)→点击中断  </description>
+    </item>
+    
+    <item>
+      <title>4.2.4 워크로드 중지</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.4-stop_ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.4-stop_ko/</guid>
+      <description> 배포된 워크로드를 중지한다. 워크로드를 중지하면 POD는 삭제된다.
+a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 중지를 클릭한다. </description>
+    </item>
+    
+    <item>
+      <title>4.2.5 工作负载开启</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.5-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.5-start/</guid>
+      <description> 开启已中断的工作负载。
+a) 服务→选择应用程序表→点击停止状态的工作路径操作菜单(激活)→点击开始 </description>
+    </item>
+    
+    <item>
+      <title>4.2.5 워크로드 시작</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.5-start_ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.5-start_ko/</guid>
+      <description> 중지된 워크로드를 시작한다.
+a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 시작을 클릭한다. </description>
+    </item>
+    
+    <item>
+      <title>4.2.6 工作负载重启</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.6-restart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.6-restart/</guid>
+      <description> 重启工作负载。类似计算机重启的概念。
+a) 服务→选择应用程序表→点击运行状态的工作路径操作菜单(激活)→点击重启 </description>
+    </item>
+    
+    <item>
+      <title>4.2.6 워크로드 재시작</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.6-restart_ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.6-restart_ko/</guid>
+      <description> 워크로드를 재시작한다. 컴퓨터의 Rebooting과 같은 개념이다.
+a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 재시작을 클릭한다. </description>
+    </item>
+    
+    <item>
+      <title>4.2.7 工作负载删除</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.7-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.7-delete/</guid>
+      <description> 删除已中断的工作负载。
+a) 服务→选择应用程序表→点击停止状态的工作路径操作菜单(激活)→点击删除 </description>
+    </item>
+    
+    <item>
+      <title>4.2.7 워크로드 제거</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.7-delete_ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.7-delete_ko/</guid>
+      <description> 중지된 워크로드를 제거한다.
+a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 제거를 클릭한다. </description>
+    </item>
+    
+  </channel>
+</rss>

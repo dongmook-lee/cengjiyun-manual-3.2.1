@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.3 워크스페이스 on 칵테일 클라우드 메뉴얼</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/</link>
+    <description>Recent content in 2.3 워크스페이스 on 칵테일 클라우드 메뉴얼</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.3.1 워크스페이스 생성</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/2.3.1-add/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/2.3.1-add/</guid>
+      <description>워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다.
+ 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다.  서비스에 사용할 이름, 설명, 색상, 레지스트리 및 구성원, 클러스터 정보를 등록한다.  구성원, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다.
+ 클러스터 편집  구성원 편집    </description>
+    </item>
+    
+    <item>
+      <title>2.3.2 워크스페이스 편집</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/2.3.2-edit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/2.3.2-edit/</guid>
+      <description>워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.
+ 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.  워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.   </description>
+    </item>
+    
+    <item>
+      <title>2.3.3 워크스페이스 삭제</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/2.3.3-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.3.workspace/2.3.3-delete/</guid>
+      <description>워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.
+ 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.   </description>
+    </item>
+    
+  </channel>
+</rss>

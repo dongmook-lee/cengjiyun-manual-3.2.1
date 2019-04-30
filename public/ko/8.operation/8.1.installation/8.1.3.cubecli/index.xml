@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8.1.3 Cube Reference on 칵테일 클라우드 메뉴얼</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/</link>
+    <description>Recent content in 8.1.3 Cube Reference on 칵테일 클라우드 메뉴얼</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>`init` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.1-init-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.1-init-command/</guid>
+      <description> init는 Cube Cluster를 설치하려는 플랫폼에 맞는 cube.toml 을 다운로드한다.
+Usage cube init [flags]
+Flags provider  --provider, -p
+ Cube Cluster를 설치할 플랫폼의 이름을 지정한다.
+ 필수: 필수
+ 현재 버전에서 지원하는 provider 목록은 아래와 같다.
+     flag 값 Provider     onpremise On-premise   aws Amazon Web Service   azure Microsoft Azure   gcp Google Compute Engine   aliyun AlibabaCloud    </description>
+    </item>
+    
+    <item>
+      <title>`create` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.2-create-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.2-create-command/</guid>
+      <description> create는 Cube Cluster를 init으로 준비한 플랫폼에 설치한다.
+Prerequisite init command
+Usage  cube create Cube Cluster를 설치한다.  </description>
+    </item>
+    
+    <item>
+      <title>`status` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.3-status-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.3-status-command/</guid>
+      <description> status는 Cube Cluster의 현재 상태를 출력한다.
+Usage cube status
+Output  etcd 상태 node 상태 Kubernetes pod 상태 addon pod 상태  </description>
+    </item>
+    
+    <item>
+      <title>`login` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.4-login-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.4-login-command/</guid>
+      <description>login는 설치된 Cluster의 Cocktail DashBoard 또는 Cocktail Online에 로그인 한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Usage  cube login [flags]  Flags url  --url, -u
+ 접속할 Cocktail DashBoard의 Url을 입력 한다.
+ 필수: 필수
+  system  --system, -s
+ System 정보를 입력 한다.
+ 필수: 필수
+  id  --id, -i
+ ID 정보를 입력 한다.
+ 필수: 필수
+  password  --password, -p</description>
+    </item>
+    
+    <item>
+      <title>`logout` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.5-logout-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.5-logout-command/</guid>
+      <description> logout는 설치된 Cluster의 Cocktail DashBoard 또는 Cocktail Online 서비스에서 로그아웃 한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command
+Usage  cube logout  </description>
+    </item>
+    
+    <item>
+      <title>`cluster register` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.6-cluster-register-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.6-cluster-register-command/</guid>
+      <description> cluster register는 설치된 Cube Cluster를 Cocktail DashBoard 또는 Cocktail Online에 등록 할 때 사용한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command
+Usage  cube cluster register  </description>
+    </item>
+    
+    <item>
+      <title>`cluster list` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.7-cluster-list-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.7-cluster-list-command/</guid>
+      <description> cluster list는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cube Cluster를 정보를 표시한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command
+Usage  cube cluster list  </description>
+    </item>
+    
+    <item>
+      <title>`cluster update` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.8-cluster-update-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.8-cluster-update-command/</guid>
+      <description> cluster update는 노드의 개수를 늘리거나 줄일 때 사용한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command
+Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command
+Usage  cube cluster update  </description>
+    </item>
+    
+    <item>
+      <title>`cluster upgrade` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.9-cluster-upgrade-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.9-cluster-upgrade-command/</guid>
+      <description>cluster upgrade는 설치된 Cube Cluster를 upgrade한다. **현재 지원가능한 버전은 1.13.1 버전에서 1.13.2,1.13.3 버전으로의 upgrade를 지원한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command
+Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command
+Usage  cube cluster upgrade
+ 현재 버전에서 지원하는 version 목록은 아래와 같다.
+     version     1.13.1   1.13.2   1.</description>
+    </item>
+    
+    <item>
+      <title>`cluster getconfig` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.10-cluster-getconfig-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.10-cluster-getconfig-command/</guid>
+      <description> cluster getconfig는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cube Cluster의 설치 정보 파일을 다운로드한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command
+Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command
+Usage  cube cluster getconfig [flags]  Flags clusterId  --clusterId, -c
+ 설치 정보 파일을 가져올 cluster id 를 입력한다.
+ 필수: 필수
+  </description>
+    </item>
+    
+    <item>
+      <title>`cluster delete` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.11-cluster-delete-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.11-cluster-delete-command/</guid>
+      <description> cluster delete는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cube Cluster를 삭제한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command
+Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command
+Usage  cube cluster delete [flags]  Flags clusterId  --clusterId, -c
+ Cocktail DashBoard 또는 Cocktail Online에서 삭제할 cluster id 를 입력한다.
+ 필수: 필수
+  </description>
+    </item>
+    
+    <item>
+      <title>`destroy` command</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.12-destroy-command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.1.installation/8.1.3.cubecli/8.1.3.12-destroy-command/</guid>
+      <description> destroy는 서버 인스턴스에서 Cube Cluster를 제거 한다.
+Prerequisite Cube Cluster 설치 상태.create command
+Usage  cube destory  </description>
+    </item>
+    
+  </channel>
+</rss>

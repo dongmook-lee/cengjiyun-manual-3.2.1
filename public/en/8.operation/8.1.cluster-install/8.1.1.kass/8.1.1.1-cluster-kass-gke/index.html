@@ -1,0 +1,5687 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.0" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/cocktail-manual-3.3.0-public/images/favicon.png" type="image/png">
+
+    <title>8.1.1.1 GKE 클러스터 만들기 :: Cocktial Cloud Manual</title>
+
+    
+    <link href="/cocktail-manual-3.3.0-public/css/nucleus.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/fontawesome-all.min.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/hybrid.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/featherlight.min.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/perfect-scrollbar.min.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/auto-complete.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/atom-one-dark-reasonable.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/theme.css?1556448614" rel="stylesheet">
+    <link href="/cocktail-manual-3.3.0-public/css/hugo-theme.css?1556448614" rel="stylesheet">
+    
+      <link href="/cocktail-manual-3.3.0-public/css/theme-cocktail.css?1556448614" rel="stylesheet">
+    
+
+    <script src="/cocktail-manual-3.3.0-public/js/jquery-3.3.1.min.js?1556448614"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="/">
+
+	<img src="/cocktail-manual-3.3.0-public/images/logo.png" width="100" height="80"/>
+
+</a>
+    </div>
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/1.intro/" title="Understand Cocktail Cloud" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/1.intro/">
+          <b>1. </b>Understand Cocktail Cloud
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/1.intro/0.5/" title="Catalog Layer" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/1.intro/0.5/">
+        Catalog Layer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/1.intro/0.2/" title="Cluster Management Layer" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/1.intro/0.2/">
+        Cluster Management Layer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/1.intro/0.1/" title="Cocktail Structure Overview" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/1.intro/0.1/">
+        Cocktail Structure Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/1.intro/0.6/" title="Dashboard Layer" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/1.intro/0.6/">
+        Dashboard Layer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/1.intro/0.4/" title="Pipeline Layer" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/1.intro/0.4/">
+        Pipeline Layer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/1.intro/0.3/" title="Service Management Layer" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/1.intro/0.3/">
+        Service Management Layer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/" title="시스템 관리" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/2.system-management/">
+          <b>2. </b>시스템 관리
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/" title="2.1 시스템" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/">
+          2.1 시스템
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.1-edit/" title="2.1.1 시스템 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.1-edit/">
+        2.1.1 시스템 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.2-meteringadd/" title="2.1.2 클라우드 미터링 계정 등록" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.2-meteringadd/">
+        2.1.2 클라우드 미터링 계정 등록
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.3-meteringedit/" title="2.1.3 클라우드 미터링 계정 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.3-meteringedit/">
+        2.1.3 클라우드 미터링 계정 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.4-meteringdelete/" title="2.1.4 클라우드 미터링 계정 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.4-meteringdelete/">
+        2.1.4 클라우드 미터링 계정 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.5-useradd/" title="2.1.5 시스템 사용자 추가" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.5-useradd/">
+        2.1.5 시스템 사용자 추가
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.6-useredit/" title="2.1.6 시스템 사용자 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.6-useredit/">
+        2.1.6 시스템 사용자 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.7-userreset/" title="2.1.7 시스템 사용자 비밀번호 초기화" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.7-userreset/">
+        2.1.7 시스템 사용자 비밀번호 초기화
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.8-userdelete/" title="2.1.8 시스템 사용자 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.8-userdelete/">
+        2.1.8 시스템 사용자 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/" title="2.2 클러스터" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/">
+          2.2 클러스터
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.1-add/" title="2.2.1 클러스터 등록" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.1-add/">
+        2.2.1 클러스터 등록
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.2-update/" title="2.2.2 클러스터 수정" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.2-update/">
+        2.2.2 클러스터 수정
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.3-delete/" title="2.2.3 클러스터 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.3-delete/">
+        2.2.3 클러스터 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.4-volume/" title="2.2.4 볼륨" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.4-volume/">
+        2.2.4 볼륨
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.5-add/" title="2.2.5 스토리지 추가" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.5-add/">
+        2.2.5 스토리지 추가
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.6-edit/" title="2.2.6 스토리지 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.6-edit/">
+        2.2.6 스토리지 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.7-delete/" title="2.2.7 스토리지 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.7-delete/">
+        2.2.7 스토리지 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/" title="2.3 워크스페이스" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/">
+          2.3 워크스페이스
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.1-add/" title="2.3.1 워크스페이스 생성" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.1-add/">
+        2.3.1 워크스페이스 생성
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.2-edit/" title="2.3.2 워크스페이스 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.2-edit/">
+        2.3.2 워크스페이스 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.3-delete/" title="2.3.3 워크스페이스 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.3-delete/">
+        2.3.3 워크스페이스 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/3.dashboard/" title="대시보드" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/3.dashboard/">
+          <b>3. </b>대시보드
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/3.dashboard/3.1-user/" title="3.1 사용자 관리" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/3.dashboard/3.1-user/">
+        3.1 사용자 관리
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/" title="서비스" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/">
+          <b>4. </b>서비스
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/" title="4.1 应用程序管理" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/">
+          4.1 应用程序管理
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/" title="4.1.1 应用程序表" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/">
+          4.1.1 应用程序表
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/" title="4.1.1-1 서비스 맵 그룹관리" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/">
+        4.1.1-1 서비스 맵 그룹관리
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/" title="4.1.1-2 应用程序表创建" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/">
+        4.1.1-2 应用程序表创建
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/" title="4.1.1-2 서비스 맵 생성" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/">
+        4.1.1-2 서비스 맵 생성
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/" title="4.1.1-3 应用程序表名称修改" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/">
+        4.1.1-3 应用程序表名称修改
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/" title="4.1.1-3 서비스 맵 이름변경" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/">
+        4.1.1-3 서비스 맵 이름변경
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/" title="4.1.1-4 应用程序表删除" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/">
+        4.1.1-4 应用程序表删除
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/" title="4.1.1-4 서비스 맵 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/">
+        4.1.1-4 서비스 맵 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.2-group/" title="4.1.2 群组管理" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.2-group/">
+        4.1.2 群组管理
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/" title="4.2 工作负载" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/">
+          4.2 工作负载
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add/" title="4.2.1 工作负载创建" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add/">
+        4.2.1 工作负载创建
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add_ko/" title="4.2.1 워크로드 생성" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add_ko/">
+        4.2.1 워크로드 생성
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit/" title="4.2.2 工作负载编辑" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit/">
+        4.2.2 工作负载编辑
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit_ko/" title="4.2.2 워크로드 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit_ko/">
+        4.2.2 워크로드 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance/" title="4.2.3 工作负载实例信息查询" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance/">
+        4.2.3 工作负载实例信息查询
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance_ko/" title="4.2.3 워크로드 인스턴스 정보 조회" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance_ko/">
+        4.2.3 워크로드 인스턴스 정보 조회
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop/" title="4.2.4 工作负载中断" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop/">
+        4.2.4 工作负载中断
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop_ko/" title="4.2.4 워크로드 중지" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop_ko/">
+        4.2.4 워크로드 중지
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start/" title="4.2.5 工作负载开启" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start/">
+        4.2.5 工作负载开启
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start_ko/" title="4.2.5 워크로드 시작" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start_ko/">
+        4.2.5 워크로드 시작
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart/" title="4.2.6 工作负载重启" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart/">
+        4.2.6 工作负载重启
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart_ko/" title="4.2.6 워크로드 재시작" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart_ko/">
+        4.2.6 워크로드 재시작
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete/" title="4.2.7 工作负载删除" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete/">
+        4.2.7 工作负载删除
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete_ko/" title="4.2.7 워크로드 제거" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete_ko/">
+        4.2.7 워크로드 제거
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.3.monitoring/" title="4.3 监控" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.3.monitoring/">
+          4.3 监控
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.4.pipeline/" title="4.4 管道" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.4.pipeline/">
+          4.4 管道
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/" title="4.5 持久化卷" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/">
+          4.5 持久化卷
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add/" title="4.5.1 持久化卷创建" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add/">
+        4.5.1 持久化卷创建
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add_ko/" title="4.5.1 퍼시스턴트 볼륨 생성" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add_ko/">
+        4.5.1 퍼시스턴트 볼륨 생성
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete/" title="4.5.2 持久化卷删除" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete/">
+        4.5.2 持久化卷删除
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete_ko/" title="4.5.2 퍼시스턴트 볼륨 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete_ko/">
+        4.5.2 퍼시스턴트 볼륨 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/" title="4.6.2 Secret" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/">
+          4.6.2 Secret
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/" title="4.6.1 配置图" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/">
+          4.6.1 配置图
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/" title="4.6.1.1 配置图添加" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/">
+        4.6.1.1 配置图添加
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add_ko/" title="4.6.1.1 컨피그 맵 추가" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add_ko/">
+        4.6.1.1 컨피그 맵 추가
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/" title="4.6.1.2 配置图修改" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/">
+        4.6.1.2 配置图修改
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit_ko/" title="4.6.1.2 컨피그 맵 수정" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit_ko/">
+        4.6.1.2 컨피그 맵 수정
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/" title="4.6.1.3 配置图删除" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/">
+        4.6.1.3 配置图删除
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete_ko/" title="4.6.1.3 컨피그 맵 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete_ko/">
+        4.6.1.3 컨피그 맵 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/" title="4.6.2 Secret" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/">
+          4.6.2 Secret
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/" title="4.6.2.1 Secret 添加" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/">
+        4.6.2.1 Secret 添加
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add_ko/" title="4.6.2.1 시크릿 추가" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add_ko/">
+        4.6.2.1 시크릿 추가
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/" title="4.6.2.2 Secret 修改" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/">
+        4.6.2.2 Secret 修改
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit_ko/" title="4.6.2.2 시크릿 수정" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit_ko/">
+        4.6.2.2 시크릿 수정
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/" title="4.6.2.3 Secret 删除" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/">
+        4.6.2.3 Secret 删除
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete_ko/" title="4.6.2.3 시크릿 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete_ko/">
+        4.6.2.3 시크릿 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/" title="빌드 관리" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/5.build/">
+          <b>5. </b>빌드 관리
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/5.1-add/" title="5.1 빌드 추가" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/5.build/5.1-add/">
+        5.1 빌드 추가
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/5.2-edit/" title="5.2 작업 설정 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/5.build/5.2-edit/">
+        5.2 작업 설정 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/5.3-history/" title="5.3 히스토리" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/5.build/5.3-history/">
+        5.3 히스토리
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/5.4-run/" title="5.4 빌드 실행" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/5.build/5.4-run/">
+        5.4 빌드 실행
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/5.5-cancel/" title="5.5 빌드 취소" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/5.build/5.5-cancel/">
+        5.5 빌드 취소
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/5.6-log/" title="5.6 로그 보기" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/5.build/5.6-log/">
+        5.6 로그 보기
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/5.build/5.7-delete/" title="5.7 작업 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/5.build/5.7-delete/">
+        5.7 작업 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/6.catalog/" title="카탈로그" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/6.catalog/">
+          <b>6. </b>카탈로그
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/6.catalog/6.1-add/" title="6.1 카탈로그 저장" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/6.catalog/6.1-add/">
+        6.1 카탈로그 저장
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/6.catalog/6.2-deploy/" title="6.2 카탈로그 배포" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/6.catalog/6.2-deploy/">
+        6.2 카탈로그 배포
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/6.catalog/6.3-edit/" title="6.3 카탈로그 편집" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/6.catalog/6.3-edit/">
+        6.3 카탈로그 편집
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/6.catalog/6.4-delete/" title="6.4 카탈로그 삭제" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/6.catalog/6.4-delete/">
+        6.4 카탈로그 삭제
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/6.catalog/6.5-export/" title="6.5 카탈로그 내보내기" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/6.catalog/6.5-export/">
+        6.5 카탈로그 내보내기
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/6.catalog/6.6-import/" title="6.6 카탈로그 가져오기" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/6.catalog/6.6-import/">
+        6.6 카탈로그 가져오기
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/" title="클러스터" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/7.cluster/">
+          <b>7. </b>클러스터
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.1-cluster/" title="7.1 클러스터 목록" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.1-cluster/">
+        7.1 클러스터 목록
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.2-node/" title="7.2 노드" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.2-node/">
+        7.2 노드
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.3-application/" title="7.3 서비스" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.3-application/">
+        7.3 서비스
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.4-volume/" title="7.4 볼륨" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.4-volume/">
+        7.4 볼륨
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.5-alarm/" title="7.5 알람" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.5-alarm/">
+        7.5 알람
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.5.1/" title="7.5.1 알람 목록" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.5.1/">
+        7.5.1 알람 목록
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.6-metering/" title="7.6 미터링" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.6-metering/">
+        7.6 미터링
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/7.cluster/7.7-registration/" title="7.7 등록정보" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/7.cluster/7.7-registration/">
+        7.7 등록정보
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/" title="시스템 운영" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/8.operation/">
+          <b>8. </b>시스템 운영
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/" title="8.1 클러스터 구성 및 등록" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/">
+          8.1 클러스터 구성 및 등록
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/" title="8.1.1 클러스터 서비스 사용" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/">
+          8.1.1 클러스터 서비스 사용
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/" title="8.1.1.1 GKE 클러스터 만들기" class="dd-item active">
+        <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/">
+        8.1.1.1 GKE 클러스터 만들기
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.2-cluster-kass-aks/" title="8.1.1.2 AKS 클러스터 만들기" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.2-cluster-kass-aks/">
+        8.1.1.2 AKS 클러스터 만들기
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.3-cluster-kass-eks/" title="8.1.1.3 EKS 클러스터 만들기" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.3-cluster-kass-eks/">
+        8.1.1.3 EKS 클러스터 만들기
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.4-cluster-kass-eks-policy/" title="8.1.1.3 EKS 클러스터 정책 / 권한" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.4-cluster-kass-eks-policy/">
+        8.1.1.3 EKS 클러스터 정책 / 권한
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.5-cluster-kass-eks-quick-start/" title="8.1.1.5 EKS 클러스터 만들기 Quick Start" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.5-cluster-kass-eks-quick-start/">
+        8.1.1.5 EKS 클러스터 만들기 Quick Start
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/" title="8.1.2 클러스터 직접 구성" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/">
+          8.1.2 클러스터 직접 구성
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/8.1.2-cluster-on-premise/" title="8.1.2.1 클러스터 직접 구성" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/8.1.2-cluster-on-premise/">
+        8.1.2.1 클러스터 직접 구성
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/9.member/" title="구성원" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/9.member/">
+          <b>9. </b>구성원
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/10.terminology/" title="용어설명" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/10.terminology/">
+          <b>10. </b>용어설명
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/10.terminology/10.1-kubenetes/" title="10.1 Kubernetes(k8s)" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/10.terminology/10.1-kubenetes/">
+        10.1 Kubernetes(k8s)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/10.terminology/10.2-system/" title="10.2 Cocktail Cloud" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/10.terminology/10.2-system/">
+        10.2 Cocktail Cloud
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cocktail-manual-3.3.0-public/en/10.terminology/10.3-error-code/" title="10.3 Cocktail Cloud System Error Code" class="dd-item ">
+        <a href="/cocktail-manual-3.3.0-public/en/10.terminology/10.3-error-code/">
+        10.3 Cocktail Cloud System Error Code
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cocktail-manual-3.3.0-public/en/11.support/" title="고객지원 서비스" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cocktail-manual-3.3.0-public/en/11.support/">
+          <b>11. </b>고객지원 서비스
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+          <div class="select-style">
+            <select id="select-language" onchange="location = this.value;">
+          
+          
+          
+              
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="en" value="http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/" selected>English</option>
+                    
+                  
+              
+                  
+              
+                  
+              
+          
+              
+              
+                  
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="zh" value="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/">Chinese</option>
+                    
+                  
+              
+                  
+              
+          
+              
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="ja" value="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/">Japanese</option>
+                    
+                  
+              
+          
+        </select>
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+          <g>
+            <g id="arrow-drop-down">
+              <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+            </g>
+          </g>
+        </svg>
+        </div>
+        </a>
+        </li>
+      
+      
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Copyright (c) 2016-2019, Acornsoft </br> all rights reserved.</p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/cocktail-manual-3.3.0-public/en/'>Cocktial Cloud Manual</a> > <a href='/cocktail-manual-3.3.0-public/en/8.operation/'>시스템 운영</a> > <a href='/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/'>8.1 클러스터 구성 및 등록</a> > <a href='/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/'>8.1.1 클러스터 서비스 사용</a> > 8.1.1.1 GKE 클러스터 만들기
+          
+         
+          
+         
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#gke-클러스터를-배포하는-방법을-알아봅니다">GKE 클러스터를 배포하는 방법을 알아봅니다.</a>
+<ul>
+<li><a href="#google-kubernetes-engine-gke-에-로그인">Google Kubernetes Engine(GKE)에 로그인</a></li>
+<li><a href="#서비스-계정-만들기">서비스 계정 만들기</a></li>
+<li><a href="#1-iam-및-관리자에서-service-account-만들기">1. IAM 및 관리자에서 Service Account 만들기.</a></li>
+<li><a href="#gke-클러스터-만들기">GKE 클러스터 만들기</a></li>
+<li><a href="#1-프로젝트-만들기">1. 프로젝트 만들기</a></li>
+<li><a href="#1-1-google-kubernetes-engine-api가-사용-설정되었는지-확인합니다">1.1 Google Kubernetes Engine API가 사용 설정되었는지 확인합니다.</a></li>
+<li><a href="#2-vpc-네트워크-만들기">2. VPC 네트워크 만들기</a></li>
+<li><a href="#3-클러스터-템플릿">3. 클러스터 템플릿</a></li>
+<li><a href="#4-클러스터에-연결">4. 클러스터에 연결</a></li>
+<li><a href="#nfs-sever-만들기">NFS Sever 만들기</a></li>
+<li><a href="#1-create-an-instance">1. Create an instance</a></li>
+<li><a href="#2-생성된-인스턴스-노드-방화벽-설정-ssh-nfs">2. 생성된 인스턴스(노드) 방화벽 설정(SSH / NFS).</a></li>
+<li><a href="#3-생성된-인스턴스-노드-에-ssh-연결">3. 생성된 인스턴스(노드)에 SSH 연결.</a></li>
+<li><a href="#4-생성된-인스턴스-노드-에-nfs-서버-설치-구성">4. 생성된 인스턴스(노드)에 NFS 서버 설치 / 구성</a></li>
+<li><a href="#5-클러스터-마스터-에-nfs-client-provisioner-구성">5. 클러스터(마스터)에 NFS-Client Provisioner 구성.</a></li>
+<li><a href="#6-샘플-pvc-등록-확인">6. 샘플 PVC 등록 / 확인.</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              8.1.1.1 GKE 클러스터 만들기
+            </h1>
+          
+
+        
+
+
+
+
+
+<h2 id="gke-클러스터를-배포하는-방법을-알아봅니다">GKE 클러스터를 배포하는 방법을 알아봅니다.</h2>
+
+<h3 id="google-kubernetes-engine-gke-에-로그인">Google Kubernetes Engine(GKE)에 로그인</h3>
+
+<p><a href="https://cloud.google.com/kubernetes-engine/">https://cloud.google.com/kubernetes-engine/</a> 에서 Google cloud에 로그인합니다.</p>
+
+<h3 id="서비스-계정-만들기">서비스 계정 만들기</h3>
+
+<h3 id="1-iam-및-관리자에서-service-account-만들기">1. IAM 및 관리자에서 Service Account 만들기.</h3>
+
+<ul>
+<li><p>서비스 계정에는 다음 역할이 필요합니다.</p>
+
+<ul>
+<li><p>project/viewer</p></li>
+
+<li><p>kubernetes-engine/admin</p></li>
+
+<li><p>service-account/user</p></li>
+
+<li><p>역할 기반 액세스 제어(Identity and Access Management)를 사용하기 위한 필요 조건:<br />
+<strong>rbac 생성시 사전 필수 요소 필요</strong>.</p>
+
+<ul>
+<li>다음 명령어를 실행하여 Kubernetes에서 역할을 만들 수 있는 능력을 사용자에게 부여해야 합니다. [USER_ACCOUNT]는 사용자의 이메일 주소입니다.<br />
+참조: <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control">https://cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control</a></li>
+</ul>
+
+<pre><code class="language-bash">kubectl create clusterrolebinding cluster-admin-binding \
+--clusterrole cluster-admin --user [USER_ACCOUNT]
+</code></pre>
+
+<p>or</p>
+
+<pre><code class="language-bash">kubectl create clusterrolebinding cluster-admin-binding \
+--clusterrole cluster-admin \
+--user $(gcloud config get-value account)
+</code></pre></li>
+</ul></li>
+
+<li><p>서비스 계졍 만들기를 선택합니다.<br />
+<strong>참조:</strong> <a href="https://cloud.google.com/kubernetes-engine/docs/tutorials/authenticating-to-cloud-platform">서비스 계정으로 Cloud Platform 인증</a></p>
+
+<ul>
+<li><p>서비스 계정 세부 정보</p>
+
+<ul>
+<li><p><strong>서비스 계정 이름:</strong><br />
+이 서비스 계정의 표시 이름입니다.</p></li>
+
+<li><p><strong>만들기</strong>를 선택합니다.</p></li>
+</ul></li>
+
+<li><p>서비스 계정 권한(선택사항)</p>
+
+<ul>
+<li><strong>역할:</strong><br />
+이 사용 설명서에서는 편의상 소유자 권한을 부여합니다.</li>
+</ul></li>
+
+<li><p>Private key 만들기</p>
+
+<ul>
+<li><p><strong>CREATE KEY</strong> 선택합니다.</p>
+
+<ul>
+<li><strong>CREATE</strong> 합니다.<br />
+서비스 계정이 생성되었으면 서비스 계정의 사용자 인증 정보가 포함된 JSON 키 파일이 컴퓨터에 다운로드됩니다. 이 키 파일은 사용자 API에 인증을 수행하도록 애플리케이션을 구성하기 위해 사용됩니다.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-service-account-1.png" alt="gke-create-service-account-1" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-service-account-2.png" alt="gke-create-service-account-2" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-service-account-3.png" alt="gke-create-service-account-3" /></p></li>
+</ul>
+
+<h3 id="gke-클러스터-만들기">GKE 클러스터 만들기</h3>
+
+<p><strong>참조:</strong> <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-architecture">클러스터 아키텍처</a></p>
+
+<h3 id="1-프로젝트-만들기">1. 프로젝트 만들기</h3>
+
+<p><strong>참조:</strong> <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster">https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster</a></p>
+
+<ul>
+<li><p>프로젝트 만들기를 선택합니다.<a href="https://cloud.google.com/resource-manager/docs/creating-managing-projects">자세히 알아보기</a></p>
+
+<ul>
+<li><p><strong>Project Name:</strong><br />
+프로젝트 이름을 입력합니다.</p>
+
+<ul>
+<li><strong>Preject ID</strong><br />
+프로젝트 ID는 프로젝트의 글로벌 고유 식별자입니다. 프로젝트를 만든 후에는 프로젝트 ID를 변경할 수 없습니다.<br />
+프로젝트를 만들 때 또는 프로젝트 ID를 만들어야 하는 API를 활성화할 때 선택한 맞춤설정된 이름입니다. 삭제된 프로젝트의 프로젝트 ID는 재사용할 수 없습니다.</li>
+</ul></li>
+
+<li><p><strong>Location:</strong><br />
+상위 조직 또는 폴더를 선택 합니다.</p></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-project-1-1.png" alt="gke-create-project-1" /></p></li>
+</ul>
+
+<h3 id="1-1-google-kubernetes-engine-api가-사용-설정되었는지-확인합니다">1.1 Google Kubernetes Engine API가 사용 설정되었는지 확인합니다.</h3>
+
+<pre><code>**GOOGLE KUBERNETES ENGINEAPI 사용 설정됨** 을 확인 합니다.
+
+![gke-create-api-lib-1](/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-api-lib-1.png)
+</code></pre>
+
+<ul>
+<li><p><a href="https://cloud.google.com/sdk/downloads?hl=ko">Cloud SDK</a>가 설치되었는지 확인합니다.</p>
+
+<ul>
+<li><p>gcloud 명령줄 도구의 기본값을 설정합니다.<br />
+gcloud 명령줄 도구에서 <strong>프로젝트 ID</strong> 및 <strong>Compute Engine 영역</strong> 옵션을 입력하는 시간을 절약하기 위해 기본값을 설정할 수 있습니다.</p>
+
+<pre><code>gcloud config set project [PROJECT_ID]
+gcloud config set compute/zone us-central1-b
+</code></pre></li>
+
+<li><p>gcloud를 최신 버전으로 업데이트합니다.</p>
+
+<pre><code>gcloud components update
+</code></pre></li>
+</ul></li>
+</ul>
+
+<h3 id="2-vpc-네트워크-만들기">2. VPC 네트워크 만들기</h3>
+
+<ul>
+<li><p>VPC 네트워크 만들기 선택</p>
+
+<ul>
+<li><p><strong>이름 :</strong><br />
+VPC에 고유 이름을 부여합니다</p></li>
+
+<li><p><strong>서브넷 생성</strong>:<br />
+서브넷을 사용하면 Google Cloud 내에 자체 비공개 클라우드 토폴로지를 만들 수 있습니다. 각 지역에 서브넷을 만들려면 &lsquo;자동&rsquo;을 클릭하고, 서브넷을 직접 정의하려면 &lsquo;맞춤설정&rsquo;을 클릭하세요. <a href="https://cloud.google.com/compute/docs/subnetworks">자세히 알아보기</a></p>
+
+<ul>
+<li><p><strong>이름:</strong><br />
+서브넷 고유 이름을 부여합니다</p></li>
+
+<li><p><strong>Region:</strong><br />
+이 사용 설명서에서는 asia-northeast1(Tokyo)를 사용합니다.<br />
+<a href="https://cloud.google.com/compute/docs/regions-zones/regions-zones">자세히 알아보기</a></p></li>
+
+<li><p><strong>IP 주소 범위:</strong><br />
+CIDR 표기법으로 나타낸 이 서브넷의 주소 범위입니다. 표준 사설 VPC 네트워크 주소 범위(예: 10.0.0.0/9)를 사용하세요.<br />
+<a href="https://cloud.google.com/kubernetes-engine/docs/how-to/alias-ips">자세히 알아보기</a></p></li>
+
+<li><p><strong>완료</strong>를 선택합니다.</p></li>
+
+<li><p>위와 같은 방법으로 subnet을 추가 합니다.</p></li>
+</ul></li>
+
+<li><p><strong>만들기</strong>를 선택합니다.</p></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-vpc-1.png" alt="gke-create-vpc-1" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-vpc-2.png" alt="gke-create-vpc-1" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-vpc-3.png" alt="gke-create-vpc-3" /></p></li>
+</ul>
+
+<h3 id="3-클러스터-템플릿">3. 클러스터 템플릿</h3>
+
+<p>GCP 콘솔을 사용해서 새 클러스터를 만들 경우 사용 가능한 모든 클러스터 템플릿이 표시됩니다. 기본적으로 표준 템플릿이 선택됩니다.</p>
+
+<ul>
+<li><p>다음 템플릿을 사용할 수 있습니다.</p>
+
+<ul>
+<li><p><strong>표준 클러스터:</strong><br />
+지속적 통합, 웹 제공, 백엔드용입니다. 추가 맞춤설정이 필요하거나 어떤 템플릿을 선택할지 확실하지 않은 경우에 선택하면 가장 적합합니다.</p></li>
+
+<li><p><strong>첫 번째 클러스터:</strong><br />
+덜 강력한 노드를 실행하고 자동 확장과 같은 일부 고급 기능을 사용하지 않는 작은 클러스터입니다.</p></li>
+
+<li><p><strong>CPU 집중 애플리케이션:</strong><br />
+해당 노드가 표준 클러스터보다 더 강력한 다중 코어 CPU를 제공하는 클러스터입니다.</p></li>
+
+<li><p><strong>메모리 집중 애플리케이션:</strong><br />
+해당 노드가 일반적으로 강력한 다중 코어 CPU와 대용량 메모리를 제공하는 클러스터입니다.</p></li>
+
+<li><p><strong>GPU 가속 컴퓨팅:</strong><br />
+기본 노드 풀이 덜 강력한 노드로 구성되었고 GPU 설정 노드 풀이 추가로 포함된 클러스터입니다. <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler?hl=ko">자동 확장</a>은 기본적으로 사용되지 않습니다.</p></li>
+
+<li><p><strong>고가용성:</strong><br />
+클러스터가 지역 클러스터로 구성되었고, 특정 지역의 각 영역에 클러스터 마스터가 제공됩니다. 자동 확장 및 유지관리 기간이 사용 설정됩니다.</p></li>
+</ul></li>
+
+<li><p><strong>Kubernetes 클러스터 만들기</strong></p>
+
+<ul>
+<li><p><strong>표준 클러스터</strong><br />
+템플릿을 선택하거나 해당 작업 부하에 적합한 템플릿을 선택합니다.</p></li>
+
+<li><p>필요한 경우 템플릿을 맞춤설정합니다. 다음 필드는 필수입니다.</p>
+
+<ul>
+<li><p><strong>이름:</strong><br />
+클러스터 이름을 선택합니다. 프로젝트 및 영역 내에서 고유해야 합니다.</p></li>
+
+<li><p><strong>위치 유형:</strong><br />
+클러스터의 모든 노드가 동일 영역에 있는지 아니면 지정된 지역의 모든 영역에 있을 수 있는지 여부입니다.</p>
+
+<ul>
+<li><p><strong>영역:</strong><br />
+위치 유형이 영역인 경우 클러스터를 만들 Compute Engine <a href="https://cloud.google.com/compute/docs/regions-zones/">컴퓨팅 영역입</a>니다.<br />
+이 사용 설명서에서는 <strong>asia-northeast1-a</strong>(Tokyo)를 사용합니다.</p></li>
+
+<li><p><strong>지역:</strong><br />
+기본적으로 클러스터는 개발자가 생성 시 지정하는 단일 컴퓨팅 영역에 클러스터 마스터와 해당 노드를 만듭니다. 지역 클러스터를 만들어서 클러스터의 가용성 및 복구성을 향상시킬 수 있습니다.<br />
+<a href="https://cloud.google.com/kubernetes-engine/docs/concepts/regional-clusters">자세히 알아보기</a></p></li>
+</ul></li>
+
+<li><p><strong>마스터 버전:</strong><br />
+kubernetes version을 선택합니다.</p></li>
+
+<li><p><strong>노드 풀:</strong><br />
+노드 풀은 클러스터에서 Kubernetes를 실행하는 별도의 인스턴스 그룹입니다.</p>
+
+<ul>
+<li><p><strong>노드 수:</strong><br />
+클러스터에 만들 노드 수입니다. 노드 및 리소스에 대해 사용 가능한 <a href="https://cloud.google.com/compute/quotas">리소스 할당량</a>이 있어야 합니다(예: 방화벽 경로).</p></li>
+
+<li><p><strong>머신 유형:</strong><br />
+인스턴스에 사용할 Compute Engine <a href="https://cloud.google.com/compute/docs/machine-types">머신 유형</a>입니다. 각 머신 유형은 서로 다르게 청구됩니다. 기본 머신 유형은 n1-standard-1입니다. 머신 유형 가격 정보는 <a href="https://cloud.google.com/compute/pricing">머신 유형 가격표</a>를 참조하세요.</p></li>
+
+<li><p>고급 수정:</p>
+
+<ul>
+<li><p><strong>이름:</strong><br />
+노드 풀 이름을 부여합니다.</p></li>
+
+<li><p><strong>부팅 디스크 크기(GB):</strong><br />
+이 사용 설명서에서는 10GB를 사용합니다.</p></li>
+
+<li><p>보안</p>
+
+<ul>
+<li><strong>서비스 계정:</strong><br />
+<strong>Compute Engine default service account 를 선택 합니다.</strong><br />
+VM에서 실행되는 애플리케이션은 서비스 계정을 사용하여 Google Cloud API를 호출합니다. 콘솔 메뉴의 권한을 사용하여 서비스 계정을 만들거나 기본 서비스 계정이 있으면 이 계정을 사용하세요. <a href="https://cloud.google.com/kubernetes-engine/docs/tutorials/authenticating-to-cloud-platform">자세히 알아보기</a></li>
+</ul></li>
+
+<li><p><strong>저장</strong>을 선택합니다.</p></li>
+</ul></li>
+</ul></li>
+
+<li><p><strong>고급옵션:</strong></p>
+
+<ul>
+<li><p>네트워킹</p>
+
+<ul>
+<li><p><strong>VPC 네이티브:</strong><br />
+VPC 네이티브 사용 설정(별칭 IP 사용) 체크합니다.</p></li>
+
+<li><p><strong>네트워크:</strong><br />
+항목에서 생성한 VPC를 선택합니다.</p></li>
+
+<li><p><strong>노드 서브넷:</strong><br />
+항목에서 생성한 subnet을 선택합니다.</p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+
+<li><p><strong>만들기</strong>를 선택합니다.</p></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-cluster-1.png" alt="gke-create-cluster-1" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-cluster-2.png" alt="gke-create-cluster-2" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-cluster-3.png" alt="gke-create-cluster-3" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-cluster-4.png" alt="gke-create-cluster-4" /></p>
+
+<p>GCP 콘솔에서 클러스터를 만든 다음에는 해당 클러스터와 상호작용하도록 kubectl을 구성해야 합니다. 자세한 내용은 <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl">kubeconfig 항목 생성</a>을 참조하세요.</p></li>
+</ul>
+
+<h3 id="4-클러스터에-연결">4. 클러스터에 연결</h3>
+
+<ul>
+<li><p><strong>Cloud Shell에서 실행:</strong></p>
+
+<ul>
+<li>Kubernetes 클러스터 목록에서 생성된 클러스터 <strong>연결</strong>을 선택합니다.</li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-cluster-connect-1.png" alt="gke-create-cluster-connect-1" /></p></li>
+
+<li><p><strong>kubectl 을 사용하려면:</strong></p>
+
+<ul>
+<li><p>kubectl 구성이 선행되야 합니다.<br />
+kubectl은 Kubernetes Engine에서 사용되는 클러스터 조정 시스템인 Kubernetes를 관리하기 위해 사용됩니다.</p>
+
+<ul>
+<li><p>gcloud를 사용하여 kubectl을 설치할 수 있습니다.</p>
+
+<pre><code>gcloud components install kubectl
+</code></pre></li>
+</ul></li>
+
+<li><p>클러스터 연결 화면에서 명령줄을 복사 콘솔에서 실행합니다.</p>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-cluster-connect-1.png" alt="gke-create-cluster-connect-1" /></p></li>
+
+<li><p>아래 명령어로 확인할 수 있습니다.</p>
+
+<pre><code>kubectl get svc
+</code></pre>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-cluster-connect-2.png" alt="gke-create-cluster-connect-2" /></p></li>
+</ul></li>
+</ul>
+
+<h3 id="nfs-sever-만들기">NFS Sever 만들기</h3>
+
+<p>Google Compute Engine 영구 디스크를 사용하여 네트워크 파일 시스템 (NFS) 서버를 만들어 컨테이너에 마운트하는 것입니다.</p>
+
+<h3 id="1-create-an-instance">1. Create an instance</h3>
+
+<ul>
+<li><p><strong>이름(Name):</strong><br />
+인스턴스 이름을 부여합니다.</p></li>
+
+<li><p><strong>지역(Region):</strong><br />
+지역은 리소스를 실행할 수 있는 특정 지리적 위치입니다.</p></li>
+
+<li><p><strong>영역(Zone):</strong><br />
+영역은 지역 내의 격리된 위치입니다. 영역은 사용할 수 있는 컴퓨팅 리소스와 데이터를 저장하고 사용할 위치를 결정합니다.</p></li>
+
+<li><p><strong>머신 유형(Machine type):</strong><br />
+맞춤설정을 클릭하여 코어, 메모리, CPU를 선택합니다.</p></li>
+
+<li><p><strong>부팅 디스크(Boot disk):</strong><br />
+각 인스턴스에는 부팅을 위한 디스크가 필요합니다. 이미지나 스냅샷을 선택하여 새 부팅 디스크를 생성하거나 기존 디스크를 인스턴스에 연결하세요.<br />
+이 사용 설명서에서는 CentOS 7 사용합니다.</p></li>
+
+<li><p><strong>ID 및 API 액세스(Identity and API access):</strong><br />
+생성한 서비스 계정을 선택합니다.<br />
+VM에서 실행되는 애플리케이션은 서비스 계정을 사용하여 Google Cloud API를 호출합니다. 사용할 서비스 계정과 허용할 API 액세스 수준을 선택하세요. <a href="https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances?hl">자세히 알아보기</a></p>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-instance-1.png" alt="gke-create-instance-1" /></p></li>
+</ul>
+
+<p><strong>Management, security, disks, networking, sole tenancy 확장 섹션</strong>을 활성화 해서 아래 설정을 합니다.</p>
+
+<ul>
+<li><p><strong>디스크(Disks) 설정</strong></p>
+
+<ul>
+<li><p>Add new disk를 선택 합니다.</p>
+
+<ul>
+<li>노드에 필요한 디스크 사양을 설정 합니다.</li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-instance-disk-1.png" alt="gke-create-instance-disk-1" /></p></li>
+</ul></li>
+
+<li><p><strong>네트워크(Networking) 설정</strong><br />
+네트워크는 인스턴스에서 액세스할 수 있는 네트워크 트래픽을 결정합니다.</p>
+
+<ul>
+<li><p><strong>Network tags(네트워크 태그):</strong><br />
+네트워크 태그를 할당하여 특정 VM 인스턴스에 방화벽 규칙을 적용합니다.</p></li>
+
+<li><p><strong>Network interfaces(네트워크 인터페이스)</strong></p>
+
+<ul>
+<li><p><strong>Network(네트워크):</strong><br />
+목록에서 VPC network에서 생성한 VPC를 선택합니다.</p></li>
+
+<li><p><strong>Subnetwork(하위 네트워크):</strong><br />
+목록에서 VPC network에서 생성한 subnet을 선택합니다.</p></li>
+
+<li><p><strong>Primary internal IP(기본 내부 IP):</strong><br />
+임시의 경우 인스턴스를 다시 시작해도 내부 IP가 변경되지 않지만 인스턴스를 삭제하고 다시 만들면 내부 IP가 변경됩니다.<br />
+&lsquo;임시(자동)&lsquo;를 선택하여 하위 네트워크 범위의 주소를 할당하거나 &lsquo;임시(커스텀)&lsquo;를 선택하여 직접 입력하세요.<br />
+<strong>인스턴스를 삭제하고 다시 만들 때 IP를 유지하려면 고정 내부 IP 주소를 선택하거나 만드세요.</strong><br />
+<a href="https://cloud.google.com/compute/docs/subnetworks">자세히 알아보기</a></p>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-instance-network-2.png" alt="gke-create-instance-network-2" /></p></li>
+
+<li><p>done(완료)**를 선택합니다.</p></li>
+</ul></li>
+</ul></li>
+
+<li><p><strong>Create(만들기)</strong>를 선택합니다.</p></li>
+</ul>
+
+<h3 id="2-생성된-인스턴스-노드-방화벽-설정-ssh-nfs">2. 생성된 인스턴스(노드) 방화벽 설정(SSH / NFS).</h3>
+
+<ul>
+<li>인스턴스 화면에서 생성한 인스턴스의 확장 메뉴에서 <strong>View network details</strong>를 선택.<br />
+또는 VPC network &gt; Firewall rules를 선택한다.</li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-instance-view-network.png" alt="gke-create-instance-view-network" /></p>
+
+<ul>
+<li><p><strong>SSH 방화벽 규칙을 추가 한다.</strong></p>
+
+<ul>
+<li><p><strong>Name:</strong><br />
+예) cocktail-test-gke-demo-storage-ssh</p></li>
+
+<li><p><strong>Network:</strong><br />
+인스턴스에서 설정한 VPC를 선택합니다.</p></li>
+
+<li><p><strong>Targets(대상):</strong><br />
+<strong>Specified target tags</strong>를 선택.<br />
+가상 네트워크에서 해당 인스턴스에만 방화벽 규칙이 적용됩니다.</p>
+
+<ul>
+<li><p><strong>Target tags:</strong><br />
+NFS인스턴스(노드)에서 설정한 네트워크 태그를 입력합니다.</p></li>
+
+<li><p><strong>Source filter:</strong><br />
+<strong>IP ranges</strong>를 선택.<br />
+필터를 설정해 특정 트래픽 소스에 규칙을 적용하세요.</p></li>
+
+<li><p><strong>Source IP ranges:</strong><br />
+접근하고자 하는 IP ranges를 CIDR 표기법으로 추가 합니다.<br />
+예)10.0.10.0/24 192.168.100.<sup>5</sup>&frasl;<sub>32</sub></p></li>
+
+<li><p><strong>Protocols and ports:</strong><br />
+허용되는 프로토콜 및 포트에만 트래픽 규칙이 적용됩니다.</p>
+
+<ul>
+<li><p>Specified protocols and ports</p>
+
+<ul>
+<li><strong>tcp:</strong> 22</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-firewall-rules-ssh.png" alt="gke-create-firewall-rules-ssh" /></p></li>
+
+<li><p><strong>NFS 방화벽 규칙을 추가 한다.</strong></p>
+
+<ul>
+<li><p><strong>Name:</strong><br />
+예) cocktail-test-gke-demo-storage-nfs</p></li>
+
+<li><p><strong>Network:</strong><br />
+인스턴스에서 설정한 VPC를 선택합니다.</p></li>
+
+<li><p><strong>Targets(대상):</strong><br />
+<strong>Specified target tags</strong>를 선택.<br />
+가상 네트워크에서 해당 인스턴스에만 방화벽 규칙이 적용됩니다.</p>
+
+<ul>
+<li><p><strong>Target tags:</strong><br />
+NFS인스턴스(노드)에서 설정한 네트워크 태그를 입력합니다.</p></li>
+
+<li><p><strong>Source filter:</strong><br />
+<strong>Subnets</strong>를 선택.<br />
+필터를 설정해 특정 트래픽 소스에 규칙을 적용하세요.</p></li>
+
+<li><p><strong>Subnets:</strong><br />
+이 소스 하위 네트워크의 트래픽만 허용됩니다.</p></li>
+
+<li><p><strong>Protocols and ports:</strong><br />
+허용되는 프로토콜 및 포트에만 트래픽 규칙이 적용됩니다.</p>
+
+<ul>
+<li>Allow all 선택<br />
+이 사용 설명서에서는 편의상 Alloww all을 선택합니다.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-firewall-rules-nfs.png" alt="gke-create-firewall-rules-nfs" /></p></li>
+</ul>
+
+<h3 id="3-생성된-인스턴스-노드-에-ssh-연결">3. 생성된 인스턴스(노드)에 SSH 연결.</h3>
+
+<ul>
+<li><p>인스턴스 화면에서 생성된 인스턴스(노드)의 <strong>SSH</strong>항목을 선택 -&gt; <strong>View gcloud command</strong>를 선택 한다(자동생성).</p></li>
+
+<li><p><strong>Run IN CLOUD SHELL</strong>을 실행 한다.</p>
+
+<ul>
+<li><p>RSA key pair 가 자동생성 된다.<br />
+아래명령으로 생성된 key pair 을 확인할 수 있다.</p>
+
+<pre><code>cd ~/.ssh
+</code></pre></li>
+
+<li><p>RSA key pair GCP의 Compute Engine &gt; Metadata &gt; SSH Keys에 자동 등록 된다.<br />
+아래 그림처럼 등록된 SSH Key를 확인 및 편집할 수 있다.</p></li>
+</ul></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-connect-node-ssh-1.png" alt="gke-create-connect-node-ssh-1" /></p>
+
+<ul>
+<li><p>또는 RSA key pair 수동 생성 / 등록 방법.</p>
+
+<ul>
+<li><p>아래 명령으로 RSA key pair를 생성한다.</p>
+
+<pre><code>ssh-keygen -t rsa -f ./rsa-gcp-key -C&quot;&lt;Your-email.com&gt;&quot;
+</code></pre></li>
+</ul>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-connect-node-ssh-2.png" alt="gke-create-connect-node-ssh-2" /></p>
+
+<ul>
+<li><p>생성된 RSA Key 내용을 복사 해서 Compute Engine &gt; Metadata &gt; SSH Keys 에 등록 한다.</p>
+
+<pre><code>cat ./rsa-gcp-key.pub
+</code></pre>
+
+<p><img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-connect-node-ssh-3.png" alt="gke-create-connect-node-ssh-3" />
+<img src="/cocktail-manual-3.3.0-public/images/assets/KR/3.1.1/GKE/gke-create-connect-node-ssh-4.png" alt="gke-create-connect-node-ssh-4" /></p></li>
+</ul></li>
+</ul>
+
+<h3 id="4-생성된-인스턴스-노드-에-nfs-서버-설치-구성">4. 생성된 인스턴스(노드)에 NFS 서버 설치 / 구성</h3>
+
+<ul>
+<li><p>노드 OS 확인.</p>
+
+<pre><code>sudo grep . /etc/*-release
+</code></pre></li>
+
+<li><p>노드 NFS 패키지 확인.</p>
+
+<pre><code>sudo rpm -qa | grep nfs
+</code></pre></li>
+
+<li><p>노드 NFS 패키지 설치.</p>
+
+<pre><code>sudo yum install nfs-utils nfs-utils-lib
+</code></pre></li>
+
+<li><p>클러스터(마스터)에서 NFS에 사용될 공유 디렉토리를 생성 한다.<br />
+<strong>provisioner Deployment</strong>에서 <strong>NFS_PATH</strong>에 지정된 디렉토리를 생성한다.</p>
+
+<pre><code>sudo mkdir /storage/shared
+</code></pre></li>
+
+<li><p>공유 디렉토리 퍼미션 설정.</p>
+
+<pre><code>sudo chmod -R 777 /storage
+</code></pre></li>
+
+<li><p>공유 디렉토리 NFS 권한을 부여하고, 동기화를 한다.<br />
+인스턴스(노드)에서 설정한 <strong>Subnet 또는 Ip ranges</strong>를 부여한다.</p>
+
+<pre><code># sudo vi /etc/exports
+
+/storage/shared 10.0.10.0/24(rw,sync)
+</code></pre></li>
+
+<li><p>NFS service를 재시작 한다.</p>
+
+<pre><code>sudo service nfs restart
+</code></pre></li>
+</ul>
+
+<h3 id="5-클러스터-마스터-에-nfs-client-provisioner-구성">5. 클러스터(마스터)에 NFS-Client Provisioner 구성.</h3>
+
+<p><strong>참조:</strong> <a href="https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client">Kubernetes NFS-Client Provisioner</a></p>
+
+<ul>
+<li><p><strong>Setup authorization:</strong><br />
+클러스터에 RBAC가 활성화되어 있거나 OpenShift를 실행중인 경우 공급자에게 권한을 부여해야합니다.</p>
+
+<ul>
+<li><strong>kubectl apply -f 1-rbac.yaml</strong><br />
+Namespace, ServiceAccount, Setup authorization 적용</li>
+</ul>
+
+<pre><code class="language-yaml">apiVersion: v1
+kind: Namespace
+metadata:
+name: cocktail-addon
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+name: nfs-client-provisioner
+namespace: cocktail-addon
+---
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+name: nfs-client-provisioner-runner
+rules:
+- apiGroups: [&quot;&quot;]
+    resources: [&quot;persistentvolumes&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;, &quot;create&quot;, &quot;delete&quot;]
+- apiGroups: [&quot;&quot;]
+    resources: [&quot;persistentvolumeclaims&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;, &quot;update&quot;]
+- apiGroups: [&quot;storage.k8s.io&quot;]
+    resources: [&quot;storageclasses&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;]
+- apiGroups: [&quot;&quot;]
+    resources: [&quot;events&quot;]
+    verbs: [&quot;list&quot;, &quot;watch&quot;, &quot;create&quot;, &quot;update&quot;, &quot;patch&quot;]
+
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+name: run-nfs-client-provisioner
+subjects:
+- kind: ServiceAccount
+    name: nfs-client-provisioner
+    # replace with namespace where provisioner is deployed
+    namespace: cocktail-addon
+roleRef:
+kind: ClusterRole
+name: nfs-client-provisioner-runner
+apiGroup: rbac.authorization.k8s.io
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+name: leader-locking-nfs-client-provisioner
+rules:
+- apiGroups: [&quot;&quot;]
+    resources: [&quot;endpoints&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;, &quot;create&quot;, &quot;update&quot;, &quot;patch&quot;]
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+name: leader-locking-nfs-client-provisioner
+subjects:
+- kind: ServiceAccount
+    name: nfs-client-provisioner
+    # replace with namespace where provisioner is deployed
+    namespace: cocktail-addon
+roleRef:
+kind: Role
+name: leader-locking-nfs-client-provisioner
+apiGroup: rbac.authorization.k8s.io
+</code></pre></li>
+
+<li><p><strong>Configure the NFS-Client provisioner</strong></p>
+
+<ul>
+<li><strong>kubectl apply -f 2-shared-storage-provisioner-dp.yaml</strong><br />
+Deployment, 다음 프로비저 배포 파일을 편집하여 NFS 서버에 대한 연결 정보를 추가해야합니다.</li>
+</ul>
+
+<pre><code class="language-yaml">kind: Deployment
+apiVersion: apps/v1
+metadata:
+name: shared-storage-provisioner
+namespace: cocktail-addon
+spec:
+replicas: 1
+selector:
+    matchLabels:
+    acornsoft.io/provisioner-type: NFSDYNAMIC
+    app: shared-storage-provisioner
+strategy:
+    type: Recreate
+template:
+    metadata:
+    labels:
+        app: shared-storage-provisioner
+        acornsoft.io/provisioner-type: NFSDYNAMIC
+    spec:
+    serviceAccount: nfs-client-provisioner
+    containers:
+        - name: shared-storage-provisioner
+        image: quay.io/external_storage/nfs-client-provisioner:v2.0.1
+        volumeMounts:
+            - name: nfs-client-root
+            mountPath: /persistentvolumes
+        env:
+            - name: PROVISIONER_NAME
+            # YOUR PROVISIONER_NAME
+            value: acornsoft.io/shared-storage-provisioner
+            - name: NFS_SERVER
+            # YOUR NFS SERVER HOSTNAME
+            value: 10.0.10.8
+            - name: NFS_PATH
+            value: /storage/shared
+        resources:
+            limits:
+            cpu: 100m
+            memory: 128Mi
+            requests:
+            cpu: 100m
+            memory: 128Mi
+    tolerations:
+    - key: node-role.kubernetes.io/master
+        effect: NoSchedule
+    volumes:
+        - name: nfs-client-root
+        nfs:
+            # YOUR NFS SERVER HOSTNAME
+            server: 10.0.10.8
+            path: /storage/shared
+
+</code></pre></li>
+
+<li><p><strong>Storage class 등록</strong><br />
+참조: <a href="https://kubernetes.io/docs/concepts/storage/storage-classes/">https://kubernetes.io/docs/concepts/storage/storage-classes/</a></p>
+
+<ul>
+<li><strong>kubectl apply -f 3-single-sc.yaml</strong><br />
+single-storage : Persistent Volumes with Kubernetes on GKE</li>
+</ul>
+
+<pre><code class="language-yaml">---
+# single-storage : Persistent Volumes with Kubernetes on GKE
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+name: single-storage
+annotations:
+    storageclass.beta.kubernetes.io/is-default-class: &quot;false&quot;
+labels:
+    acornsoft.io/provisioner-type: GCE
+    acornsoft.io/type: SINGLE
+    addonmanager.kubernetes.io/mode: EnsureExists
+    kubernetes.io/cluster-service: &quot;true&quot;
+parameters:
+type: pd-standard
+provisioner: kubernetes.io/gce-pd
+reclaimPolicy: Delete
+</code></pre>
+
+<ul>
+<li><strong>kubectl apply -f 4-shared-sc.yaml</strong><br />
+shared-storage : NFS Persistent Volumes with Kubernetes on GKE</li>
+</ul>
+
+<pre><code class="language-yaml">---
+# shared-storage : NFS Persistent Volumes with Kubernetes on GKE
+apiVersion: storage.k8s.io/v1beta1
+kind: StorageClass
+metadata:
+name: shared-storage
+annotations:
+    storageclass.beta.kubernetes.io/is-default-class: &quot;false&quot;
+labels:
+    acornsoft.io/provisioner-type: NFSDYNAMIC
+    acornsoft.io/total-capacity: &quot;100&quot;
+    acornsoft.io/type: SHARED
+provisioner: acornsoft.io/shared-storage-provisioner
+reclaimPolicy: Delete
+allowVolumeExpansion: true
+</code></pre></li>
+</ul>
+
+<h3 id="6-샘플-pvc-등록-확인">6. 샘플 PVC 등록 / 확인.</h3>
+
+<ul>
+<li><p>아래 명령으로 샘플을 구성할 수 있다.</p>
+
+<ul>
+<li><strong>kubectl apply -f 5-test-pod.yaml</strong><br />
+임시 파일 생성 pod를 생성 한다.</li>
+</ul>
+
+<pre><code class="language-yaml">---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+name: nfs-pvc
+spec:
+storageClassName: shared-storage
+accessModes:
+- ReadWriteMany
+resources:
+    requests:
+    storage: 1Mi
+---
+kind: Pod
+apiVersion: v1
+metadata:
+name: test-pod
+spec:
+containers:
+- name: test-pod
+    image: gcr.io/google_containers/busybox:1.24
+    command:
+    - &quot;/bin/sh&quot;
+    args:
+    - &quot;-c&quot;
+    - &quot;touch /mnt/SUCCESS &amp;&amp; exit 0 || exit 1&quot;
+    volumeMounts:
+    - name: nfs-test-pvc
+        mountPath: &quot;/mnt&quot;
+restartPolicy: &quot;Never&quot;
+volumes:
+    - name: nfs-test-pvc
+    persistentVolumeClaim:
+        claimName: nfs-pvc
+</code></pre>
+
+<ul>
+<li><p><strong>kubectl get pv</strong><br />
+생성된 PV를 확인 한다.</p></li>
+
+<li><p><strong>NFS 노드</strong>에 생성된 임시 파일을 확인할 수 있다.</p></li>
+</ul></li>
+</ul>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/" title="8.1.1 클러스터 서비스 사용"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.2-cluster-kass-aks/" title="8.1.1.2 AKS 클러스터 만들기" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/cocktail-manual-3.3.0-public/js/clipboard.min.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/perfect-scrollbar.min.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/perfect-scrollbar.jquery.min.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/jquery.sticky.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/featherlight.min.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/html5shiv-printshiv.min.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/highlight.pack.js?1556448614"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/cocktail-manual-3.3.0-public/js/modernizr.custom-3.6.0.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/learn.js?1556448614"></script>
+    <script src="/cocktail-manual-3.3.0-public/js/hugo-learn.js?1556448614"></script>
+
+    <link href="/cocktail-manual-3.3.0-public/mermaid/mermaid.css?1556448614" type="text/css" rel="stylesheet" />
+    <script src="/cocktail-manual-3.3.0-public/mermaid/mermaid.js?1556448614"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105947713-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
+

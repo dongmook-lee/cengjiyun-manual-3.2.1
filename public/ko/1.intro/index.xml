@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>칵테일 클라우드 이해 on 칵테일 클라우드 메뉴얼</title>
+    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/</link>
+    <description>Recent content in 칵테일 클라우드 이해 on 칵테일 클라우드 메뉴얼</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
+    <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
+    <lastBuildDate>Fri, 19 Apr 2019 10:41:01 +0900</lastBuildDate>
+    
+	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cocktail Cloud 구성 개요</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.1/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.1/</guid>
+      <description>Cocktail Cloud는 그 역할에 따라 5개의 레이어로 구성된다.
+ Cluster Management Layer: 컨테이너가 배포/실행되는 인프라(클러스터)와 오케스트레이션(Orchestration)을 담당하는 레이어다. 오케스트레이션은 Kubernetes(https://kubernetes.io)가 담당하고 인프라 관리, 모니터링 등 확장 관리 기능을 제공한다.
+ Service Management Layer: 서비스(Workload)를 기준으로 컨테이너 구성과 관리를 담당하는 레이어다. 서비스를 구성하는 다수의 컨테이너와 관련 객체를 패키징하고 그 수명주기와 모니터링을 관리한다.
+ Pipeline: 코드에서 컨테이너 빌드, 배포까지의 과정을 자동화하여 지속적인 통합/배포를 수행한다. 사용자는 원하는 파이프라인 구성을 설정과 스크립트를 통해 할 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>Cluster Management Layer (클러스터 관리 레이어)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.2/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.2/</guid>
+      <description>클러스터 관리 레이어는 클러스터를 구성하는 인프라 스트럭처와 컨테이너 오케스트레이션 엔진 부분으로 구분된다. 상세 구성은 아래 그림과 같다.
+Cocktail Cloud는 클러스터 인프라와 오케스트레이션 엔진을 사용자의 설정에 따라 자동 프로비져닝(Provisioning)하는데 이를 담당하는 도구가CUBE이다. CUBE는 고가용(High Availability, HA)의 Kubernetes클러스터를 구성한다. CUBE가 프로비져닝하는 클러스터 구성은 높은 안정성과 보안, 확장성을 제공한다.(이를 CUBE클러스터라 한다.)
+CUBE클러스터는 현재 다음과 같은 클라우드 플랫폼 및 공급자를 지원한다. 하지만 CUBE는 인프라에 독립적인 구성이 가능함으로 어떠한 인프라에서도 구성이 가능하다. 아래는 인프라 자동 프로비져닝을 기준으로 한 것이다.</description>
+    </item>
+    
+    <item>
+      <title>Service Management Layer (서비스 관리 레이어)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.3/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.3/</guid>
+      <description>일반적으로 하나의 어플리케이션 및 서비스는 다수의 컨테이너로 구성된다. 특히 Kubernetes와 같은 오케스트레이션 엔진의 경우 컨테이너 외에도 서비스 포트, 컨트롤러, 볼륨등의 추가적인 객체를 필요로 한다. 따라서 컨테이너 기반의 어플리케이션 및 서비스를 관리하기 위해서는 컨테이너와 관련 객체를 패키징하고 관리하는 추상화 단위가 필요하다. 서비스 관리 레이어는 이를 담당하는 레이어다.
+Cocktail Cloud의 서비스 관리는 다음과 같은 계층 구조를 가진다.
+ Service : 최상위 계층으로 서비스에 필요한 클러스터 자원, 이미지 레지스트리, 이미지 빌드를 할당 관리하는 그룹이다.</description>
+    </item>
+    
+    <item>
+      <title>Pipeline Layer (파이프라인 레이어)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.4/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.4/</guid>
+      <description>파이프라인 레이어는 코드로부터 컨테이너 빌드와 배포를 자동화 한다.
+Build는 코드 다운로드, 코드 빌드 및 테스트등 작업(Task), 컨테이너 이미지 빌드를 사용자 설정을 기준으로 순차적으로 수행한다. 작업(Task)은 내부에서 작업을 수행하는 컨테이너를 사용하는데, 기본 제공되는 컨테이너 외에도 공개 또는 사용자가 만든 컨테이너를 사용하여 확장 할 수 있다.
+빌드 된 이미지는 Cocktail Cloud 서버의 컨테이너로 롤링 업데이트 한다. 빌드를 통해 만들어진 이미지는 자동 빌드 번호가 부여 되는데 이를 통해 최신 버전 또는 롤백을 수행한다.</description>
+    </item>
+    
+    <item>
+      <title>Catalog Layer (카탈로그 레이어)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.5/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.5/</guid>
+      <description>컨테이너는 그 구성을 이미지화하여 배포 실행한다. 따라서 자주 사용하는 DB나 미들웨어 등의 런타임은 컨테이너 이미지와 배포 정보를 템플릿화 하면 반복적인 작업을 줄이고 언제든 필요할 때 쉽게 배포하여 사용 할 수 있다.
+이러한 템플릿을 생성하고 관리를 담당하는 레이어가 카탈로그다. 카탈로그 레이어의 구성을 도식화하면 아래와 같다.
+카탈로그는 목적에 따라 두 가지 형태로 구분 된다.
+ Service Catalog : 서비스 카탈로그는 사용자가 서비스를 위해 구성한 어플리케이션의 스냅샷을 저장 관리한다. 인프라 또는 클라우드 공급자의 교체 등으로 이전이 필요할 경우 서 비스 카탈로그의 스냅샷을 사용 할 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>Dashboard Layer (대시보드 레이어)</title>
+      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.6/</link>
+      <pubDate>Fri, 19 Apr 2019 10:41:01 +0900</pubDate>
+      <author>cloud.jung@acornsoft.io (cloud.jung)</author>
+      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.6/</guid>
+      <description>Cocktail Cloud의 대시보드 레이어는 서비스 현황, 모니터링, 클러스터 현황 등을 웹UI형태로 제공한다.
+대시보드는 사용자의 역할에 맞는 뷰를 권한에 따라 제공한다. Cocktail Cloud의 사용자 권한은 다음과 같다.
+ Administrator(Admin) : 클러스터 관리를 수행하고, Cocktail Cloud의 모든 서비스에 대해 관리 권한을 가진다.
+ DevOps : 할당된 하나 이상의 워크스페이스에 대해서만 관리 권한을 가진다. 워크스페이스 별 대시보드를 제공하며, 클러스터 관리는 할 수 없다.
+  Cocktail Cloud에서 제공하는 대시보드 뷰는 다음과 같다.
+ 종합 대시보드 : 전체 서비스와 클러스터 현황을 종합하여 보여 주는 뷰</description>
+    </item>
+    
+  </channel>
+</rss>

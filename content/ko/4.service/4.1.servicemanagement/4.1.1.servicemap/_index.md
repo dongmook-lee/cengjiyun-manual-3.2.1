@@ -1,0 +1,27 @@
+---
+title: "4.1.1 서비스 맵"
+---
+
+---
+서비스 구성 단위이다.
+
+논리적 단위로 그룹을 구성하고 그룹 내에 워크로드를 배치한다.
+
+맵을 구성하고 있는 클러스터의 미터링 정보를 확인하거나, 워크로드의 모니터링 정보를 확인 할 수 있다.
+
+배포 작업을 생성해서 워크로드를 생성하거나 업데이트 할 수 있다.
+
+1. 좌측 메인메뉴 → 서비스 → 서비스 맵 선택하여 클릭한다.
+    ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_1.png)
+    
+    ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_2.png)
+    
+    | **목록** | **설명** |
+    | :--- | :--- |
+    | ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_3.png) | 논리적 단위로 구성된 그룹. 액션메뉴를 활성화하면 해당 그룹에 그룹명 변경, 컬럼수 변경, 오른쪽 or 왼쪽 이동, 오른쪽 or 왼쪽에 그룹추가, 그룹 삭제가 가능. +버튼을 클릭하면 워크로드를 생성할 수 있음. |
+    | ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_4.png) | 서비스 안에 배포되고 있는 워크로드. 드래그 & 드롭을 이용하여 자유롭게 이동이 가능 |
+    | ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_5.png) | 현재 배포중인 워크로드들을 위 사진과 같이 한눈에 볼 수 있도록 간략하게 표시 |
+    | ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_6.png) | 서비스 배포된 워크로드 단위로 사용중인 CPU, Memory, Network에 대한 모니터링 서비스 메뉴 |
+    | ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_7.png) | 이미지를 빌드하고 배포작업까지 한 번에 진행 가능하고, 배포 중인 워크로드의 이미지 버전을 변경하여 재배포 할 수 있으며, 여러 워크로드를 동시에 일괄배포가 가능 |
+    | ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_8.png) | 퍼시스턴트 볼륨을 설정 할 수 있는 메뉴 |
+    | ![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/4.1.1_9.png) | 컨피그 맵, 시크릿 여러 설정 파일들을 저장하여 사용 가능 |

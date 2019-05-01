@@ -17,11 +17,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.1/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.1/"
                 />
@@ -39,11 +34,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -83,11 +73,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.2/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.2/"
                 />
@@ -124,11 +109,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.3/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/1.intro/0.3/"
                 />
@@ -160,11 +140,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/3.dashboard/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/3.dashboard/"
                 />
@@ -182,11 +157,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.4/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -217,11 +187,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/"
                 />
@@ -239,11 +204,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.5/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -274,11 +234,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/5.build/"
                 />
@@ -296,11 +251,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/1.intro/0.6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/1.intro/0.6/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -331,11 +281,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/6.catalog/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/6.catalog/"
                 />
@@ -360,11 +305,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -395,11 +335,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/8.operation/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/"
                 />
@@ -420,11 +355,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/9.member/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/9.member/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -451,11 +381,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/10.terminology/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/10.terminology/"
                 />
@@ -476,11 +401,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/11.support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/11.support/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -509,11 +429,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/"
                 />
@@ -530,11 +445,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.1-kubenetes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/10.terminology/10.1-kubenetes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -557,11 +467,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/10.terminology/10.2-system/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/10.terminology/10.2-system/"
                 />
@@ -578,11 +483,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/10.terminology/10.3-error-code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/10.terminology/10.3-error-code/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -685,11 +585,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/3.dashboard/3.1-user/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/3.dashboard/3.1-user/"
                 />
@@ -706,11 +601,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.1.servicemanagement/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.1.servicemanagement/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -733,11 +623,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.1.servicemanagement/4.1.1.servicemap/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.1.servicemanagement/4.1.1.servicemap/"
                 />
@@ -754,11 +639,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -781,11 +661,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/"
                 />
@@ -802,11 +677,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -829,11 +699,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/"
                 />
@@ -850,11 +715,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.1.servicemanagement/4.1.2-group/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.1.servicemanagement/4.1.2-group/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -877,11 +737,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.2.workload/"
                 />
@@ -898,11 +753,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.1-add/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/4.2.1-add/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -925,11 +775,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/4.2.2-edit/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.2.workload/4.2.2-edit/"
                 />
@@ -946,11 +791,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.3-instance/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/4.2.3-instance/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -973,11 +813,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/4.2.4-stop/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.2.workload/4.2.4-stop/"
                 />
@@ -994,11 +829,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.5-start/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/4.2.5-start/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1021,11 +851,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/4.2.6-restart/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.2.workload/4.2.6-restart/"
                 />
@@ -1042,11 +867,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.2.workload/4.2.7-delete/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.2.workload/4.2.7-delete/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1069,11 +889,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.3.monitoring/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.3.monitoring/"
                 />
@@ -1090,11 +905,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.4.pipeline/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.4.pipeline/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1117,11 +927,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.5.persistencevolume/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.5.persistencevolume/"
                 />
@@ -1138,11 +943,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.5.persistencevolume/4.5.1-add/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.5.persistencevolume/4.5.1-add/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1165,11 +965,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.5.persistencevolume/4.5.2-delete/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.5.persistencevolume/4.5.2-delete/"
                 />
@@ -1186,11 +981,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.6.config/4.6.1.configmap/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.1.configmap/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1213,11 +1003,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/"
                 />
@@ -1234,11 +1019,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1261,11 +1041,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/"
                 />
@@ -1282,11 +1057,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.6.config/4.6.2.secret/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.2.secret/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1309,11 +1079,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/"
                 />
@@ -1330,11 +1095,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1357,11 +1117,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/"
                 />
@@ -1378,11 +1133,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1405,11 +1155,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/5.1-add/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/5.build/5.1-add/"
                 />
@@ -1426,11 +1171,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/5.build/5.2-edit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/5.2-edit/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1453,11 +1193,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/5.3-history/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/5.build/5.3-history/"
                 />
@@ -1474,11 +1209,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/5.build/5.4-run/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/5.4-run/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1501,11 +1231,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/5.5-cancel/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/5.build/5.5-cancel/"
                 />
@@ -1522,11 +1247,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/5.build/5.6-log/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/5.6-log/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1549,11 +1269,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/5.build/5.7-delete/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/5.build/5.7-delete/"
                 />
@@ -1570,11 +1285,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.1-add/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/6.catalog/6.1-add/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1597,11 +1307,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/6.catalog/6.2-deploy/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/6.catalog/6.2-deploy/"
                 />
@@ -1618,11 +1323,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.3-edit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/6.catalog/6.3-edit/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1645,11 +1345,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/6.catalog/6.4-delete/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/6.catalog/6.4-delete/"
                 />
@@ -1666,11 +1361,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.5-export/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/6.catalog/6.5-export/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1693,11 +1383,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/6.catalog/6.6-import/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/6.catalog/6.6-import/"
                 />
@@ -1714,11 +1399,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.1-cluster/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.1-cluster/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1741,11 +1421,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.2-node/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/7.cluster/7.2-node/"
                 />
@@ -1762,11 +1437,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.3-application/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.3-application/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1789,11 +1459,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.4-volume/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/7.cluster/7.4-volume/"
                 />
@@ -1810,11 +1475,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.5-alarm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.5-alarm/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1837,11 +1497,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.5.1/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/7.cluster/7.5.1/"
                 />
@@ -1861,11 +1516,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.6-metering/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/7.cluster/7.6-metering/"
                 />
@@ -1882,11 +1532,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.7-registration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/7.cluster/7.7-registration/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1982,11 +1627,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ko"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/categories/"
                 />
@@ -2004,11 +1644,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"

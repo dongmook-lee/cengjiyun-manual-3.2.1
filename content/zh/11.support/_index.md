@@ -1,5 +1,5 @@
 +++
-title = "10.售后服务"
+title = "售后服务"
 date = 2019-04-19T10:41:01+09:00
 weight = 11
 chapter = false

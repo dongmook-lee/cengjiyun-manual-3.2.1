@@ -35,13 +35,13 @@ languageName = "Korean"
 contentDir = "content/ko"
 
 [Languages.en]
-title = "Cocktial Cloud Manual"
+title = "Cocktail Cloud Manual"
 weight = 2
 languageName = "English"
 contentDir = "content/en"
 
 [Languages.zh]
-title = "Cocktial Cloud Manual"
+title = "Cengjiyun Manual"
 weight = 3
 languageName = "Chinese"
 contentDir = "content/zh"

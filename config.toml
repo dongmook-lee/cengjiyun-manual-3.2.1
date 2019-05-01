@@ -1,4 +1,4 @@
-baseURL = "http://acornapps.github.io/cocktail-manual-3.3.0-public"
+baseURL = "http://acornapps.github.io/cengjiyun-manual-3.2.1-public"
 languageCode = "kr-ko"
 title = "칵테일 클라우드"
 theme = "hugo-theme-learn"
@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir= true
     email = "cloud.jung@acornsoft.io"
 
 [params]
-    imageRootDir = "/cocktail-manual-3.3.0-public/images"
+    imageRootDir = "/cengjiyun-manual-3.2.1-public/images"
     version = "3.1.1"
     # Disable search function. It will hide search bar
     disableSearch = true

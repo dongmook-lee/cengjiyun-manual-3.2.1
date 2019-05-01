@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>集群 on Cocktial Cloud Manual</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/</link>
     <description>Recent content in 集群 on Cocktial Cloud Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>7.1 集群管理</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.1-cluster/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.1-cluster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.1-cluster/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.1-cluster/</guid>
       <description> 注册、编辑、删除从供应商那里得到分配的 Kubernetes 集群信息的功能。
 a) 点击集群→&amp;rdquo;排列&amp;rdquo;按钮，选择需要的排列标准。     集群设置 说明     集群 集群的种类   节点 集群的节点数字   CPU 集群所有的 CPU 容量、请求量、使用量   内存 集群所有的内存容量、请求量、使用量   应用程序 集群的应用程序表(命名空间)数   工作负载 正在部署在集群的工作负载数    </description>
     </item>
     
     <item>
       <title>7.2 节点</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.2-node/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.2-node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.2-node/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.2-node/</guid>
       <description> 可查询所有节点的全部磁盘、CPU、内存、网络使用量以及个别节点的 Label、状态信息等的 画面。点击节点名称，即可查询节点详细信息。
 a) 集群→选择集群→点击节点。 b) 点击节点名称，即可查询节点详细信息。 </description>
     </item>
     
     <item>
       <title>7.3 应用程序</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.3-application/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.3-application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.3-application/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.3-application/</guid>
       <description> 可查看所有应用程序的全部 CPU、内存、网络使用量以及个别应用程序的命名空间、实例现状 等的画面。点击应用程序名称，可切换到该应用程序表的页面。
 a) 集群→选择集群→点击应用程序。 </description>
     </item>
     
     <item>
       <title>7.4 卷</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.4-volume/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.4-volume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.4-volume/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.4-volume/</guid>
       <description> 注册公共云存储以及外部存储的信息，提供当前卷的监控服务。
 a) 集群→选择集群→点击卷。    存储设置信息 说明     +按钮 切换到存储添加页面   名称 存储名称(用户指定)   类型 存储种类(NFS/EBS/Google Persistent Disk/Azure Disk)   存储类别名称 已注册在 k8s 的类别名称   策略 存储卷策略设置(Retain,Recyle,Delete)   状态 存储使用状态       卷设置信息 说明     卷名称 PVC 名称   状态 PVC 挂载状态   使用量 PV 已分配的可用量和使用量   访问模式 PV 访问权限   Age PVC 创建所需时间    </description>
     </item>
     
     <item>
       <title>7.5 报警</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.5-alarm/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.5-alarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.5-alarm/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.5-alarm/</guid>
       <description> 使用此功能接收有关集群的事件。
 a) 集群→选择集群→点击报警。 b) 点击报警名称，即可查询详细内容。 </description>
     </item>
     
     <item>
       <title>7.5.1 报警目录</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.5.1/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.5.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.5.1/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.5.1/</guid>
       <description>在以下目录的持续时间内，触发条件仍未改善时报警。
  报警管理     报警 ID ALM-001     重要程度 警告   报警名称 AlertmanagerDown   持续时间 5分钟   触发条件 无法搜集报警管理度量时启动   解决方案 检查 Prometheus 日志以及报警管理日志和事件。必要时重启 Pod。       报警 ID ALM-002     重要程度 警告   报警名称 AlertmanagerFailedReload   持续时间 10分钟   触发条件 修改管理设置时，重读设置失败时启动   解决方案 检查该 Pod 日志，纠正配置图设置错误。     ETCD3     报警 ID ETC-001     重要程度 危急   报警名称 InsufficientMembers   持续时间 3分钟   触发条件 无法搜集 ETCD 度量时启动   解决方案 检查 ETCD 集群状态。检查 Prometheus 日志和该节点的 etcd 状态。       报警 ID ETC-002     重要程度 危急   报警名称 NoLeader   持续时间 1分钟   触发条件 没有 ETCD leader 时启动   解决方案 检查 ETCD 集群状态。可能是磁盘延迟引起的问题，对 ETCD 集群的所有节 点执行以下命令。 (ETCD Tuning)</description>
     </item>
     
     <item>
       <title>7.6 计量</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.6-metering/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.6-metering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.6-metering/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.6-metering/</guid>
       <description> 对正在使用的各种集群，提供计量(计费)监控服务。
 计量服务仅限于适用公共云的 AWS 和 GCP。
 a) 集群→选择集群→点击计量。 </description>
@@ -85,10 +85,10 @@ a) 集群→选择集群→点击计量。 </description>
     
     <item>
       <title>7.7 등록정보</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.7-registration/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.7-registration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/7.cluster/7.7-registration/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/7.cluster/7.7-registration/</guid>
       <description> 현재 클러스터에 대한 등록정보를 확인할 수 있다.
 Account 인증정보는 보안을 위해 노출되지 않는다.
 a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다. </description>

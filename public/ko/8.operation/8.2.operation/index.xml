@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8.2 클러스터 운영 on 칵테일 클라우드 메뉴얼</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/</link>
     <description>Recent content in 8.2 클러스터 운영 on 칵테일 클라우드 메뉴얼</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>8.2.1 Cube cluster startup &amp; shutdown</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.1-cluster-startup/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.1-cluster-startup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.1-cluster-startup/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.1-cluster-startup/</guid>
       <description>Cube cluster의 startup과 shutdown은 일련의 순서대로 진행해야 한다.
 Startup Startup시에는 master node를 먼저 기동하고 worker node를 기동하는 순서로 진행한다.
 1) Master Node
@@ -29,10 +29,10 @@ Startup Startup시에는 master node를 먼저 기동하고 worker node를 기�
     
     <item>
       <title>8.2.2 Update cube cluster certificate</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.2-cluster-certification/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.2-cluster-certification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.2-cluster-certification/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.2-cluster-certification/</guid>
       <description>Kubernetes를 구성하는 각 컴포넌트들도 내부 인증서를 통해 통신한다. 필요에 의해 이 인증서를 update해야 하는 경우 아래의 절차대로 수행한다.
 1.먼저 각 master node와 worker node의 기존 인증서를 삭제한다.
 # ssh to master node # rm -rf /opt/kubernetes/pki # rm -rf /etc/kubernetes/pki  2.인증서를 재 생성한다.
@@ -43,10 +43,10 @@ Startup Startup시에는 master node를 먼저 기동하고 worker node를 기�
     
     <item>
       <title>8.2.3 Add etcd member to existing etcd cluster</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.3-cluster-etcd/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.3-cluster-etcd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.3-cluster-etcd/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.3-cluster-etcd/</guid>
       <description>Etcd cluster가 가동중인 상태에서 etcd member를 추가하는 방법에 대해 기술한다.
  etcd 인증서 디렉토리: /etc/kubernets/pki/etcd etcd 설정파일: /etc/etcd/etcd.conf  1.etcd ca 파일을 기반으로 추가하고자 하는 etcd node에서 etcd 인증서를 생성한다.
 # cube.toml에 추가할 etcd node 정보를 기입한다. etcd cluster는 반드시 홀수개의 node로 구성되어야 하며, 최대 5개로 구성하는 것을 권고한다. $ vi cube.toml ... [kubenetes] service-cidr = &amp;quot;10.96.0.0/12&amp;quot; pod-cidr = &amp;quot;10.10.0.0/16&amp;quot; [kubenetes.etcd] ip = [ &amp;quot;10.0.2.10&amp;quot;, &amp;quot;10.0.2.9&amp;quot;, &amp;quot;10.0.2.5&amp;quot;, &amp;quot;xxx.xxx.xxx.xxx&amp;quot;, &amp;quot;yyy.yyy.yyy.yyy&amp;quot;, ] .</description>
@@ -54,10 +54,10 @@ Startup Startup시에는 master node를 먼저 기동하고 worker node를 기�
     
     <item>
       <title>8.2.4 Cube cluster backup &amp; restore</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.4-cluster-backup/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.4-cluster-backup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.4-cluster-backup/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.4-cluster-backup/</guid>
       <description>Cube cluster가 어떤 이유로 인해 재설치할 경우를 대비하여 kubernetes workload의 데이터베이스 역할을 수행하는 etcd 데이터의 백업은 반드시 주기적으로 수행되어야 한다. 또한, 칵테일이 설치되어 있는 경우에는 칵테일 데이터베이스도 주기적으로 백업하여 cluster장애로 인한 재설치시에 사용하도록 한다.
 etcd 인증서는 반드시 기존 설치시에 사용된 인증서를 사용해야 하며, 그렇지 않을 경우 복원할 수 없다.
  etcd 인증서 디렉토리: /etc/kubernets/pki/etcd  ca.crt ca.key ca.srl healthcheck-client.crt healthcheck-client.key peer.crt peer.key server.crt server.key  etcd 설정파일: /etc/etcd/etcd.conf  1.etcd, 칵테일 database backup</description>
@@ -65,10 +65,10 @@ etcd 인증서는 반드시 기존 설치시에 사용된 인증서를 사용해
     
     <item>
       <title>8.2.5 Docker container disk 관리</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.5-cluster-docker/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.5-cluster-docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.5-cluster-docker/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.5-cluster-docker/</guid>
       <description>Container 내에서 stdout, stderr로 출력을 보내면 docker overlay storage driver를 사용하는 경우 $DOCKERROOT/containers/{containerid}/containerid-json.log 파일에 저장되며 별다른 조치를 하지 않을 경우 계속 증가하게 된다. 이를 방지하기 위해 아래와 해당 디렉토리에 logrotation 설정파일을 추가한다. 아래 /data/docker 디렉토리가 $DOCKER_ROOT임.
 1./etc/logrotate.d/docker-container
 # Added by cube /data/docker/containers/*/*.log { daily rotate 4 compress size=10M missingok delaycompress copytruncate }   로테이트주기로 daily, weekly, monthly, yearly 를 선택할 수 있다. rotate: rotate되는 파일을 최대 4개까지만 유지하고 이전 파일을 삭제한다.</description>
@@ -76,10 +76,10 @@ etcd 인증서는 반드시 기존 설치시에 사용된 인증서를 사용해
     
     <item>
       <title>8.2.6 칵테일 암호 관리</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.6-cluster-password/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.6-cluster-password/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.6-cluster-password/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.6-cluster-password/</guid>
       <description>1.칵테일 로그인 암호 관리.
 1) 칵테일 암호 관리 대상은 칵테일이 설치된 모든 cluster를 대상으로 한다.
 2) 암호는 &amp;ldquo;영문대소문자 + 특수기호(!@#$%^&amp;amp;*=+-_) + 숫자&amp;rdquo; 조합으로 최소 8자 이상 최대 24자리까지 생성 가능하다.
@@ -90,10 +90,10 @@ etcd 인증서는 반드시 기존 설치시에 사용된 인증서를 사용해
     
     <item>
       <title>8.2.7 캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.7-cluster-cronjob/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.7-cluster-cronjob/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.7-cluster-cronjob/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.7-cluster-cronjob/</guid>
       <description>클러스터를 구성하는 각 node는 cache memory가 점차적으로 증가하게 되어 있다.
 주기적으로 각 node에서 아래 명령을 수행함으로써 cache memory를 초기화 할 수 있다.
 # sync; echo 3 &amp;gt; /proc/sys/vm/drop_caches 또는 # sync; sysctl -w vm.drop_caches=3  </description>
@@ -101,10 +101,10 @@ etcd 인증서는 반드시 기존 설치시에 사용된 인증서를 사용해
     
     <item>
       <title>8.2.8 칵테일 클라우드에서 스토리지 볼륨 스케일업 방법</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.8-storage-volume-scaleup/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.8-storage-volume-scaleup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/8.operation/8.2.operation/8.2.8-storage-volume-scaleup/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/8.operation/8.2.operation/8.2.8-storage-volume-scaleup/</guid>
       <description>워크로드가 스토리지 볼륨(Persistent Volume)을 사용 중, 용량이 부족 할 경우 스토리지의 용량을 확장 할 경우가 있다. 이 경우 칵테일에서는 아래와 같이 조치하면 된다.
 쿠버네티스에서는 몇몇 클라우드 프로바이더의 스토리지 클래스를 통해 PVC의 요청량을 늘리면 PV 및 해 당 스토리지의 용량이 자동 확장 된다. 이 때 PV는 Capacity 량이 조정 되며, 연결된 스토리지는 프로비져 닝을 통해 스케일 업 된다. 단, 이렇게 조정된 요청량이 Pod에 반영되기 위해서는 마운트 한 Pod를 재 시작 해주어야 한다.</description>
     </item>

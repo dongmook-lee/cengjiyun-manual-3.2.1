@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4.1 应用程序管理 on Cocktial Cloud Manual</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/</link>
     <description>Recent content in 4.1 应用程序管理 on Cocktial Cloud Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>4.1.2 群组管理</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.2-group/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.2-group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.2-group/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.2-group/</guid>
       <description> 对工作负载进行群组管理。可以针对相应的群组，创建工作负载。可以修改群组名称，添加、移动、删除群组，以及修改列数。
 a) 服务→选择应用程序表→点击工作负载群组的▼(操作按钮)，激活菜单。    目录 说明     群组名称修改 修改群组名称   列数修改 修改列数(最小:1~最多:8)   向左移动 群组向左移   向右移动 群组向右移   左边添加群组 群组左边创建新的群组   右边添加群组 群组右边创建新的群组   群组删除 删除群组(如群组有工作负载，则不能删除)    </description>
     </item>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>서비스 on 칵테일 클라우드 메뉴얼</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/4.service/</link>
     <description>Recent content in 서비스 on 칵테일 클라우드 메뉴얼</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/4.service/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/4.service/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

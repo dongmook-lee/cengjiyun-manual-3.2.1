@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2.2 클러스터 on 칵테일 클라우드 메뉴얼</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/</link>
     <description>Recent content in 2.2 클러스터 on 칵테일 클라우드 메뉴얼</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2.2.1 클러스터 등록</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.1-add/</guid>
       <description>클러스터를 추가 등록할 수 있는 기능이다.
  클러스터 → 오른쪽 상단 + 클러스터 등록 버튼을 클릭한다.  기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다.
    기본 정보 설명     이름 등록할 클러스터의 이름   쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13   아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요   설명 클러스터에 대한 사용자 설명    프로바이더 정보(프로바이더, 유형, 리전)를 입력한다.</description>
@@ -25,60 +25,60 @@
     
     <item>
       <title>2.2.2 클러스터 수정</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.2-update/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.2-update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.2-update/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.2-update/</guid>
       <description>클러스터의 기본정보, 프로바이더, 모니터링, 클러스터 유형을 수정하는 기능이다. 프로바이더의 계정, 유형, 리전은 변경할 수 없다.
  클러스터 → 클러스터 선택 → 등록관리 → 수정버튼 → 수정 완료 후 저장버튼을 클릭한다.   </description>
     </item>
     
     <item>
       <title>2.2.3 클러스터 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.3-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.3-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.3-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.3-delete/</guid>
       <description>클러스터 정보를 삭제하는 기능이다. 해당 클러스터를 사용하고 있는 어플리케이션 맵이 있을 경우 삭제할 수 없다.
  클러스터 → 클러스터 선택 → 등록관리 → 삭제버튼을 클릭한다.   </description>
     </item>
     
     <item>
       <title>2.2.4 볼륨</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.4-volume/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.4-volume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.4-volume/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.4-volume/</guid>
       <description>Public Cloud 스토리지 및 외부 스토리지 정보를 등록하고, 볼륨 현황에 대한 모니터링 서비스를 제공한다.
  클러스터 → 클러스터 선택 → 볼륨을 클릭한다.      스토리지 설정 정보 설명     + 버튼 스토리지 추가 페이지로 이동   이름 스토리지 이름(사용자지정)   타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk)   스토리지 클래스 이름 k8s에 등록된 Class Name   정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete)   상태 스토리지 사용 상태       볼륨 설정 정보 설명     볼륨이름 PVC 이름   상태 PVC 마운트 상태   사용량 PV의 할당된 가용량과 사용량   접속모드 PV 접속 권한   Age PVC 생성 경과 시간    </description>
     </item>
     
     <item>
       <title>2.2.5 스토리지 추가</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.5-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.5-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.5-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.5-add/</guid>
       <description>볼륨을 추가하여 사용 할 수 있다.
  클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다.  클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다.    스토리지 등록 정보 설명     이름 PV 이름   설명 PV 사용자 설명   유형 스리지 유형 (Single, Shared)   스토리지 플러그인 스토리지 종류(NFS, NFS Named, EBS, Google Persistent Disk, Azure Disk)   정책 PV 사용 정책(RETAIN/DELETE)       유형 설명     Single 워크로드 하나에서만 사용 가능한 스토리   Shared 워크로드 간에 공유하여 사용 가능한 스토리지       정책 설명     Retain PersistentVolumeClaim(PVC)가 삭제되도 PersistentVolume(PV)안에 데이터가 남는다.</description>
     </item>
     
     <item>
       <title>2.2.6 스토리지 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.6-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.6-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.6-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.6-edit/</guid>
       <description>등록된 스토리지 정보를 편집하는 기능이다. 단, NFS Named 타입의 스토리지는 편집할 수 없다.
  클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션 버튼 → 스토리지 편집을 클릭한다.  이름, 설명, 정책, 스토리지 클래스 이름, 파라미터값을 수정 할 수 있다.   </description>
     </item>
     
     <item>
       <title>2.2.7 스토리지 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.7-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.7-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/ko/2.system/2.2.cluster/2.2.7-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/ko/2.system/2.2.cluster/2.2.7-delete/</guid>
       <description>등록된 스토리지 정보를 삭제하는 기능이다.
  클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션버튼 → 볼륨 삭제를 클릭한다.   </description>
     </item>

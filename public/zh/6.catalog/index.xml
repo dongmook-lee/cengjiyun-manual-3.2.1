@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>目录 on Cocktial Cloud Manual</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/</link>
     <description>Recent content in 目录 on Cocktial Cloud Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>6.1 目录保存</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.1-add/</guid>
       <description> 可以创建目录，一次性捆绑部署所需要的服务器。当工作负载容器映像为 Build 时，只保存映像，并转换成共享映像后，保存于目录。在服务目录页面，可查看已保存的目录。
 目录保存时，以模板形式保存设置的配置图、Secret。 (但，为了安全考虑 Secret 值不保存。)
 a) 在服务页面，选择保存为目录的应用程序表。 b) 点击页面右上角的 &amp;ldquo;保存为目录&amp;rdquo; 按钮。 c) 创建新模板时，选择&amp;rdquo;现有&amp;rdquo;目录，更新&amp;rdquo;新&amp;rdquo;目录和现有模板，然后撰写版本、摘要信息 和编辑内容，再点击下面&amp;rdquo;保存&amp;rdquo;按钮。(编辑、输入字段采用 Mark Down 文件格式, 该文件 的撰写方法可点击页面右侧的&amp;rdquo;Mark Down support&amp;rdquo;查看。) </description>
@@ -25,50 +25,50 @@ a) 在服务页面，选择保存为目录的应用程序表。 b) 点击页面�
     
     <item>
       <title>6.2 目录部署</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.2-deploy/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.2-deploy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.2-deploy/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.2-deploy/</guid>
       <description> 可以部署已创建目录。必要时，可以排除或编辑、部署不需要的实例。
 a) 点击目录→需要部署模板的&amp;rdquo;部署&amp;rdquo;按钮。 b) 在模板目录页面，选择服务、集群、应用程序表后, 再点击&amp;rdquo;部署&amp;rdquo;。除了不需要的实例， 均可以部署。  部署新的应用程序表时，选择服务和集群，撰写应用程序表、命名空间名称后，可进行部 署。  部署现有应用程序表时，选择服务、应用程序表后，可进行部署。   c) 为了安全考虑 Secret 值不保存，应在部署前输入值。 </description>
     </item>
     
     <item>
       <title>6.3 目录编辑</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.3-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.3-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.3-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.3-edit/</guid>
       <description> 可编辑已创建目录内容。可修改模板的版本、摘要信息和编辑内容，同时可以修改各种实例的部署信息。
 a) 点击目录→需要编辑模板的&amp;rdquo;编辑&amp;rdquo;按钮。 b) 更改需要修改的模板的版本、摘要信息、编辑内容, 再点击页面右下角的&amp;rdquo;编辑&amp;rdquo;按钮， 可修改实例的部署信息。 c) 编辑页面上只能查看配置图和 Secret 的内容, 不能编辑。 d) 编辑服务器时, 只能查看容器的环境设置, 卷和挂载卷的内容, 不能编辑。 </description>
     </item>
     
     <item>
       <title>6.4 目录删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.4-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.4-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.4-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.4-delete/</guid>
       <description> 可删除不必要的目录。(Platform 目录不能删除)
 a) 点击目录→需要删除模板的&amp;rdquo;编辑&amp;rdquo;按钮。 b) 选择需要删除模板的版本后, 点击&amp;rdquo;删除&amp;rdquo;按钮, 删除该模板的版本。 </description>
     </item>
     
     <item>
       <title>6.5 目录出口</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.5-export/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.5-export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.5-export/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.5-export/</guid>
       <description> 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)
 a) 카탈로그 → 내보내기 하고자 하는 템플릿 &amp;lsquo;편집&amp;rsquo; 버튼을 클릭 b) 화면 왼쪽 상단의 &amp;lsquo;내보내기&amp;rsquo; 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다. </description>
     </item>
     
     <item>
       <title>6.6 目录进口</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.6-import/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.6-import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/6.catalog/6.6-import/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/6.catalog/6.6-import/</guid>
       <description> 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)
 a) 카탈로그 → &amp;lsquo;가져오기&amp;rsquo; 버튼을 클릭 b) &amp;lsquo;Choose File&amp;rsquo; 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 &amp;lsquo;저장&amp;rsquo; 버튼을 누른다. </description>
     </item>

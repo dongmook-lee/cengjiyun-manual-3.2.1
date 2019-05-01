@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2.2 클러스터 on Cocktial Cloud Manual</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/</link>
     <description>Recent content in 2.2 클러스터 on Cocktial Cloud Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2.2.1 集群添加</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.1-add/</guid>
       <description>可添加注册集群的功能。
 a) 点击集群→右上角带+符号的按钮。 b) 输入基本信息(名称、k8s 版本、说明)    基本信息 说明     名称 需要注册的集群名称   k8s 版本 集群已安装的 Kubernetes 版本信息。e.g)1.8.13   ID 对集群默认 ID(用户指定)、报警消息进行重定向时需要   说明 集群的用户说明    c) 输入供应商信息(账号、类型、地域)。 根据账号的供应商和类型，输入栏毁被修改。如果是 Baremetal，重定向提供默认值，可以修改。    供应商 说明     账号 已注册账号   类型 Kubernetes 的使用类型，从 MANAGED、PROVIER、GKE 中选择   重定向 已安装 Kubernetes 服务器的重定向       类型 说明     MANAGED 使用 CUBE 安装程序组成 kubernetes 的集群   PROVIDER Kubernetes 基于公共云 VM 使用，但 PROVIDER 基于公共云使用。(使用负 载均衡、存储等其他服务时)   GKE 基于谷歌云平台的谷歌 Kubernetes 引擎组成的集群     供应商类型 - MANAGED      补充输入 说明     节点端口 URL 节点附加端口服务模式下，端口前面需加的 IP 服务(Master IP or Loadbelancer IP)   节点端口范围 节点附加端口服务模式下，IP 后面需加的端口范围。(建议 30000~32767 권장)     供应商类型 - PROVIDER ㅤ</description>
     </item>
     
     <item>
       <title>2.2.1 클러스터 등록</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.1-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.1-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.1-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.1-add_ko/</guid>
       <description>클러스터를 추가 등록할 수 있는 기능이다.
 a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다.    기본 정보 설명     이름 등록할 클러스터의 이름   쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13   아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요   설명 클러스터에 대한 사용자 설명    c) 프로바이더 정보(프로바이더, 유형, 리전)를 입력한다.</description>
     </item>
     
     <item>
       <title>2.2.2 集群编辑</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.2-update/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.2-update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.2-update/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.2-update/</guid>
       <description> 修改集群的基本信息、供应商、监控、集群类型的功能。但不能修改供应商的账号、类型、重 定向。
 a) 集群→选择集群→注册管理→修改按钮→修改结束后，点击保存按钮。 </description>
     </item>
     
     <item>
       <title>2.2.3 集群删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.3-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.3-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.3-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.3-delete/</guid>
       <description> 删除集群信息的功能。如有应用程序表正在使用该集群，则不能删除。
 a) 集群→选择集群→注册管理→点击‘删除’按钮。 </description>
     </item>
     
     <item>
       <title>2.2.4 卷</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.4-volume/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.4-volume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.4-volume/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.4-volume/</guid>
       <description> 注册公共云存储以及外部存储的信息，提供当前卷的监控服务。
 a) 集群→选择集群→点击卷。    存储设置信息 说明     +按钮 切换到存储添加页面   名称 存储名称(用户指定)   类型 存储种类(NFS/EBS/Google Persistent Disk/Azure Disk)   存储类别名称 已注册在 k8s 的类别名称   策略 存储卷策略设置(Retain,Recyle,Delete)   状态 存储使用状态       卷设置信息 说明     卷名称 PVC 名称   状态 PVC 挂载状态   使用量 PV 已分配的可用量和使用量   访问模式 PV 访问权限   Age PVC 创建所需时间    </description>
     </item>
     
     <item>
       <title>2.2.5 存储添加</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.5-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.5-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.5-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.5-add/</guid>
       <description> 可以添加卷使用。
 a) 选择集群→集群。 b) 进入集群详细画面，选择卷。 c) 进入集群详细画面，选择卷    存储注册信息 说明     名称 PV 名称   说明 PV 用户说明   类型 存储类型 (Single, Shared)   存储插件 存储种类(NFS, NFS Named, EBS, Google Persistent Disk, Azure Disk)   策略 PV 使用策略(RETAIN/DELETE)       类型 说明     Single 只能用于一个工作负载的存储   Shared 可用于多个工作负载之间共享的存储       策略 说明     Retain 即使持久化卷请求(PVC)被删除，数据仍保留在持久化卷(PV)中。之后 可以重复使用，但重复使用时，需要重新注册 PV。   Delete PVC 被删除的同时该 PV 也一起被删除。    d) 根据所使用的存储插件，设置存储类别和参数。  使用 NFS 存储插件时      存储插件 NFS     总容量 存储总容量(Gb)   策略 动态插件支持保留和删除策略   存储类别名称 默认-存储(默认值)   存储供应商 输入存储配置值     使用 NFS Named 存储插件时      存储插件 NFS Named     策略 NFS 命名插件支持保留单一策略   总容量 存储总容量(Gb)   服务器 存储 IP 地址   path 挂载路径     使用亚马逊存储插件时      存储插件 AWS EBS(AWS 的存储服务)     策略 支持保留和删除策略   存储类别名称 默认(固定值)   类型 选择io1, gp2, sc1, st1     使用谷歌存储插件时      存储插件 Google Persistent Disk(GCP 的存储服务)     策略 支持保留和删除策略   存储类别名称 标准(默认值)   类型 选择 pd-standard、pd-ssd     使用 Azure 存储插件时      存储插件 Azure Disk(Azure 的存储服务)     策略 支持保留和删除策略   存储类别名称 标准(默认值)   存储账号 输入存储账号值    </description>
     </item>
     
     <item>
       <title>2.2.5 스토리지 추가</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.5-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.5-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.5-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.5-add_ko/</guid>
       <description>볼륨을 추가하여 사용 할 수 있다.
 a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다.    스토리지 등록 정보 설명     이름 PV 이름   설명 PV 사용자 설명   유형 스리지 유형 (Single, Shared)   스토리지 플러그인 스토리지 종류(NFS, NFS Named, EBS, Google Persistent Disk, Azure Disk)   정책 PV 사용 정책(RETAIN/DELETE)       유형 설명     Single 워크로드 하나에서만 사용 가능한 스토리   Shared 워크로드 간에 공유하여 사용 가능한 스토리지       정책 설명     Retain PersistentVolumeClaim(PVC)가 삭제되도 PersistentVolume(PV)안에 데이터가 남는다.</description>
     </item>
     
     <item>
       <title>2.2.6 存储编辑</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.6-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.6-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.6-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.6-edit/</guid>
       <description> 编辑已注册存储信息的功能。但，不能编辑 NFS 命名类型的存储。
 a) 集群→选择集群→卷→卷操作按钮→点击存储编辑。 b) 不能修改名称、说明、策略、存储类别名称、参数值。 </description>
     </item>
     
     <item>
       <title>2.2.7 存储删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.7-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.7-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/zh/2.system-management/2.2.cluster/2.2.7-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/zh/2.system-management/2.2.cluster/2.2.7-delete/</guid>
       <description> 删除已注册存储信息的功能。
 a) 集群→选择集群→卷→卷操作按钮→点击卷删除。 </description>
     </item>

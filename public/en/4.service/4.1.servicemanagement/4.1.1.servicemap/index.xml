@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4.1.1 应用程序表 on Cocktial Cloud Manual</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/</link>
     <description>Recent content in 4.1.1 应用程序表 on Cocktial Cloud Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>4.1.1-1 서비스 맵 그룹관리</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</guid>
       <description> 서비스맵에 대하여 그룹으로 관리한다. 해당 그룹에 서비스맵을 생성할 수 있다. 그룹명, 그룹색상을 변경하거나, 그룹 추가, 이동, 삭제 가능하다.
 a) 좌측 메인메뉴 → 서비스 → 서비스맵 그룹의 ▼(액션 버튼) 클릭하여 메뉴를 활성화한다.    목록 설명     그룹명 변경 그룹명, 그룹색상을 변경   위로 이동 그룹을 위로 이동   아래로 이동 그룹을 아래로 이동   위에 그룹 추가 그룹 위에 새로운 그룹을 생성   아래에 그룹 추가 그룹 아래에 새로운 그룹을 생성   그룹 삭제 그룹을 삭제(그룹에 서비스맵이 존재하면 삭제가 불가능)    </description>
     </item>
     
     <item>
       <title>4.1.1-2 应用程序表创建</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</guid>
       <description> 服务里创建新的应用程序表。
 a) 点击服务→服务右侧的+。 b) 选择需要使用的集群，指定表的名称和命名空间名称，并创建应用程序表。 </description>
     </item>
     
     <item>
       <title>4.1.1-2 서비스 맵 생성</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</guid>
       <description> 서비스에 새로운 서비스 맵을 생성 한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스의 우측 + 버튼을 클릭한다. b) 사용하고자 하는 클러스터를 선택하고, 맵 이름과 네임스페이스 이름을 지정하여 서비스 맵을 생성한다. </description>
     </item>
     
     <item>
       <title>4.1.1-3 应用程序表名称修改</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</guid>
       <description> 修改应用程序表的名称。
 a) 点击服务→用用程序表右侧的✎。 b) 被激活的名称输入栏里输入修改内容后，按 Enter 键修改应用程序表的名称。 </description>
     </item>
     
     <item>
       <title>4.1.1-3 서비스 맵 이름변경</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</guid>
       <description> 서비스 맵의 이름을 변경한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵의 우측 ✎ 버튼 ㅡ을 클릭한다. b) 활성화된 이름 입력란에 내용을 변경 후, Enter 키를 눌러 서비스 맵의 이름을 변경한다. </description>
     </item>
     
     <item>
       <title>4.1.1-4 应用程序表删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</guid>
       <description> 删除应用程序表的功能。为了删除应用程序表，需先删除正在部署中的工作负载。
 a) 服务→应用程序表选择→应用程序表删除。 </description>
     </item>
     
     <item>
       <title>4.1.1-4 서비스 맵 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</guid>
       <description> 서비스 맵을 삭제하는 기능이다. 서비스 맵을 삭제하기 위해서는 배포 중인 워크로드가 없어야 한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 서비스 맵 삭제를 클릭한다. </description>
     </item>

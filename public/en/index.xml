@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cocktial Cloud Manual</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/</link>
     <description>Recent content on Cocktial Cloud Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/en/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>10.1 Kubernetes(k8s)</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/10.terminology/10.1-kubenetes/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/10.terminology/10.1-kubenetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/10.terminology/10.1-kubenetes/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/10.terminology/10.1-kubenetes/</guid>
       <description>1.Cluster    용어 설명     Namespace k8s의 가상 클러스터로 사용자들이 여러팀 또는 프로젝트로 분산되어 작업 할 수 있는 별도의 환경   Nodes k8s의 클러스터링되어 있는 어플리케이션을 구동하는 물리서버 또는 VM   Persistent Volumes(PV) 외부 저장소. NFS, iSCSI, 클라우드에서 제공하는 스토리지 시스템을 지원   Roles 사용의 따라 권한을 부여.   Storage Classes PV를 동적으로 Provisioning 할 경우, NFS 서버를 식별하기 위한 식별자    2.</description>
     </item>
     
     <item>
       <title>10.2 Cocktail Cloud</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/10.terminology/10.2-system/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/10.terminology/10.2-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/10.terminology/10.2-system/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/10.terminology/10.2-system/</guid>
       <description>1.환경설정 Cocktail Cloud을 이용하기 위해서 사전에 정보를 등록하는 서비스
    용어 설명     사용자 Cocktail Cloud을 이용하기 위한 사용자 관리를 지원   계정 k8s Cluster에 대한 사용자 인증 정보에 대한 관리를 지원   서비스 업무 또는 프로젝트 단위로 작업을 분산하여 관리. 관리자는 일반사용자에 대하여 서비스 단위로 접근권한을 부여할 수 있다.    C.클러스터 : k8s를 사용하기 위한 k8s정보를 관리하는 페이지
 2.서비스 서비스 단위로 작업을 세분화가 가능하며, 빌드를 통한 Docker 이미지를 생성 할 수 있다.</description>
@@ -34,19 +34,19 @@
     
     <item>
       <title>10.3 Cocktail Cloud System Error Code</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/10.terminology/10.3-error-code/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/10.terminology/10.3-error-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/10.terminology/10.3-error-code/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/10.terminology/10.3-error-code/</guid>
       <description>1. 에러 코드    코드 메시지     CCCM001 구체적 오류 번호를 밝힐 수 없음.   CCCM002 알수 없는 오류 입니다   CCCM004 잘못된 함수 호출 인자입니다   CCCM005 인증되지 않은 요청입니다   CCCM006 전달된 정보가 올바르지 않습니다   CCCM007 서버, 작업 등이 올바르지 않거나 요청을 처리할 수 없습니다   CCCM019 내부 서버 오류   CCCM020 외부 호출 API가 오류를 반환 또는 호출이 실패 했습니다   CCCM023 수행 할 작업이 없습니다   CCCM026 오류가 발생하였습니다.</description>
     </item>
     
     <item>
       <title>2.1.1 시스템 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.1-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.1-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.1-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.1-edit/</guid>
       <description> 시스템 이용에 필요한 시스템 정보, 계정 정보를 수정 할 수 있다.
 a) 좌측 메인메뉴 → 시스템 → 우측 상단 편집 버튼 시스템 정보(기본 언어, 시스템 로고, 시스템 설명)와 계정 정보(조직명, 계정 담당자 명, 계정 담당자 이메일, 주소)를 수정 할 수 있다.
 b) 좌측 메인메뉴 → 시스템 → 편집 → 수정완료 후 수정버튼을 클릭한다. </description>
@@ -54,80 +54,80 @@ b) 좌측 메인메뉴 → 시스템 → 편집 → 수정완료 후 수정버�
     
     <item>
       <title>2.1.2 클라우드 미터링 계정 등록</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.2-meteringadd/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.2-meteringadd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.2-meteringadd/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.2-meteringadd/</guid>
       <description>클라우드 미터링 계정 등록 할 수 있다.
 a) 좌측 메인메뉴 → 시스템 → 계정 등록  Amazon Web Service  Google Cloud Plalform   </description>
     </item>
     
     <item>
       <title>2.1.3 클라우드 미터링 계정 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.3-meteringedit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.3-meteringedit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.3-meteringedit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.3-meteringedit/</guid>
       <description>클라우드 미터링 계정 편집 할 수 있다.
 a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 편집 → 수정완료 후 수정버튼을 클릭한다. </description>
     </item>
     
     <item>
       <title>2.1.4 클라우드 미터링 계정 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.4-meteringdelete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.4-meteringdelete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.4-meteringdelete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.4-meteringdelete/</guid>
       <description>클라우드 미터링 계정을 삭제 할 수 있다.
 a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 삭제 </description>
     </item>
     
     <item>
       <title>2.1.5 시스템 사용자 추가</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.5-useradd/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.5-useradd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.5-useradd/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.5-useradd/</guid>
       <description>시스템 사용자를 추가 하는 기능이다.
 a) 좌측 메인메뉴 → 시스템 → 사용자 추가를 클릭한다.    시스템 사용자 설명     이름 시스템 사용자 이름   아이디 칵테일 클라우드 접속 사용자 아이디   설명 시스템 사용자 설명    </description>
     </item>
     
     <item>
       <title>2.1.6 시스템 사용자 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.6-useredit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.6-useredit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.6-useredit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.6-useredit/</guid>
       <description>시스템 사용자 정보(이름, 설명)를 편집 하는 기능이다.
 a) 좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 편집를 클릭한다. </description>
     </item>
     
     <item>
       <title>2.1.7 시스템 사용자 비밀번호 초기화</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.7-userreset/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.7-userreset/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.7-userreset/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.7-userreset/</guid>
       <description>Cocktail Cloud 사용자 비밀번호를 초기화 하는 기능이다. (초기화 후 제공받는 초기 비밀번호는 &amp;lsquo;Pass0000&amp;rsquo;이다.)
 a) 좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 비밀번호 초기화를 클릭한다. </description>
     </item>
     
     <item>
       <title>2.1.8 시스템 사용자 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.8-userdelete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.8-userdelete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.1.system/2.1.8-userdelete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.1.system/2.1.8-userdelete/</guid>
       <description>시스템 사용자를 삭제하는 기능이다.
 a) 좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다. </description>
     </item>
     
     <item>
       <title>2.2.1 클러스터 등록</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.1-add/</guid>
       <description>클러스터를 추가 등록할 수 있는 기능이다.
 a) 클러스터 → 오른쪽 상단 + 클러스터 등록 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다.
    기본 정보 설명     이름 등록할 클러스터의 이름   쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13   아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요   설명 클러스터에 대한 사용자 설명    c) 프로바이더 정보(프로바이더, 유형, 리전)를 입력한다.</description>
@@ -135,70 +135,70 @@ a) 클러스터 → 오른쪽 상단 + 클러스터 등록 버튼을 클릭한�
     
     <item>
       <title>2.2.2 클러스터 수정</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.2-update/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.2-update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.2-update/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.2-update/</guid>
       <description>클러스터의 기본정보, 프로바이더, 모니터링, 클러스터 유형을 수정하는 기능이다. 프로바이더의 계정, 유형, 리전은 변경할 수 없다.
 a) 클러스터 → 클러스터 선택 → 등록관리 → 수정버튼 → 수정 완료 후 저장버튼을 클릭한다. </description>
     </item>
     
     <item>
       <title>2.2.3 클러스터 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.3-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.3-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.3-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.3-delete/</guid>
       <description>클러스터 정보를 삭제하는 기능이다. 해당 클러스터를 사용하고 있는 어플리케이션 맵이 있을 경우 삭제할 수 없다.
 a) 클러스터 → 클러스터 선택 → 등록관리 → 삭제버튼을 클릭한다. </description>
     </item>
     
     <item>
       <title>2.2.4 볼륨</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.4-volume/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.4-volume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.4-volume/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.4-volume/</guid>
       <description>Public Cloud 스토리지 및 외부 스토리지 정보를 등록하고, 볼륨 현황에 대한 모니터링 서비스를 제공한다.
 a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다.    스토리지 설정 정보 설명     + 버튼 스토리지 추가 페이지로 이동   이름 스토리지 이름(사용자지정)   타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk)   스토리지 클래스 이름 k8s에 등록된 Class Name   정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete)   상태 스토리지 사용 상태       볼륨 설정 정보 설명     볼륨이름 PVC 이름   상태 PVC 마운트 상태   사용량 PV의 할당된 가용량과 사용량   접속모드 PV 접속 권한   Age PVC 생성 경과 시간    </description>
     </item>
     
     <item>
       <title>2.2.5 스토리지 추가</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.5-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.5-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.5-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.5-add/</guid>
       <description>볼륨을 추가하여 사용 할 수 있다.
 a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다.    스토리지 등록 정보 설명     이름 PV 이름   설명 PV 사용자 설명   유형 스리지 유형 (Single, Shared)   스토리지 플러그인 스토리지 종류(NFS, NFS Named, EBS, Google Persistent Disk, Azure Disk)   정책 PV 사용 정책(RETAIN/DELETE)       유형 설명     Single 워크로드 하나에서만 사용 가능한 스토리   Shared 워크로드 간에 공유하여 사용 가능한 스토리지       정책 설명     Retain PersistentVolumeClaim(PVC)가 삭제되도 PersistentVolume(PV)안에 데이터가 남는다.</description>
     </item>
     
     <item>
       <title>2.2.6 스토리지 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.6-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.6-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.6-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.6-edit/</guid>
       <description>등록된 스토리지 정보를 편집하는 기능이다. 단, NFS Named 타입의 스토리지는 편집할 수 없다.
 a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션 버튼 → 스토리지 편집을 클릭한다. b) 이름, 설명, 정책, 스토리지 클래스 이름, 파라미터값을 수정 할 수 있다. </description>
     </item>
     
     <item>
       <title>2.2.7 스토리지 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.7-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.7-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.2.cluster/2.2.7-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.2.cluster/2.2.7-delete/</guid>
       <description>등록된 스토리지 정보를 삭제하는 기능이다.
 a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션버튼 → 볼륨 삭제를 클릭한다. </description>
     </item>
     
     <item>
       <title>2.3.1 워크스페이스 생성</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.3.workspace/2.3.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.3.workspace/2.3.1-add/</guid>
       <description>워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다.
 a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 구성원, 클러스터 정보를 등록한다. c) 구성원, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다.
  클러스터 편집  구성원 편집   </description>
@@ -206,120 +206,120 @@ a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페�
     
     <item>
       <title>2.3.2 워크스페이스 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.2-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.3.workspace/2.3.2-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.2-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.3.workspace/2.3.2-edit/</guid>
       <description>워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.
 a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다. b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다. </description>
     </item>
     
     <item>
       <title>2.3.3 워크스페이스 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.3-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.3.workspace/2.3.3-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/2.system-management/2.3.workspace/2.3.3-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/2.system-management/2.3.workspace/2.3.3-delete/</guid>
       <description>워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.
 a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다. </description>
     </item>
     
     <item>
       <title>3.1 사용자 관리</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/3.dashboard/3.1-user/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/3.dashboard/3.1-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/3.dashboard/3.1-user/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/3.dashboard/3.1-user/</guid>
       <description>현재 사용자 정보를 확인 및 관리 할 수 있다.
 a) 대시보드 -&amp;gt; 페이지 왼쪽 하단 사용자 모양 버튼을 클릭    목록 설명     ID 현재 사용중인 계정의 ID를 확인할 수 있다.   사용자 언어 선택 Korean, Japanese, English, Chinese 중 언어를 선택할 수 있다.   사용자 타임존 선택 Seoul, Tokyo, NewYork, Shanghai 중 타임존을 선택할 수 있다.   테마 Light와 Dark 테마 변경할 수 있다.</description>
     </item>
     
     <item>
       <title>4.1.1-1 서비스 맵 그룹관리</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.1-servicemapgroup/</guid>
       <description> 서비스맵에 대하여 그룹으로 관리한다. 해당 그룹에 서비스맵을 생성할 수 있다. 그룹명, 그룹색상을 변경하거나, 그룹 추가, 이동, 삭제 가능하다.
 a) 좌측 메인메뉴 → 서비스 → 서비스맵 그룹의 ▼(액션 버튼) 클릭하여 메뉴를 활성화한다.    목록 설명     그룹명 변경 그룹명, 그룹색상을 변경   위로 이동 그룹을 위로 이동   아래로 이동 그룹을 아래로 이동   위에 그룹 추가 그룹 위에 새로운 그룹을 생성   아래에 그룹 추가 그룹 아래에 새로운 그룹을 생성   그룹 삭제 그룹을 삭제(그룹에 서비스맵이 존재하면 삭제가 불가능)    </description>
     </item>
     
     <item>
       <title>4.1.1-2 应用程序表创建</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add/</guid>
       <description> 服务里创建新的应用程序表。
 a) 点击服务→服务右侧的+。 b) 选择需要使用的集群，指定表的名称和命名空间名称，并创建应用程序表。 </description>
     </item>
     
     <item>
       <title>4.1.1-2 서비스 맵 생성</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.2-add_ko/</guid>
       <description> 서비스에 새로운 서비스 맵을 생성 한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스의 우측 + 버튼을 클릭한다. b) 사용하고자 하는 클러스터를 선택하고, 맵 이름과 네임스페이스 이름을 지정하여 서비스 맵을 생성한다. </description>
     </item>
     
     <item>
       <title>4.1.1-3 应用程序表名称修改</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename/</guid>
       <description> 修改应用程序表的名称。
 a) 点击服务→用用程序表右侧的✎。 b) 被激活的名称输入栏里输入修改内容后，按 Enter 键修改应用程序表的名称。 </description>
     </item>
     
     <item>
       <title>4.1.1-3 서비스 맵 이름변경</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.3-rename_ko/</guid>
       <description> 서비스 맵의 이름을 변경한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵의 우측 ✎ 버튼 ㅡ을 클릭한다. b) 활성화된 이름 입력란에 내용을 변경 후, Enter 키를 눌러 서비스 맵의 이름을 변경한다. </description>
     </item>
     
     <item>
       <title>4.1.1-4 应用程序表删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete/</guid>
       <description> 删除应用程序表的功能。为了删除应用程序表，需先删除正在部署中的工作负载。
 a) 服务→应用程序表选择→应用程序表删除。 </description>
     </item>
     
     <item>
       <title>4.1.1-4 서비스 맵 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.1.servicemap/4.1.1.4-delete_ko/</guid>
       <description> 서비스 맵을 삭제하는 기능이다. 서비스 맵을 삭제하기 위해서는 배포 중인 워크로드가 없어야 한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 서비스 맵 삭제를 클릭한다. </description>
     </item>
     
     <item>
       <title>4.1.2 群组管理</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.2-group/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.2-group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.1.servicemanagement/4.1.2-group/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.1.servicemanagement/4.1.2-group/</guid>
       <description> 对工作负载进行群组管理。可以针对相应的群组，创建工作负载。可以修改群组名称，添加、移动、删除群组，以及修改列数。
 a) 服务→选择应用程序表→点击工作负载群组的▼(操作按钮)，激活菜单。    目录 说明     群组名称修改 修改群组名称   列数修改 修改列数(最小:1~最多:8)   向左移动 群组向左移   向右移动 群组向右移   左边添加群组 群组左边创建新的群组   右边添加群组 群组右边创建新的群组   群组删除 删除群组(如群组有工作负载，则不能删除)    </description>
     </item>
     
     <item>
       <title>4.2.1 工作负载创建</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.1-add/</guid>
       <description>在群组管理创建和运行工作负载。
 a) 点击服务→应用程序表选择→工作负载群组+按钮(工作负载创建)。 选择工作负载类型。 b) 输入基本信息、容器、实例、更新策略、服务端口、卷的内容，点击创建按钮生成工作负 载。  工作负载基本信息定义      项目 说明     名称 需要创建的工作负载名称   群组 创建工作负载的工作负载群组   类型 工作负载的实例类型(Single/Multi)   说明 工作负载的说明     容器生成
  点击容器右‘+’键  输入容器名称，在容器的 Build 或映像中选择需要使用的映像，定义需要使用的 CPU/ 内存的资源值。  一旦容器创建，可输入需要使用的命令。  输入容器的环境参数值，或者可选择 Secret 设置。  可设置安全策略  可设置容器的健康检查   实例(只适用于服务器类型为 Multi 时)
@@ -328,330 +328,330 @@ a) 点击服务→应用程序表选择→工作负载群组+按钮(工作负载
     
     <item>
       <title>4.2.1 워크로드 생성</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.1-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.1-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.1-add_ko/</guid>
       <description>그룹관리에서 워크로드를 생성하고 실행한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드 그룹 + 버튼(워크로드 생성)을 클릭한다. 워크로드 유형을 선택 한다. b) 기본정보, 컨테이너, 인스턴스, 업데이트 정책, 서비스 포트, 볼륨 내용을 작성하고 생성버튼을 눌러 워크로드를 생성한다.  워크로드 기본 정보 정의      항목 설명     이름 생성하는 워크로드의 이름   그룹 워크로드가 생성되는 워크로드 그룹   유형 워크로드의 인스턴스 유형(Single/Multi)   설명 워크로드의 설명   서비스 계정 명 서비스 계정 명   노드 셀렉터 키 노드 셀렉터 키   노드 셀렉터 값 노드 셀렉터 값     컨테이너 생성</description>
     </item>
     
     <item>
       <title>4.2.2 工作负载编辑</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.2-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.2-edit/</guid>
       <description> 编辑和重新部署运行或者停止状态的工作负载。
 a) 服务→选择应用程序表→点击工作负载。 b) 编辑基本信息、容器、实例、更新策略、服务端口、卷内容后，按修改重新部署工作负载。 如果工作负载正在运行中，不能修改工作负载类型和容器映像。但，可以修改容器映像标签。 工作负载中断后，可以编辑以及修改。 </description>
     </item>
     
     <item>
       <title>4.2.2 워크로드 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.2-edit_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.2-edit_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.2-edit_ko/</guid>
       <description> Running 또는 Stopped 상태의 워크로드를 편집하고 재배포 한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드를 클릭한다. b) 기본정보, 컨테이너, 인스턴스, 업데이트 정책, 서비스 포트, 볼륨 내용을 편집하고 수정버튼을 눌러 워크로드를 재배포 한다. 워크로드 Running 중이라면 워크로드유형과 컨테이너의 이미지 변경이 불가능. 단, 컨테이너 이미지태그 변경은 가능. 이를 변경하기 위해서는 워크로드 중지 후 편집하면 편집이 가능 하다. </description>
     </item>
     
     <item>
       <title>4.2.3 工作负载实例信息查询</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.3-instance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.3-instance/</guid>
       <description> 可查询工作负载实例信息。
    实例 说明     Pods 详细信息、状态信息、事件信息、部署信息、网络终端(容器)、日 志(容器)   Services 详细信息、事件信息、部署信息   Persistent Volume Claims 详细信息、卷详细信息、部署信息   Deployments 详细信息、事件信息、部署信息、自动缩放信息(选项)   Replica Sets 详细信息、事件信息、部署信息   Ingresses 详细信息、部署信息    a) 服务→选择应用程序表→点击工作负载。  在实例页面点击刷新时，只重新查询实例信息。   b) 实例 Pod→容器和网络终端连接 c) 实例 Pod→容器日志 d) 服务→选择应用程序表→选择工作负载→点击实例的‘操作’按钮(激活)→点击详细信 e) 服务→选择应用程序表→选择工作负载→点击实例的‘操作’按钮(激活)→点击事件信 息 f) 服务→选择应用程序表→选择工作负载→点击实例的‘操作’按钮(激活)→点击部署信息 </description>
     </item>
     
     <item>
       <title>4.2.3 워크로드 인스턴스 정보 조회</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.3-instance_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.3-instance_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.3-instance_ko/</guid>
       <description>워크로드 인스턴스의 정보를 조회 할 수 있다.
    인스턴스 정보     Instance 상세 정보, 상태 정보, 이벤트 정보, 배포 정보, 웹터미널(컨테이너), 로그(컨테이너)   Services 상세 정보, 이벤트 정보, 배포 정보   Persistent Volume Claims 상세 정보, 볼륨 상세 정보, 배포 정보   Controller 상세 정보, 이벤트 정보, 배포 정보, 오토스케일러(Deployments만 해당) 정보(옵션)   Ingresses 상세 정보, 배포 정보    a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드 선택  상태에서 새로고침 클릭시 상태정보(서버상태, 사용량, 인스턴스 등등)가 재조회 된다.</description>
     </item>
     
     <item>
       <title>4.2.4 工作负载中断</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.4-stop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.4-stop/</guid>
       <description> 中断已部署的工作负载。如果中断工作负载，POD 被删除。
 a) 服务→选择应用程序表→点击运行状态的工作路径操作菜单(激活)→点击中断  </description>
     </item>
     
     <item>
       <title>4.2.4 워크로드 중지</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.4-stop_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.4-stop_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.4-stop_ko/</guid>
       <description> 배포된 워크로드를 중지한다. 워크로드를 중지하면 POD는 삭제된다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 중지를 클릭한다. </description>
     </item>
     
     <item>
       <title>4.2.5 工作负载开启</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.5-start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.5-start/</guid>
       <description> 开启已中断的工作负载。
 a) 服务→选择应用程序表→点击停止状态的工作路径操作菜单(激活)→点击开始 </description>
     </item>
     
     <item>
       <title>4.2.5 워크로드 시작</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.5-start_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.5-start_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.5-start_ko/</guid>
       <description> 중지된 워크로드를 시작한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 시작을 클릭한다. </description>
     </item>
     
     <item>
       <title>4.2.6 工作负载重启</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.6-restart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.6-restart/</guid>
       <description> 重启工作负载。类似计算机重启的概念。
 a) 服务→选择应用程序表→点击运行状态的工作路径操作菜单(激活)→点击重启 </description>
     </item>
     
     <item>
       <title>4.2.6 워크로드 재시작</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.6-restart_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.6-restart_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.6-restart_ko/</guid>
       <description> 워크로드를 재시작한다. 컴퓨터의 Rebooting과 같은 개념이다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 재시작을 클릭한다. </description>
     </item>
     
     <item>
       <title>4.2.7 工作负载删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.7-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.7-delete/</guid>
       <description> 删除已中断的工作负载。
 a) 服务→选择应用程序表→点击停止状态的工作路径操作菜单(激活)→点击删除 </description>
     </item>
     
     <item>
       <title>4.2.7 워크로드 제거</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.7-delete_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.2.workload/4.2.7-delete_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.2.workload/4.2.7-delete_ko/</guid>
       <description> 중지된 워크로드를 제거한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 제거를 클릭한다. </description>
     </item>
     
     <item>
       <title>4.5.1 持久化卷创建</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.1-add/</guid>
       <description> 可以创建持久化卷。
 a) 服务→应用程序表→持久化卷    项目 说明     持久化卷类型 卷类型(Single, Shared)   存储 显示集群里已注册的存储目录   访问模式 持久化卷类型为 Single 时和 ReadWriteOnce, Shard 时分别选择 ReadWriteMany、ReadOnlyMany   名称 需要创建的持久化卷名称   容量 需要创建的持久化卷容量(GB)    </description>
     </item>
     
     <item>
       <title>4.5.1 퍼시스턴트 볼륨 생성</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.1-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.1-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.1-add_ko/</guid>
       <description> 퍼시스턴트 볼륨 생성 할 수 있다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 퍼시스턴트 볼륨    항목 설명     퍼시스턴트 볼륨 타입 볼륨 타입(Single, Shared)   스토리지 클러스터에 등록된 스토리지 목록 노출   엑세스 모드 퍼시스턴트 볼륨 타입이 Single일 경우 ReadWriteOnce, Shard일 경우 ReadWriteMany, ReadOnlyMany를 선택   이름 생성할 퍼시스턴트 볼륨의 이름   용량 생성할 퍼시스턴트 볼륨의 용량(GB)    </description>
     </item>
     
     <item>
       <title>4.5.2 持久化卷删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.2-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.2-delete/</guid>
       <description> 删除持久化卷。
 a) 点击服务→应用程序表→持久化卷→持久化操作菜单(激活)→删除 </description>
     </item>
     
     <item>
       <title>4.5.2 퍼시스턴트 볼륨 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.2-delete_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.5.persistencevolume/4.5.2-delete_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.5.persistencevolume/4.5.2-delete_ko/</guid>
       <description> 퍼시스턴트 볼륨을 삭제한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 퍼시스턴트 볼륨 → 퍼시스턴트 액션메뉴(활성화) → 삭제 클릭 </description>
     </item>
     
     <item>
       <title>4.6.1.1 配置图添加</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add/</guid>
       <description> 服务里添加配置图添加。
 a) 服务→选择应用程序表→设置→配置图→点击配置图创建按钮，切换到注册页面。 b) 输入名称和数据值，按右上角创建按钮，创建配置图。    项目 说明     名称 输入名称的栏。之后不能编辑   说明 输入配置图说明的栏。   数据添加按钮 能添加配置图数据的按钮   KEY 配置图的秘钥值   VALUE 配置图的卷值    </description>
     </item>
     
     <item>
       <title>4.6.1.1 컨피그 맵 추가</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.1-add_ko/</guid>
       <description> 서비스에 컨피그 맵을 추가한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 생성 버튼을 클릭하여 등록페이지로 이동한다. b) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 컨피그 맵을 생성한다.    항목 설명     이름 이름을 입력하는 란입니다. 추후 편집이 불가   설명 컨피그 맵의 설명을 입력하는 란입니다.   데이터 추가 버튼 컨피그 맵의 데이터 추가할 수 있는 버튼   KEY 컨피그 맵의 Key 값   VALUE 컨피그 맵의 Value 값    </description>
     </item>
     
     <item>
       <title>4.6.1.2 配置图修改</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit/</guid>
       <description> 可修改服务里已添加的配置图数据。(名称不能修改)
 a) 服务→选择应用程序表→设置→配置图→配置图操作菜单(激活)→点击配置图修改 b) 修改数据值后，点击修改按钮，编辑配置图。 </description>
     </item>
     
     <item>
       <title>4.6.1.2 컨피그 맵 수정</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.2-edit_ko/</guid>
       <description> 서비스에 추가 된 컨피그 맵의 데이터를 수정 할 수 있다.(이름 변경불가)
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) → 컨피그 맵 수정을 클릭 b) 데이터 값 변경 후, 수정 버튼을 클릭하여 컨피그 맵을 편집한다. </description>
     </item>
     
     <item>
       <title>4.6.1.3 配置图删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete/</guid>
       <description> 删除服务里已添加的配置图。
 a) 服务→选择应用程序表→设置→配置图→配置图操作菜单(激活)→点击配置图删除。 </description>
     </item>
     
     <item>
       <title>4.6.1.3 컨피그 맵 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.1.configmap/4.6.1.3-delete_ko/</guid>
       <description> 서비스에 컨피그 맵을 삭제한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) → 컨피그 맵 삭제 클릭 </description>
     </item>
     
     <item>
       <title>4.6.2.1 Secret 添加</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add/</guid>
       <description> 服务里添加 Secret。
 a) 服务→选择应用程序表→设置→Secret→点击 Secret 创建按钮，切换到注册页面。 b) 输入名称和数据值，点击右上角创建按钮，创建 Secret。    项目 说明     名称 输入名称的栏。之后不能编辑   说明 输入 Secret 说明的栏。   数据添加按钮 能添加 Secret 数据的按钮   KEY Secret 的秘钥值   VALUE Secret 的卷值    </description>
     </item>
     
     <item>
       <title>4.6.2.1 시크릿 추가</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.1-add_ko/</guid>
       <description> 서비스에 시크릿을 추가한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 생성 버튼을 클릭하여 등록페이지로 이동한다. b) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 시크릿을 생성한다.    항목 설명     이름 이름을 입력하는 란입니다. 추후 편집이 불가   설명 시크릿의 설정의 설명 입력 란입니다.   데이터 추가 버튼 시크릿의 데이터를 추가할 수 있는 버튼   KEY 시크릿의 Key 값   VALUE 시크릿의 Value 값    </description>
     </item>
     
     <item>
       <title>4.6.2.2 Secret 修改</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit/</guid>
       <description> 可修改服务里已添加的 Secret 数据。(名称不能修改)
 a) 服务→选择应用程序表→设置→Secret→Secret 操作菜单(激活)→点击 Secret 修改。 b) 修改数据值后，点击修改按钮，编辑 Secret。(为了安全考虑 Secret 值不显示) </description>
     </item>
     
     <item>
       <title>4.6.2.2 시크릿 수정</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.2-edit_ko/</guid>
       <description> 서비스에 추가 된 시크릿의 데이터를 수정 할 수 있다.(이름 변경불가)
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) → 시크릿 수정을 클릭 b) 데이터 값 변경 후, 수정 버튼을 클릭하여 시크릿을 편집한다.(시크릿 값은 보안상 보여주지 않음) </description>
     </item>
     
     <item>
       <title>4.6.2.3 Secret 删除</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete/</guid>
       <description> 删除服务里的 Secret。
 a) 服务→选择应用程序表→设置→Secret→Secret 操作菜单(激活)→点击 Secret 删除。 </description>
     </item>
     
     <item>
       <title>4.6.2.3 시크릿 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete_ko/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete_ko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete_ko/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/4.service/4.6.config/4.6.2.secret/4.6.2.3-delete_ko/</guid>
       <description> 서비스에 시크릿을 삭제한다.
 a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) → 시크릿 삭제를 클릭 </description>
     </item>
     
     <item>
       <title>5.1 빌드 추가</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.1-add/</guid>
       <description>도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다.
 a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다.    빌드 생성 단계 설명     어플리케이션 다운로드 빌드에 필요한 소스를 다운로드   어플리케이션 빌드 소스의 컴파일이 필요할 경우 사용커맨드 - 빌드하면서 실행될 작업호스트 경로 - 작업이 이루어질 컨테이너 경로와 그와 마운트되는 호스트경로Working dir -실제 컨테이너안에서 작업할 경로로 컨테이너 경로와 맞춤이미지 - 빌드시 사용될 이미지   이미지 빌드 앞서 작업된 소스로 도커파일을 만들어 이미지를 만들고 해당이미지를 레지스트리 저장소에 저장하는 단계     빌드 기본 정보     기본 정보 설명     이름 생성할 빌드의 이름   최근 액션 빌드의 최근 동작 상태   상태 빌드의 현재 상태     어플리케이션 다운로드     어플리케이션 다운로드 설명     리파지토리 종류 소스파일을 내려받을 버전관리툴의 종류.</description>
     </item>
     
     <item>
       <title>5.2 작업 설정 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.2-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.2-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.2-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.2-edit/</guid>
       <description> 빌드 작업을 편집한다.
 a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 수정하고 [수정] 버튼을 눌러 작업 설정을 편집한다. </description>
     </item>
     
     <item>
       <title>5.3 히스토리</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.3-history/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.3-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.3-history/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.3-history/</guid>
       <description> 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다.
 a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다. b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다. </description>
     </item>
     
     <item>
       <title>5.4 빌드 실행</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.4-run/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.4-run/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.4-run/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.4-run/</guid>
       <description>빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다.
 a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그 창이 활성화 된다. 빌드생성시 체크박스에서 선택된 순서대로 순차적으로 실행되며 각 단계별로 빌드 과정을 확인 할 수 있다.
 (DOWN 단계에서 오류가 발생하면 다음 단계로 진행이 되지 않는다.</description>
@@ -659,40 +659,40 @@ a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화
     
     <item>
       <title>5.5 빌드 취소</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.5-cancel/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.5-cancel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.5-cancel/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.5-cancel/</guid>
       <description> 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.
 a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다. </description>
     </item>
     
     <item>
       <title>5.6 로그 보기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.6-log/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.6-log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.6-log/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.6-log/</guid>
       <description> 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.
 a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다. </description>
     </item>
     
     <item>
       <title>5.7 작업 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.7-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.7-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/5.build/5.7-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/5.build/5.7-delete/</guid>
       <description> 빌드 작업을 삭제한다.
 a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다. </description>
     </item>
     
     <item>
       <title>6.1 카탈로그 저장</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.1-add/</guid>
       <description>카탈로그를 생성하여 필요한 서버들을 묶어 한 번에 배포 할 수 있다. 워크로드 컨테이너 이미지가 빌드 인 경우에는 이미지만을 저장하여 공용이미지로 변환하여 카탈로그로 저장한다. 저장된 카탈로그는 서비스 카탈로그에서 확인 할 수 있다.
 카탈로그 저장시 설정의 컨피그 맵, 시크릿도 템플릿으로 저장한다. (단, 시크릿은 보안상 값은 저장하지 않는다.)
 a) 서비스에서 카탈로그로 저장하는 서비스 맵을 선택 b) 화면 우측 상단 카탈로그로 저장&amp;rsquo; 버튼을 클릭 c) 신규로 템플릿 생성 시 &amp;lsquo;신규&amp;rsquo; 카테고리를, 기존 템플릿을 업데이트 할 시 &amp;lsquo;기존&amp;rsquo; 카테고리 선택 후 버전, 요약정보, 편집 내용 작성 후 아래 &amp;lsquo;저장&amp;rsquo; 버튼을 클릭.</description>
@@ -700,110 +700,110 @@ a) 서비스에서 카탈로그로 저장하는 서비스 맵을 선택 b) 화�
     
     <item>
       <title>6.2 카탈로그 배포</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.2-deploy/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.2-deploy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.2-deploy/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.2-deploy/</guid>
       <description>생성된 카탈로그를 배포할 수 있다. 필요 시 불필요한 인스턴스를 제외하거나 편집하여 배포 가능하다.
 a) 카탈로그 → 배포하고자 하는 템플릿의 &amp;lsquo;배포&amp;rsquo; 버튼을 클릭 b) 템플릿 카테고리에서 서비스 맵 그룹, 클러스터, 서비스 맵 선택 후 &amp;lsquo;배포&amp;rsquo; 클릭. 원하지 않는 인스턴스는 제외하고 배포할 수 있다.  신규 Service Map 배포 시 서비스 맵 그룹, 클러스터를 선택하고 서비스 맵, 네임스페이스 이름을 작성 후 배포할 수 있다.  기존 Serivce Map 배포 시 서비스 맵 그룹, 서비스 맵 선택 후 배포할 수 있다.</description>
     </item>
     
     <item>
       <title>6.3 카탈로그 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.3-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.3-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.3-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.3-edit/</guid>
       <description>생성한 카탈로그 내용을 편집할 수 있다. 템플릿의 버전, 요약정보, 편집 내용을 수정할 수 있으며 각 인스턴스의 배포 정보를 수정할 수 있다.
 a) 카탈로그 → 편집하고자 하는 템플릿 &amp;lsquo;편집&amp;rsquo; 버튼을 클릭 b) 수정할 템플릿의 버전, 요약정보, 편집 내용을 수정하고, 화면 우측 하단 &amp;lsquo;편집&amp;rsquo;버튼 클릭하여 인스턴스의 배포 정보를 수정할 수 있다. c) 편집 화면에서 컨피그맵과 시크릿은 편집은 불가하고 내용만 확인 가능하다. d) 워크로드 편집시 컨테이너 환경설정과 볼륨, 볼륨마운트는 편집은 불가하고 내용만 확인 가능하다.</description>
     </item>
     
     <item>
       <title>6.4 카탈로그 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.4-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.4-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.4-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.4-delete/</guid>
       <description> 불필요한 카탈로그를 삭제할 수 있다. (플랫폼 카탈로그는 삭제 불가)
 a) 카탈로그 → 삭제하고자 하는 템플릿 &amp;lsquo;편집&amp;rsquo; 버튼을 클릭 b) 삭제할 템플릿의 버전을 선택 후, &amp;lsquo;삭제&amp;rsquo; 버튼을 클릭한다. 해당 템플릿 버전에 대하여 삭제된다. </description>
     </item>
     
     <item>
       <title>6.5 카탈로그 내보내기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.5-export/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.5-export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.5-export/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.5-export/</guid>
       <description> 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)
 a) 카탈로그 → 내보내기 하고자 하는 템플릿 &amp;lsquo;편집&amp;rsquo; 버튼을 클릭 b) 화면 왼쪽 상단의 &amp;lsquo;내보내기&amp;rsquo; 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다. </description>
     </item>
     
     <item>
       <title>6.6 카탈로그 가져오기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.6-import/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.6-import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.6-import/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.6-import/</guid>
       <description> 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)
 a) 카탈로그 → &amp;lsquo;가져오기&amp;rsquo; 버튼을 클릭 b) &amp;lsquo;Choose File&amp;rsquo; 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 &amp;lsquo;저장&amp;rsquo; 버튼을 누른다. </description>
     </item>
     
     <item>
       <title>7.1 클러스터 목록</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.1-cluster/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.1-cluster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.1-cluster/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.1-cluster/</guid>
       <description> 시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다.
 a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다.     클러스터 설정 설명     클러스터 클러스터 종류   노드 클러스터의 노드 숫자   CPU 클러스터의 전체 CPU 용량, 요청량, 사용량   메모리 클러스터의 전체 메모리 용량, 요청량, 사용량   서비스 클러스터의 서비스 맵(네임스페이스)의 숫자   워크로드 클러스터에서 배포 중인 워크로드의 숫자    </description>
     </item>
     
     <item>
       <title>7.2 노드</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.2-node/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.2-node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.2-node/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.2-node/</guid>
       <description> 전체 노드의 총 Disk, CPU, Memory, Network 사용량과 개별 노드의 라벨, 상태정보 등을 조회할 수 있는 화면이다. 노드 명을 클릭하면 노드 상세 정보를 조회 할 수 있다.
 a) 클러스터 → 클러스터 선택 → 노드를 클릭한다. b) 노드명을 클릭하여 노드 상세 정보를 확인할 수 있다. </description>
     </item>
     
     <item>
       <title>7.3 서비스</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.3-application/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.3-application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.3-application/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.3-application/</guid>
       <description> 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.
 a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다. </description>
     </item>
     
     <item>
       <title>7.4 볼륨</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.4-volume/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.4-volume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.4-volume/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.4-volume/</guid>
       <description> Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다.
 a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다.    스토리지 설정 정보 설명     이름 스토리지 이름(사용자지정)   타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk)   스토리지 클래스 이름 k8s에 등록된 Class Name   정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete)   상태 스토리지 사용 상태       볼륨 설정 정보 설명     볼륨이름 PVC 이름   상태 PVC 마운트 상태   사용량 PV의 할당된 가용량과 사용량   접속모드 PV 접속 권한   Age PVC 생성 경과 시간    </description>
     </item>
     
     <item>
       <title>7.5 알람</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.5-alarm/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.5-alarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.5-alarm/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.5-alarm/</guid>
       <description> 클러스터에 대한 이벤트를 알람으로 받을 수 있다.
 a) 클러스터 → 클러스터 선택 → 알람을 클릭한다. b) 알람 명 클릭 시 상세 내용을 확인 할 수 있다. </description>
     </item>
     
     <item>
       <title>7.5.1 알람 목록</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.5.1/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.5.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.5.1/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.5.1/</guid>
       <description>알람은 다음 목록에서 발생 조건이 지속 시간 만큼 계속될 경우 발생한다.
  AlertManager     알람 ID ALM-001     중요도 warning   알람 이름 AlertmanagerDown   지속 시간 5분   발생 조건 Alertmanager 메트릭 수집이 안 될 경우 발생   조치 사항 Prometheus의 로그 및 Alertmanager의 로그와 이벤트를 확인한다.
 필요할 경우, Pod를 재시작한다.       알람 ID ALM-002     중요도 warning   알람 이름 AlertmanagerFailedReload   지속 시간 10분   발생 조건 Alertmanager의 설정 변경시, 설정 다시읽기 작업 실패시 발생   조치 사항 해당 Pod의 로그를 확인하여 ConfigMap의 설정 오류를 수정한다.</description>
@@ -811,10 +811,10 @@ a) 클러스터 → 클러스터 선택 → 알람을 클릭한다. b) 알람 �
     
     <item>
       <title>7.6 미터링</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.6-metering/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.6-metering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.6-metering/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.6-metering/</guid>
       <description> 사용 중인 클러스터별 미터링(요금)에 대한 모니터링 서비스를 제공한다.
 미터링 서비스는 Public Cloud 중 AWS와 GCP에만 적용되는 서비스이다.
 a) 클러스터 → 클러스터 선택 → 미터링을 클릭한다. </description>
@@ -822,10 +822,10 @@ a) 클러스터 → 클러스터 선택 → 미터링을 클릭한다. </descrip
     
     <item>
       <title>7.7 등록정보</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.7-registration/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.7-registration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/7.cluster/7.7-registration/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/7.cluster/7.7-registration/</guid>
       <description> 현재 클러스터에 대한 등록정보를 확인할 수 있다.
 Account 인증정보는 보안을 위해 노출되지 않는다.
 a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다. </description>
@@ -833,10 +833,10 @@ a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다. </desc
     
     <item>
       <title>8.1.1.1 GKE 클러스터 만들기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.1-cluster-kass-gke/</guid>
       <description>GKE 클러스터를 배포하는 방법을 알아봅니다. Google Kubernetes Engine(GKE)에 로그인 https://cloud.google.com/kubernetes-engine/ 에서 Google cloud에 로그인합니다.
 서비스 계정 만들기 1. IAM 및 관리자에서 Service Account 만들기.  서비스 계정에는 다음 역할이 필요합니다.
  project/viewer
@@ -849,10 +849,10 @@ rbac 생성시 사전 필수 요소 필요.
     
     <item>
       <title>8.1.1.2 AKS 클러스터 만들기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.2-cluster-kass-aks/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.2-cluster-kass-aks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.2-cluster-kass-aks/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.2-cluster-kass-aks/</guid>
       <description>AKS 클러스터를 배포하는 방법을 알아봅니다. 사용 설명서 : Azure Portal을 사용하여 AKS(Azure Kubernetes Service) 클러스터 배포
 Azure에 로그인 https://portal.azure.com 에서 Azure Portal에 로그인합니다.
 AKS 클러스터 만들기 - Create a resource Azure Portal의 화면 왼쪽 상단 + Create a resource 선택 다음 &amp;gt; Kubernetes Service를 선택 합니다.
@@ -861,10 +861,10 @@ AKS 클러스터 만들기 - Create a resource Azure Portal의 화면 왼쪽 상
     
     <item>
       <title>8.1.1.3 EKS 클러스터 만들기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.3-cluster-kass-eks/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.3-cluster-kass-eks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.3-cluster-kass-eks/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.3-cluster-kass-eks/</guid>
       <description>8.1.1.3 EKS 클러스터 만들기 Quick Start EKS 클러스터를 배포하는 방법. Kubernetes 용 Amazon Elastic Container Service (Amazon EKS)를 사용하면 AWS의 Kubernetes를 사용하여 컨테이너 화 된 응용 프로그램을 쉽게 배포, 관리 및 확장 할 수 있다.
 참조 : Amazon Elastic Container Service for Kubernetes(EKS) 클러스터 배포
 Amazon Eks에 로그인  Amazon Eks에 로그인.  Amazon EKS 필수 조건  Amazon EKS 클러스터를 생성하기 전에 Kubernetes가 AWS 리소스 생성 시 수임할 수 있는 IAM 역할을 생성해야 한다.</description>
@@ -872,10 +872,10 @@ Amazon Eks에 로그인  Amazon Eks에 로그인.  Amazon EKS 필수 조건  Ama
     
     <item>
       <title>8.1.1.3 EKS 클러스터 정책 / 권한</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.4-cluster-kass-eks-policy/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.4-cluster-kass-eks-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.4-cluster-kass-eks-policy/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.4-cluster-kass-eks-policy/</guid>
       <description>사용자 권한 / 정책 만들기 AWS 관리자 권한이 없다면 필요한 역할 / 정책 / 권한 을 요청 해야 합니다.
 1. 사용자 권한 / 정책 사용자가 클러스터를 생성 / 관리할 수 있는 권한 / 정책이 필요 합니다.
  CloudFormation - 전체: 목록, 쓰기 제한: 읽기 / 이에 사용되는 리소스 권한이 있어야 합니다.
@@ -884,19 +884,19 @@ AWS CloudFormation은 개발자와 시스템 관리자에게 관련 AWS 리소�
     
     <item>
       <title>8.1.1.5 EKS 클러스터 만들기 Quick Start</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.5-cluster-kass-eks-quick-start/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.5-cluster-kass-eks-quick-start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.5-cluster-kass-eks-quick-start/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.1.kass/8.1.1.5-cluster-kass-eks-quick-start/</guid>
       <description>1. 필수 Role(역할) / Policy(정책) 만들기 a. EKS 관리 역할 만들기. b. IAM(services) &amp;gt; Roles &amp;gt; Create role 화면에서 i. EKS 선택 : AmazonEKSClusterPolicy , AmazonEKSServicePolicy (default로 구성되어 있다) ii. Next: Permissions &amp;gt; Next: Tags &amp;gt; Next: Revies iii. Review 화면에서 1) Role name : EKSClusterRole 2) Create role 클릭 c. EKS 관리 정책 만들기. d. IAM(services) &amp;gt; Policies &amp;gt; Create policy 화면에서 i. Choose a service &amp;gt; Service : EKS 검색 및 선택 ii.</description>
     </item>
     
     <item>
       <title>8.1.2.1 클러스터 직접 구성</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/8.1.2-cluster-on-premise/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/8.1.2-cluster-on-premise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/8.1.2-cluster-on-premise/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/8.operation/8.1.cluster-install/8.1.2.onpremise/8.1.2-cluster-on-premise/</guid>
       <description>Google cloud에 칵테일을 설치하는 과정은 다음과 같다.
 사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다.
 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다.
@@ -908,10 +908,10 @@ Get Docker CE for CentOS
     
     <item>
       <title>Catalog Layer</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.5/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.5/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.5/</guid>
       <description>Containers implement deployments by creating images from configurations. Therefore, repetitive tasks can be minimized and frequently-used DBs and middleware runtime can be easily deployed whenever needed by creating templates of container images and deployment information.
 The catalog layer is responsible for creating and managing these templates. The following diagram shows how the catalog layer is structured:
 The catalog layer is divided into two sections according to purpose.
@@ -920,10 +920,10 @@ The catalog layer is divided into two sections according to purpose.
     
     <item>
       <title>Cluster Management Layer</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.2/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.2/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.2/</guid>
       <description>The cluster management layer is divided into the infrastructure, which consists of clusters, and the container orchestration engine. The detailed configuration is as follows:
 Cocktail automatically provisions the cluster infrastructure and orchestration engine according to user configuration. The tool responsible for this is Cube. Cube constitutes high-availability (HA) Kubernetes clusters. Cube-provisioned cluster configurations provide high reliability, security, and scalability. (This is referred to as a Cube cluster.)
 Cube clusters currently support the cloud platforms and providers listed below.</description>
@@ -931,10 +931,10 @@ Cube clusters currently support the cloud platforms and providers listed below.<
     
     <item>
       <title>Cocktail Structure Overview</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.1/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.1/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.1/</guid>
       <description>Cocktail is comprised of five layers that correspond to its various roles.
  Cluster Management Layer: Responsible for infrastructure (cluster), where containers are deployed/executed, and orchestration. Kubernetes (https://kubernetes.io) handles orchestration and provides scaling management functions such as infrastructure management and monitoring.
  Service Management Layer: Responsible for container configuration and management based on a service (workload) packages containers and associated objects that constitute a service and manages lifecycles and monitoring.</description>
@@ -942,10 +942,10 @@ Cube clusters currently support the cloud platforms and providers listed below.<
     
     <item>
       <title>Dashboard Layer</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.6/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.6/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.6/</guid>
       <description>The dashboard layer provides service status, monitoring, and cluster status information via a web-based UI.
 The dashboard provides role-specific views according to user privileges. Cocktail user privileges are as follows:
  Administrator : The admin manages clusters and has administrative privileges on all Cocktail services.
@@ -955,10 +955,10 @@ The dashboard provides role-specific views according to user privileges. Cocktai
     
     <item>
       <title>Pipeline Layer</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.4/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.4/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.4/</guid>
       <description>The pipeline layer automates container building and deployment from code.
 The build step performed tasks (code download, build/test) and container image building sequentially based on user settings. Tasks use containers that perform tasks internally and can be scaled using public or user-created containers in addition to the default containers.
 Built images are updated (rolling) to containers on a Cocktail server. Images created in the build step are assigned an automatic build number, which is used for version updates or rollbacks.</description>
@@ -966,10 +966,10 @@ Built images are updated (rolling) to containers on a Cocktail server. Images cr
     
     <item>
       <title>Service Management Layer</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.3/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/1.intro/0.3/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/1.intro/0.3/</guid>
       <description>In general, a single application or service consists of multiple containers. In particular, an orchestration engine such as Kubernetes requires additional objects such as a service port, controller, and storage volume in addition to the container. Therefore, to manage container-based applications and services, an abstraction unit is required to package and manage containers and associated objects. The service management layer fulfills this role.
 Cocktail service management layer has the following hierarchical structure:</description>
     </item>

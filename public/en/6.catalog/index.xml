@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>카탈로그 on Cocktial Cloud Manual</title>
-    <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/</link>
+    <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/</link>
     <description>Recent content in 카탈로그 on Cocktial Cloud Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>cloud.jung@acornsoft.io (cloud.jung)</managingEditor>
     <webMaster>cloud.jung@acornsoft.io (cloud.jung)</webMaster>
     
-	<atom:link href="http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>6.1 카탈로그 저장</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.1-add/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.1-add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.1-add/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.1-add/</guid>
       <description>카탈로그를 생성하여 필요한 서버들을 묶어 한 번에 배포 할 수 있다. 워크로드 컨테이너 이미지가 빌드 인 경우에는 이미지만을 저장하여 공용이미지로 변환하여 카탈로그로 저장한다. 저장된 카탈로그는 서비스 카탈로그에서 확인 할 수 있다.
 카탈로그 저장시 설정의 컨피그 맵, 시크릿도 템플릿으로 저장한다. (단, 시크릿은 보안상 값은 저장하지 않는다.)
 a) 서비스에서 카탈로그로 저장하는 서비스 맵을 선택 b) 화면 우측 상단 카탈로그로 저장&amp;rsquo; 버튼을 클릭 c) 신규로 템플릿 생성 시 &amp;lsquo;신규&amp;rsquo; 카테고리를, 기존 템플릿을 업데이트 할 시 &amp;lsquo;기존&amp;rsquo; 카테고리 선택 후 버전, 요약정보, 편집 내용 작성 후 아래 &amp;lsquo;저장&amp;rsquo; 버튼을 클릭.</description>
@@ -25,50 +25,50 @@ a) 서비스에서 카탈로그로 저장하는 서비스 맵을 선택 b) 화�
     
     <item>
       <title>6.2 카탈로그 배포</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.2-deploy/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.2-deploy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.2-deploy/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.2-deploy/</guid>
       <description>생성된 카탈로그를 배포할 수 있다. 필요 시 불필요한 인스턴스를 제외하거나 편집하여 배포 가능하다.
 a) 카탈로그 → 배포하고자 하는 템플릿의 &amp;lsquo;배포&amp;rsquo; 버튼을 클릭 b) 템플릿 카테고리에서 서비스 맵 그룹, 클러스터, 서비스 맵 선택 후 &amp;lsquo;배포&amp;rsquo; 클릭. 원하지 않는 인스턴스는 제외하고 배포할 수 있다.  신규 Service Map 배포 시 서비스 맵 그룹, 클러스터를 선택하고 서비스 맵, 네임스페이스 이름을 작성 후 배포할 수 있다.  기존 Serivce Map 배포 시 서비스 맵 그룹, 서비스 맵 선택 후 배포할 수 있다.</description>
     </item>
     
     <item>
       <title>6.3 카탈로그 편집</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.3-edit/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.3-edit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.3-edit/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.3-edit/</guid>
       <description>생성한 카탈로그 내용을 편집할 수 있다. 템플릿의 버전, 요약정보, 편집 내용을 수정할 수 있으며 각 인스턴스의 배포 정보를 수정할 수 있다.
 a) 카탈로그 → 편집하고자 하는 템플릿 &amp;lsquo;편집&amp;rsquo; 버튼을 클릭 b) 수정할 템플릿의 버전, 요약정보, 편집 내용을 수정하고, 화면 우측 하단 &amp;lsquo;편집&amp;rsquo;버튼 클릭하여 인스턴스의 배포 정보를 수정할 수 있다. c) 편집 화면에서 컨피그맵과 시크릿은 편집은 불가하고 내용만 확인 가능하다. d) 워크로드 편집시 컨테이너 환경설정과 볼륨, 볼륨마운트는 편집은 불가하고 내용만 확인 가능하다.</description>
     </item>
     
     <item>
       <title>6.4 카탈로그 삭제</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.4-delete/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.4-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.4-delete/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.4-delete/</guid>
       <description> 불필요한 카탈로그를 삭제할 수 있다. (플랫폼 카탈로그는 삭제 불가)
 a) 카탈로그 → 삭제하고자 하는 템플릿 &amp;lsquo;편집&amp;rsquo; 버튼을 클릭 b) 삭제할 템플릿의 버전을 선택 후, &amp;lsquo;삭제&amp;rsquo; 버튼을 클릭한다. 해당 템플릿 버전에 대하여 삭제된다. </description>
     </item>
     
     <item>
       <title>6.5 카탈로그 내보내기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.5-export/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.5-export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.5-export/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.5-export/</guid>
       <description> 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)
 a) 카탈로그 → 내보내기 하고자 하는 템플릿 &amp;lsquo;편집&amp;rsquo; 버튼을 클릭 b) 화면 왼쪽 상단의 &amp;lsquo;내보내기&amp;rsquo; 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다. </description>
     </item>
     
     <item>
       <title>6.6 카탈로그 가져오기</title>
-      <link>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.6-import/</link>
+      <link>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.6-import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cloud.jung@acornsoft.io (cloud.jung)</author>
-      <guid>http://acornapps.github.io/cocktail-manual-3.3.0-public/en/6.catalog/6.6-import/</guid>
+      <guid>http://acornapps.github.io/cengjiyun-manual-3.2.1-public/en/6.catalog/6.6-import/</guid>
       <description> 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)
 a) 카탈로그 → &amp;lsquo;가져오기&amp;rsquo; 버튼을 클릭 b) &amp;lsquo;Choose File&amp;rsquo; 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 &amp;lsquo;저장&amp;rsquo; 버튼을 누른다. </description>
     </item>

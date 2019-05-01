@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir= true
 
 [params]
     imageRootDir = "/cengjiyun-manual-3.2.1-public/images"
-    version = "3.1.1"
+    version = "3.2.1"
     # Disable search function. It will hide search bar
     disableSearch = true
     # Hide breadcrumbs in the header and only show the current page title

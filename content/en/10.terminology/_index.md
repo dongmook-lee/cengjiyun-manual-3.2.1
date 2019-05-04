@@ -7,4 +7,4 @@ pre = "<b>10. </b>"
 +++
 
 ---
-Cocktail Cloud 활용의 이해를 돕기 위한 Kubernetes 및 청지원 용어 정리이다.                                     |
+Cocktail Cloud 활용의 이해를 돕기 위한 Kubernetes 및 청지원 용어 정리이다.  

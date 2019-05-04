@@ -13,7 +13,7 @@ pre = "<b>6. </b>"
 
 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다.
 
-![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/6_1.png)![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/6_2.png)
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/6_1.png)![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/6_2.png)
 
 | **카탈로그 메뉴**    | **설명**                       |
 | :------------- | :--------------------------- |

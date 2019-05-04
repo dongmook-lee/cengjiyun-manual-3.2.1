@@ -12,7 +12,7 @@ pre = "<b>5. </b>"
 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다.
 
 1. 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다.
-![]({{< param imageRootDir >}}/assets/KR/{{< param version >}}/5_1.png)
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/5_1.png)
 
 | **목록** | **설명** |
 | :---: | :--- |

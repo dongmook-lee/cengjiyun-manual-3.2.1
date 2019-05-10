@@ -13,7 +13,7 @@ pre = "<b>6. </b>"
 
 目录分为服务目录和平台目录。
 
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/6_1.png)![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/6_2.png)
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/6_1.png)![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/6_2.png)
 
 | **目录菜单** | **说明** |
 | :--- | :--- |

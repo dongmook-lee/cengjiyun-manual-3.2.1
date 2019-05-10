@@ -1,5 +1,5 @@
 +++
-title = "仪表盘"
+title = "대시보드"
 date = 2019-04-19T10:41:01+09:00
 weight = 3
 chapter = false

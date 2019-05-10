@@ -7,11 +7,10 @@ pre = "<b>4. </b>"
 +++
 
 ---
-创建和管理应用程序表和 Build 作业、工作负载的功能。
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3_1.png)
+서비스 맵과 워크로드를 생성, 관리 하는 기능이다.
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4_1.png)
 
-| **目录** | **说明** |
+| 목록 | 설명 |
 | :---: | :--- |
-| ![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3_2.png) | 显示服务里已注册的集群种类和集群数 |
-| ![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3_3.png) | 切换到 Build 管理页面 |
-| ![]({{< param imageRootDir >}}/assets/2.3.0 service1-3.png) | 切换到应用程序表创建页面 |
+| ![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4_2.png) | 서비스 맵 그룹 액션메뉴 |
+| ![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4_3.png) | 서비스 맵 생성 팝업 호출 |

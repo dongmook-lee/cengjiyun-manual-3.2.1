@@ -1,20 +1,13 @@
 ---
 title: "4.5 持久化卷"
-excerpt: ""
-permalink: /docs/zh/4.5/
-redirect_from:
-  - /theme-setup/
-toc: false
-toc_sticky: false
-sidebar:
-  nav: "zh"
 ---
 
 ---
 提供持久化卷的现状以及创建和删除。
 
-### a\) 服务→应用程序表→持久化卷
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3.1.6_1.png)![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3.1.6_2.png)
+1. 服务→应用程序表→持久化卷
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4.6_1.png)
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4.5_1.png)
 
 | **项目** | **说明** |
 | :---: | :--- |
@@ -27,16 +20,16 @@ sidebar:
 | + 按钮 | 切换到持久化卷创建页面 |
 
 * 持久化卷详细
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3.1.6_3.png)
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4.5_2.png)
 
 * 持久化卷操作菜单
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3.1.6_4.png)
+![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4.5_3.png)
 
-### a\) 卷请求信息
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3.1.6_5.png)
+1. 卷请求信息
+    ![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4.5_4.png)
 
-### b\) 卷信息
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3.1.6_6.png)
+2. 卷信息
+    ![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4.5_5.png)
 
-### c\) 存储信息
-![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/3.1.6_7.png)
+3. 存储信息
+    ![]({{< param imageRootDir >}}/assets/ZH/{{< param version >}}/4.5_6.png)

@@ -25,9 +25,31 @@ function getScrollBarWidth() {
     return (w1 - w2);
 };
 
+function scrollPosReaload($scrollContainer) {
+    console.log("adfasdf");
+    if (localStorage) {
+        var posReader = localStorage["posStorage"];
+        if (posReader) {
+            $scrollContainer.scrollTop(posReader);
+            localStorage.removeItem("posStorage");
+        }
+        $(this).click(function(e) {
+            localStorage["posStorage"] = $scrollContainer.scrollTop();
+        });
+
+        return true;
+    }
+
+    return false;
+}
+
+
 function setMenuHeight() {
     $('#sidebar .highlightable').height($('#sidebar').innerHeight() - $('#header-wrapper').height() - 40);
     $('#sidebar .highlightable').perfectScrollbar('update');
+
+    scrollPosReaload($('#sidebar .highlightable'));
+
 }
 
 function fallbackMessage(action) {

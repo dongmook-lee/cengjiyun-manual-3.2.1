@@ -26,7 +26,6 @@ function getScrollBarWidth() {
 };
 
 function scrollPosReaload($scrollContainer) {
-    console.log("adfasdf");
     if (localStorage) {
         var posReader = localStorage["posStorage"];
         if (posReader) {
